@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["index"],envversion:52,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{index:0,pag:0,recherch:0},titles:["Welcome to iremlp microbit\u2019s Documentation"],titleterms:{and:0,document:0,indic:0,iremlp:0,microb:0,tabl:0,welcom:0}})
