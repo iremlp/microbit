@@ -1,13 +1,18 @@
 .. test Documentation master file.
 
-###############################
-Welcome to test's Documentation
-###############################
+#######################
+Documentation Micro:bit
+#######################
+
+-------------------------------------------
+par le groupe InEFLP de l'IREM de Marseille
+-------------------------------------------
 
 .. toctree::
    :maxdepth: 2
+
    
-toto
+
 
 Indices and tables
 ==================

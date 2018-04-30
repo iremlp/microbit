@@ -1,1 +1,1 @@
-Search.setIndex({docnames:["index"],envversion:52,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{index:0,pag:0,recherch:0,toto:0},titles:["Welcome to test\u2019s Documentation"],titleterms:{and:0,document:0,indic:0,tabl:0,test:0,welcom:0}})
+Search.setIndex({docnames:["index"],envversion:52,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{index:0,pag:0,recherch:0,toto:[]},titles:["Documentation Micro:bit"],titleterms:{and:0,bit:0,document:0,group:0,indic:0,ineflp:0,irem:0,marseil:0,micro:0,tabl:0,test:[],welcom:[]}})

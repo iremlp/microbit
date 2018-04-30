@@ -44,7 +44,7 @@ master_doc = u'index'
 
 
 # General information about the project.
-project = u'test'
+project = u'IREM Marseille - Micro:bit'
 
 copyright = u'2018, IREM Marseille'
 
