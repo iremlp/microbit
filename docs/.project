@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>iremlp micro:bit</name>
+	<name>iremlp microbit</name>
 	<comment></comment>
 	<projects>
-		<project>iremlp micro:bit</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>

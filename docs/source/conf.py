@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# docs build configuration file, created by
+# test build configuration file, created by
 # ReST Editor on 30 avr. 2018
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -44,7 +44,7 @@ master_doc = u'index'
 
 
 # General information about the project.
-project = u'docs'
+project = u'test'
 
 copyright = u'2018, IREM Marseille'
 
@@ -100,7 +100,8 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = u'default'
+#html_theme = u'default'
+html_theme = "sphinx_rtd_theme"
 
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -175,7 +176,7 @@ html_static_path = [u'_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'docsdoc'
+htmlhelp_basename = 'testdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -190,7 +191,7 @@ latex_font_size = u'10pt'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
-latex_documents = [('index', 'docs.tex', u'docs Documentation', u'IREM Marseille', 'manual')]
+latex_documents = [('index', 'test.tex', u'test Documentation', u'IREM Marseille', 'manual')]
 
 
 # A dictionary that contains LaTeX snippets that override those Sphinx usually 
@@ -227,7 +228,7 @@ latex_use_parts = False
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [('index', 'docs', u'docs Documentation', [u'IREM Marseille'], 1)]
+man_pages = [('index', 'test', u'test Documentation', [u'IREM Marseille'], 1)]
 
 
 # -- Additional options --------------------------------------------------------
