@@ -7,7 +7,7 @@ Welcome to test's Documentation
 .. toctree::
    :maxdepth: 2
    
-toto
+
 
 Indices and tables
 ==================
