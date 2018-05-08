@@ -1,0 +1,14 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}par le groupe InEFLP de l'IREM de Marseille}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Projets \IeC {\`a} r\IeC {\'e}aliser}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Temp\IeC {\'e}rature}{1}{subsection.1.1.1}
+\contentsline {subsubsection}{Description}{1}{subsubsection*.3}
+\contentsline {subsubsection}{R\IeC {\'e}alisation}{1}{subsubsection*.4}
+\contentsline {paragraph}{Fabriquer}{1}{paragraph*.5}
+\contentsline {paragraph}{Coder}{1}{paragraph*.6}
+\contentsline {subsection}{\numberline {1.1.2}Bo\IeC {\^\i }te ferm\IeC {\'e}e}{1}{subsection.1.1.2}
+\contentsline {subsubsection}{Description}{1}{subsubsection*.7}
+\contentsline {subsubsection}{R\IeC {\'e}alisation}{2}{subsubsection*.8}
+\contentsline {paragraph}{Fabriquer}{2}{paragraph*.9}
+\contentsline {paragraph}{Coder}{2}{paragraph*.10}
+\contentsline {section}{\numberline {1.2}Index et page de recherche}{2}{section.1.2}
