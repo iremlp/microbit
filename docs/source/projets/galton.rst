@@ -1,6 +1,6 @@
-====================
-(1/2) planche de Galton
-====================
+================
+Planche de Galton
+================
 
 Description
 ===========
@@ -23,3 +23,6 @@ Coder
 -----
 
 .. literalinclude:: microbit-galton_bruno.py
+
+
+autre chose

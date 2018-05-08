@@ -21,6 +21,6 @@ Fabriquer
 
 Coder
 -----
-
-.. todo:: vidéo / gif / captures / descriptions
-
+.. image:: microbit-boite.png
+   :width: 65%
+   :align: center
