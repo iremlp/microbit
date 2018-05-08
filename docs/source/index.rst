@@ -26,3 +26,9 @@ Index et page de recherche
 
 * :ref:`genindex`
 * :ref:`search`
+
+-----
+
+.. image:: http://readthedocs.org/projects/microbit/badge/?version=latest
+   :target: http://microbit.readthedocs.io/fr/latest/?badge=latest
+   :alt: Documentation Status
