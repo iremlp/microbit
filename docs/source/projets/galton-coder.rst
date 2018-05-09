@@ -10,3 +10,4 @@ du projet :ref:`projetGalton`.
 
 
 .. literalinclude:: galton-bruno.py
+   :language: python
