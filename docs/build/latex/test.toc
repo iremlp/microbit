@@ -1,14 +1,23 @@
-\select@language {french}
-\contentsline {chapter}{\numberline {1}par le groupe InEFLP de l'IREM de Marseille}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Projets \IeC {\`a} r\IeC {\'e}aliser}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Temp\IeC {\'e}rature}{1}{subsection.1.1.1}
-\contentsline {subsubsection}{Description}{1}{subsubsection*.3}
-\contentsline {subsubsection}{R\IeC {\'e}alisation}{1}{subsubsection*.4}
-\contentsline {paragraph}{Fabriquer}{1}{paragraph*.5}
-\contentsline {paragraph}{Coder}{1}{paragraph*.6}
-\contentsline {subsection}{\numberline {1.1.2}Bo\IeC {\^\i }te ferm\IeC {\'e}e}{1}{subsection.1.1.2}
-\contentsline {subsubsection}{Description}{1}{subsubsection*.7}
-\contentsline {subsubsection}{R\IeC {\'e}alisation}{2}{subsubsection*.8}
-\contentsline {paragraph}{Fabriquer}{2}{paragraph*.9}
-\contentsline {paragraph}{Coder}{2}{paragraph*.10}
-\contentsline {section}{\numberline {1.2}Index et page de recherche}{2}{section.1.2}
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {1}Projets \IeC {\`a} r\IeC {\'e}aliser}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Temp\IeC {\'e}ratures}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Description}{3}{subsection.1.1.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{3}{subsubsection*.3}
+\contentsline {paragraph}{Projet Temp\IeC {\'e}ratures - Exemple d\IeC {\textquoteright }utilisation : un Escape game}{3}{paragraph*.4}
+\contentsline {subsection}{\numberline {1.1.2}R\IeC {\'e}alisation}{3}{subsection.1.1.2}
+\contentsline {subsubsection}{Projet Temp\IeC {\'e}ratures - Fabriquer}{3}{subsubsection*.5}
+\contentsline {subsubsection}{Projet Temp\IeC {\'e}ratures - Coder}{4}{subsubsection*.6}
+\contentsline {section}{\numberline {1.2}Bo\IeC {\^\i }te ferm\IeC {\'e}e}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Description}{4}{subsection.1.2.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{4}{subsubsection*.7}
+\contentsline {paragraph}{Projet Bo\IeC {\^\i }te ferm\IeC {\'e}e - Exemple d\IeC {\textquoteright }utilisation : un Escape game}{4}{paragraph*.8}
+\contentsline {subsection}{\numberline {1.2.2}R\IeC {\'e}alisation}{4}{subsection.1.2.2}
+\contentsline {subsubsection}{Projet Bo\IeC {\^\i }te ferm\IeC {\'e}e - Fabriquer}{4}{subsubsection*.9}
+\contentsline {subsubsection}{Projet Bo\IeC {\^\i }te ferm\IeC {\'e}e - Coder}{4}{subsubsection*.10}
+\contentsline {section}{\numberline {1.3}Planche de Galton}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Description}{5}{subsection.1.3.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{5}{subsubsection*.11}
+\contentsline {subsection}{\numberline {1.3.2}R\IeC {\'e}alisation}{5}{subsection.1.3.2}
+\contentsline {subsubsection}{Projet Planche de Galton - Fabriquer}{5}{subsubsection*.12}
+\contentsline {subsubsection}{Projet Planche de Galton - Coder}{5}{subsubsection*.13}
+\contentsline {chapter}{\numberline {2}Index et page de recherche}{7}{chapter.2}

@@ -1,12 +1,10 @@
-.. test Documentation master file.
 
 #######################
 Documentation Micro:bit
 #######################
 
--------------------------------------------
 par le groupe InEFLP de l'IREM de Marseille
--------------------------------------------
+
 
 
 Projets à réaliser
@@ -17,8 +15,10 @@ Projets à réaliser
    :caption: Projets
 
    projets/temperature
+   projets/coffre
    projets/boite-fermee
    projets/galton
+   projets/pierrot
 
 
 

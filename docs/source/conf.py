@@ -191,7 +191,7 @@ latex_font_size = u'10pt'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
-latex_documents = [('index', 'test.tex', u'test Documentation', u'IREM Marseille', 'manual')]
+latex_documents = [('index', 'test.tex', u'Ressources pour la carte Micro:bit', u'IREM Marseille', 'manual')]
 
 
 # A dictionary that contains LaTeX snippets that override those Sphinx usually 
@@ -228,7 +228,7 @@ latex_use_parts = False
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [('index', 'test', u'test Documentation', [u'IREM Marseille'], 1)]
+man_pages = [('index', 'test', u'Ressources pour la carte Micro:bit', [u'Groupe InEFLP - IREM Marseille'], 1)]
 
 
 # -- Additional options --------------------------------------------------------

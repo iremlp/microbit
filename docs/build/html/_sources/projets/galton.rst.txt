@@ -1,6 +1,9 @@
+.. _projetGalton:
+
 =================
 Planche de Galton
 =================
+
 
 Description
 ===========
@@ -9,19 +12,18 @@ Description
 
 
 
+Exemple(s) d'utilisation
+------------------------
+
+
+
 Réalisation
 ===========
 
-Fabriquer
----------
 
-.. todo:: vidéo / gif / captures / descriptions
+.. toctree::
+   
+   Fabriquer <galton-fabriquer>
+   Coder <galton-coder>
 
-
-
-Coder
------
-
-.. literalinclude:: galton-bruno.py
-
-autre chose
+   
