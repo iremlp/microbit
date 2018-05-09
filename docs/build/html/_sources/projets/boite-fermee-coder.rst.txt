@@ -1,3 +1,5 @@
+.. index:: programmation par blocs, servo, luminosité
+
 =====
 Coder
 =====

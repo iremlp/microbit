@@ -1,9 +1,9 @@
+.. index:: micropython, galton
+
 =====
 Coder
 =====
 
-
-.. index:: micropython, galton, projet
 
 Nous détaillons ici le code nécessaire à la réalisation
 du projet :ref:`projetGalton`.
