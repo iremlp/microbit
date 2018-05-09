@@ -46,7 +46,7 @@ Projets à réaliser
 
 .. toctree::
    :titlesonly:
-   :caption: Projets programmation par blocs
+   :caption: Projets par blocs
    :hidden:
 
    projets/boite-fermee
