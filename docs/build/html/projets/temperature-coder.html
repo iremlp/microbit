@@ -83,7 +83,12 @@
               
             
             
-              <p class="caption"><span class="caption-text">Projets</span></p>
+              <p class="caption"><span class="caption-text">Projets par blocs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="boite-fermee.html">Boîte fermée</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pierrot.html">Pierrot et Simon</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Projets python</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="temperature.html">Températures</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="temperature-exemple-escape.html">Escape game dans un stage IREM</a></li>
@@ -92,9 +97,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="coffre.html">Coffre fort</a></li>
-<li class="toctree-l1"><a class="reference internal" href="boite-fermee.html">Boîte fermée</a></li>
 <li class="toctree-l1"><a class="reference internal" href="galton.html">Planche de Galton</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pierrot.html">Pierrot et Simon</a></li>
 </ul>
 
             
@@ -180,10 +183,10 @@
 </div>
 </li>
 <li><p class="first">Créons les images qui nous servirons à animer l’écran.
-La luminosité d’une diode varie de <strong class="command">0</strong> (éteinte)
-à <strong class="command">9</strong> (maximale).</p>
+La luminosité d’une diode varie de <code class="code docutils literal notranslate"><span class="pre">0</span></code> (éteinte)
+à <code class="code docutils literal notranslate"><span class="pre">9</span></code> (maximale).</p>
 <p>Lorsque la température augmente, l’affichage passe progressivement
-de <strong class="command">image1</strong> à <strong class="command">image 5</strong>.</p>
+de <code class="code docutils literal notranslate"><span class="pre">image1</span></code> à <code class="code docutils literal notranslate"><span class="pre">image</span> <span class="pre">5</span></code>.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">image1</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span>
     <span class="s1">&#39;00000:&#39;</span>
     <span class="s1">&#39;00000:&#39;</span>
@@ -219,9 +222,9 @@ de <strong class="command">image1</strong> à <strong class="command">image 5</s
 </li>
 <li><p class="first">Il y aura deux états dans le jeu :</p>
 <ul class="simple">
-<li>La variable <strong class="command">victoire</strong> est vrai et l’écran
+<li>La variable <code class="code docutils literal notranslate"><span class="pre">victoire</span></code> est vrai et l’écran
 affiche le code secret.</li>
-<li>la variable <strong class="command">victoire</strong> est fausse et l’écran
+<li>la variable <code class="code docutils literal notranslate"><span class="pre">victoire</span></code> est fausse et l’écran
 affiche l’énigme.</li>
 </ul>
 <p>Au début, la variable est donc fausse.</p>
@@ -231,7 +234,7 @@ affiche l’énigme.</li>
 </li>
 <li><p class="first">La phase de configuration est terminée. Passons maintenant à
 la boucle qui… tourne en boucle.</p>
-<p>Tout ce qui suivra cette commande sera donc indenté (tabulation).</p>
+<p>Tout ce qui suivra cette codee sera donc indenté (tabulation).</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
 </pre></div>
 </div>
@@ -258,7 +261,7 @@ la boucle qui… tourne en boucle.</p>
 </div>
 </div></blockquote>
 <ol class="loweralpha" start="3">
-<li><p class="first">le jeu est en cours et l’écran affiche les <strong class="command">image</strong>.</p>
+<li><p class="first">le jeu est en cours et l’écran affiche les <code class="code docutils literal notranslate"><span class="pre">image</span></code>.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="ow">not</span> <span class="n">victoire</span><span class="p">:</span>
 </pre></div>
 </div>
@@ -283,7 +286,7 @@ remplissent l’écran</p>
 </pre></div>
 </div>
 <p>et enfin, si la température dépasse 34°C,
-alors là on passe en mode <strong class="command">victoire</strong> vrai.
+alors là on passe en mode <code class="code docutils literal notranslate"><span class="pre">victoire</span></code> vrai.
 On ajoute une petite animation pour montrer que la
 victoire approche.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="k">elif</span> <span class="mi">34</span> <span class="o">&lt;=</span> <span class="n">temp</span><span class="p">:</span>

@@ -27,20 +27,20 @@ Le code, étape par étape
       :lines: 2
 
 #. Créons les images qui nous servirons à animer l'écran.
-   La luminosité d'une diode varie de :command:`0` (éteinte)
-   à :command:`9` (maximale).
+   La luminosité d'une diode varie de :code:`0` (éteinte)
+   à :code:`9` (maximale).
    
    Lorsque la température augmente, l'affichage passe progressivement
-   de :command:`image1` à :command:`image 5`.
+   de :code:`image1` à :code:`image 5`.
    
    .. literalinclude:: temperature.py
       :lines: 6-35
 
 #. Il y aura deux états dans le jeu :
 
-   *  La variable :command:`victoire` est vrai et l'écran 
+   *  La variable :code:`victoire` est vrai et l'écran 
       affiche le code secret.       
-   *  la variable :command:`victoire` est fausse et l'écran
+   *  la variable :code:`victoire` est fausse et l'écran
       affiche l'énigme.
       
    Au début, la variable est donc fausse.
@@ -51,7 +51,7 @@ Le code, étape par étape
 #. La phase de configuration est terminée. Passons maintenant à 
    la boucle qui… tourne en boucle. 
    
-   Tout ce qui suivra cette commande sera donc indenté (tabulation).
+   Tout ce qui suivra cette codee sera donc indenté (tabulation).
 
    .. literalinclude:: temperature.py
       :lines: 41
@@ -69,7 +69,7 @@ Le code, étape par étape
       .. literalinclude:: temperature.py
          :lines: 47-52      
    
-   c) le jeu est en cours et l'écran affiche les :command:`image`.
+   c) le jeu est en cours et l'écran affiche les :code:`image`.
    
       .. literalinclude:: temperature.py
          :lines: 55
@@ -86,7 +86,7 @@ Le code, étape par étape
          :lines: 60-71
       
       et enfin, si la température dépasse 34°C,
-      alors là on passe en mode :command:`victoire` vrai.
+      alors là on passe en mode :code:`victoire` vrai.
       On ajoute une petite animation pour montrer que la
       victoire approche.
    
