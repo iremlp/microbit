@@ -1,11 +1,12 @@
 .. _projetTempCoder:
 
+.. index:: micropython, température
+
 =====
 Coder
 =====
 
 
-.. index:: micropython, température
 
 
 Le code nécessaire à la réalisation du projet :ref:`projetTemp` a été

@@ -6,6 +6,5 @@ Fabriquer
 
 Pour le projet :ref:`projetTemp`, il n'y a besoin de presque rien : 
 
-   * carte micro:bit
-
-et c'est tout !
+   * carte micro:bit ;
+   * alimentation électrique (pile par exemple).
