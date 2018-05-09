@@ -1,0 +1,16 @@
+\begin{sphinxtheindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+  \bigletter G
+  \item galton, \hyperpage{7}
+
+  \indexspace
+  \bigletter M
+  \item micropython, \hyperpage{4}, \hyperpage{6, 7}
+
+  \indexspace
+  \bigletter P
+  \item projet, \hyperpage{4}, \hyperpage{6, 7}
+  \item python, \hyperindexformat{\see{micropython}}{6}
+
+\end{sphinxtheindex}
