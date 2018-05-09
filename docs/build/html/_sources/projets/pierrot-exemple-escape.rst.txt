@@ -9,3 +9,5 @@ game proposé en stage.
 * diaporama d'acceuil : http://url.univ-irem.fr/pierrot
 * page de formation : http://url.univ-irem.fr/algo1718-pierrot
 
+
+.. image:: /_static/fig-escape.*

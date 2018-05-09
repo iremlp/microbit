@@ -4,13 +4,7 @@
 Fabriquer
 =========
 
+Pour le projet :ref:`projetTemp`, il n'y a besoin de presque rien : 
 
-
-Nous détaillons ici comment fabriquer et assembler 
-le matériel nécessaire à la réalisation du projet 
-:ref:`projetTemp`.
-
-
-
-.. todo:: tout faire.
-
+   * carte micro:bit ;
+   * alimentation électrique (pile par exemple).

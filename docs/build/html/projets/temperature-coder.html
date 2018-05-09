@@ -170,11 +170,16 @@
             
   <div class="section" id="coder">
 <span id="projettempcoder"></span><h1>Coder<a class="headerlink" href="#coder" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Nous détaillons ici le code nécessaire à la réalisation
-du projet <a class="reference internal" href="temperature.html#projettemp"><span class="std std-ref">Températures</span></a>.</p>
+<p id="index-0">Le code nécessaire à la réalisation du projet <a class="reference internal" href="temperature.html#projettemp"><span class="std std-ref">Températures</span></a> a été
+écrit en micropython. Vous trouverez ci-dessous :</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference internal" href="#le-code-etape-par-etape">Le code, étape par étape</a></li>
+<li><a class="reference internal" href="#le-code-final">Le code final</a></li>
+</ul>
+</div></blockquote>
 <div class="section" id="le-code-etape-par-etape">
-<span id="index-0"></span><h2>Le code, étape par étape<a class="headerlink" href="#le-code-etape-par-etape" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Ce projet a été programmé en micropython.</p>
+<h2>Le code, étape par étape<a class="headerlink" href="#le-code-etape-par-etape" title="Lien permanent vers ce titre">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Incluons la bibliothèque Micro:bit</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">microbit</span> <span class="k">import</span> <span class="o">*</span>
@@ -184,6 +189,8 @@ du projet <a class="reference internal" href="temperature.html#projettemp"><span
 <li><p class="first">Créons les images qui nous servirons à animer l’écran.
 La luminosité d’une diode varie de <strong class="command">0</strong> (éteinte)
 à <strong class="command">9</strong> (maximale).</p>
+<p>Lorsque la température augmente, l’affichage passe progressivement
+de <strong class="command">image1</strong> à <strong class="command">image 5</strong>.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">image1</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span>
     <span class="s1">&#39;00000:&#39;</span>
     <span class="s1">&#39;00000:&#39;</span>
@@ -217,12 +224,91 @@ La luminosité d’une diode varie de <strong class="command">0</strong> (étein
 </pre></div>
 </div>
 </li>
-<li><p class="first">Indiquons au programme que le jeu commence.
-Ainsi au démarrage, le jeu commence. Lorsque l’énigme sera résolue,
-l’écran affichera le code secret attendu.</p>
+<li><p class="first">Il y aura deux états dans le jeu :</p>
+<ul class="simple">
+<li>La variable <strong class="command">victoire</strong> est vrai et l’écran
+affiche le code secret.</li>
+<li>la variable <strong class="command">victoire</strong> est fausse et l’écran
+affiche l’énigme.</li>
+</ul>
+<p>Au début, la variable est donc fausse.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">victoire</span> <span class="o">=</span> <span class="kc">False</span>
 </pre></div>
 </div>
+</li>
+<li><p class="first">La phase de configuration est terminée. Passons maintenant à
+la boucle qui… tourne en boucle.</p>
+<p>Tout ce qui suivra cette commande sera donc indenté (tabulation).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Nous envisageons trois actions possibles :</p>
+<ol class="loweralpha">
+<li><p class="first">le jeu se réinitialise grâce au bouton A ;</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
+        <span class="n">victoire</span> <span class="o">=</span> <span class="kc">False</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>b) le jeu est gagné et l’écran affiche le code final
+(après une petite animation);</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">victoire</span><span class="p">:</span>
+        <span class="c1"># petite image joyeuse</span>
+        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
+        <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+        <span class="c1"># code secret à afficher…</span>
+        <span class="n">display</span><span class="o">.</span><span class="n">scroll</span><span class="p">(</span><span class="s2">&quot;XXXXXX&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div></blockquote>
+<ol class="loweralpha" start="3">
+<li><p class="first">le jeu est en cours et l’écran affiche les <strong class="command">image</strong>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="ow">not</span> <span class="n">victoire</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>Lire la température</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="n">temp</span> <span class="o">=</span> <span class="n">temperature</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Plus la température augmente, plus les images affichées
+remplissent l’écran</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="k">if</span> <span class="n">temp</span> <span class="o">&lt;</span> <span class="mi">29</span><span class="p">:</span>
+            <span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+        <span class="k">elif</span> <span class="mi">29</span> <span class="o">&lt;=</span> <span class="n">temp</span> <span class="o">&lt;</span> <span class="mi">30</span><span class="p">:</span>
+            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">image1</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="mi">30</span> <span class="o">&lt;=</span> <span class="n">temp</span> <span class="o">&lt;</span> <span class="mi">31</span><span class="p">:</span>
+            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">image2</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="mi">31</span> <span class="o">&lt;=</span> <span class="n">temp</span> <span class="o">&lt;</span> <span class="mi">32</span><span class="p">:</span>
+            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">image3</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="mi">32</span> <span class="o">&lt;=</span> <span class="n">temp</span> <span class="o">&lt;</span> <span class="mi">33</span><span class="p">:</span>
+            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">image4</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="mi">33</span> <span class="o">&lt;=</span> <span class="n">temp</span> <span class="o">&lt;</span> <span class="mi">34</span><span class="p">:</span>
+            <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">image5</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>et enfin, si la température dépasse 34°C,
+alors là on passe en mode <strong class="command">victoire</strong> vrai.
+On ajoute une petite animation pour montrer que la
+victoire approche.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="k">elif</span> <span class="mi">34</span> <span class="o">&lt;=</span> <span class="n">temp</span><span class="p">:</span>
+            <span class="n">victoire</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="c1"># petite animation</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
+                <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SQUARE_SMALL</span><span class="p">)</span>
+                <span class="n">sleep</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+                <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SQUARE</span><span class="p">)</span>
+                <span class="n">sleep</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Pour finir, une pause syndicale de 500ms.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+</ol>
 </li>
 </ol>
 </div>
@@ -349,6 +435,18 @@ l’écran affichera le code secret attendu.</p>
 
 <span class="c1"># à faire toujours et toujours…</span>
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="c1"># utiliser le bouton A pour réinitialiser</span>
+    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
+        <span class="n">victoire</span> <span class="o">=</span> <span class="kc">False</span>
+    
+    <span class="c1"># si l&#39;énigme est résolue</span>
+    <span class="k">if</span> <span class="n">victoire</span><span class="p">:</span>
+        <span class="c1"># petite image joyeuse</span>
+        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
+        <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+        <span class="c1"># code secret à afficher…</span>
+        <span class="n">display</span><span class="o">.</span><span class="n">scroll</span><span class="p">(</span><span class="s2">&quot;XXXXXX&quot;</span><span class="p">)</span>
+    
     <span class="c1"># si  l&#39;énigme n&#39;a pas été résolue</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">victoire</span><span class="p">:</span>
         <span class="c1"># lire la température (en °C)</span>
@@ -377,18 +475,6 @@ l’écran affichera le code secret attendu.</p>
                 <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">SQUARE</span><span class="p">)</span>
                 <span class="n">sleep</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
         <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
-    
-    <span class="c1"># si l&#39;énigme est résolue</span>
-    <span class="k">if</span> <span class="n">victoire</span><span class="p">:</span>
-        <span class="c1"># petite image joyeuse</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
-        <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
-        <span class="c1"># code secret à afficher…</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">scroll</span><span class="p">(</span><span class="s2">&quot;XXXXXX&quot;</span><span class="p">)</span>
-    
-    <span class="c1"># utiliser le bouton A pour réinitialiser</span>
-    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
-        <span class="n">victoire</span> <span class="o">=</span> <span class="kc">False</span>
 </pre></div>
 </td></tr></table></div>
 </div>

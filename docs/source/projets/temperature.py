@@ -39,6 +39,18 @@ victoire = False
 
 # à faire toujours et toujours…
 while True:
+    # utiliser le bouton A pour réinitialiser
+    if button_a.is_pressed():
+        victoire = False
+    
+    # si l'énigme est résolue
+    if victoire:
+        # petite image joyeuse
+        display.show(Image.HAPPY)
+        sleep(500)
+        # code secret à afficher…
+        display.scroll("XXXXXX")
+    
     # si  l'énigme n'a pas été résolue
     if not victoire:
         # lire la température (en °C)
@@ -67,15 +79,3 @@ while True:
                 display.show(Image.SQUARE)
                 sleep(100)
         sleep(500)
-    
-    # si l'énigme est résolue
-    if victoire:
-        # petite image joyeuse
-        display.show(Image.HAPPY)
-        sleep(500)
-        # code secret à afficher…
-        display.scroll("XXXXXX")
-    
-    # utiliser le bouton A pour réinitialiser
-    if button_a.is_pressed():
-        victoire = False
