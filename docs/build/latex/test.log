@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Debian) (preloaded format=pdflatex 2018.4.28)  9 MAY 2018 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Debian) (preloaded format=pdflatex 2018.4.28)  9 MAY 2018 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -379,8 +379,10 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen119
 \titlewidthlast=\dimen120
 \titlewidthfirst=\dimen121
-) (./tabulary.sty
-Package: tabulary 2008/12/01 v0.9 tabulary package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 \col@sep=\dimen122
@@ -854,65 +856,123 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 
 ] [2
 
-] [1] [2
+]
+<logo-irem-2013-blanc.jpg, id=73, 93.5046pt x 44.03764pt>
+File: logo-irem-2013-blanc.jpg Graphic file (type jpg)
+<use logo-irem-2013-blanc.jpg>
+Package pdftex.def Info: logo-irem-2013-blanc.jpg  used on input line 2.
+(pdftex.def)             Requested size: 112.92114pt x 53.18422pt.
+<amu.png, id=75, 1289.2968pt x 441.8106pt>
+File: amu.png Graphic file (type png)
+<use amu.png>
+Package pdftex.def Info: amu.png  used on input line 2.
+(pdftex.def)             Requested size: 112.92114pt x 38.68933pt.
+ [1 <./logo-irem-2013-blanc.jpg> <./amu.png>] [2
 
 ]
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 81.
-[3]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 135.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 100.
+<fig-escape3.png, id=91, 692.5875pt x 759.83875pt>
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 126.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
+File: fig-escape3.png Graphic file (type png)
+<use fig-escape3.png>
+Package pdftex.def Info: fig-escape3.png  used on input line 126.
+(pdftex.def)             Requested size: 469.75502pt x 515.38496pt.
+ [3] [4 <./fig-escape3.png>]
+<boite-fermee.png, id=108, 2692.0575pt x 1158.3275pt>
+File: boite-fermee.png Graphic file (type png)
+<use boite-fermee.png>
+Package pdftex.def Info: boite-fermee.png  used on input line 149.
+(pdftex.def)             Requested size: 305.33789pt x 131.37553pt.
+<fig-escape.png, id=112, 1245.65375pt x 861.2175pt>
+File: fig-escape.png Graphic file (type png)
+<use fig-escape.png>
+Package pdftex.def Info: fig-escape.png  used on input line 178.
+(pdftex.def)             Requested size: 469.75502pt x 324.78238pt.
+ [5 <./boite-fermee.png>]
+<fig-temp.png, id=124, 538.01pt x 359.3425pt>
+File: fig-temp.png Graphic file (type png)
+<use fig-temp.png>
+Package pdftex.def Info: fig-temp.png  used on input line 211.
+(pdftex.def)             Requested size: 469.75502pt x 313.75496pt.
+ [6 <./fig-escape.png>]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 215.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<fig-escape2.png, id=135, 1228.59pt x 806.01125pt>
+File: fig-escape2.png Graphic file (type png)
+<use fig-escape2.png>
+Package pdftex.def Info: fig-escape2.png  used on input line 239.
+(pdftex.def)             Requested size: 469.75502pt x 308.18146pt.
+ [7 <./fig-temp.png>] [8 <./fig-escape2.png>]
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 136.
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 144.
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 150.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 290.
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 304.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 387.
+ [9]
 LaTeX Font Info:    Font shape `TS1/pcr/m/it' in size <9> not available
-(Font)              Font shape `TS1/pcr/m/sl' tried instead on input line 180.
- [4] [5] [6]
-<boite-fermee.png, id=134, 2692.0575pt x 1158.3275pt>
-File: boite-fermee.png Graphic file (type png)
-<use boite-fermee.png>
-Package pdftex.def Info: boite-fermee.png  used on input line 326.
-(pdftex.def)             Requested size: 305.33789pt x 131.37553pt.
- [7 <./boite-fermee.png>] [8] [9] [10
+(Font)              Font shape `TS1/pcr/m/sl' tried instead on input line 499.
+ [10]
+Underfull \vbox (badness 10000) detected at line 544
+ []
+
+
+Overfull \vbox (2.68169pt too high) detected at line 544
+ []
+
+[11]
+<fig-escape4.png, id=184, 829.0975pt x 616.3025pt>
+File: fig-escape4.png Graphic file (type png)
+<use fig-escape4.png>
+Package pdftex.def Info: fig-escape4.png  used on input line 573.
+(pdftex.def)             Requested size: 469.75502pt x 349.18018pt.
+ [12] [13 <./fig-escape4.png>]
+Overfull \vbox (0.9118pt too high) detected at line 681
+ []
+
+[14] [15] [16
 
 ]
 Chapitre 2.
 
 Package hyperref Warning: Suppressing empty link on input line 2.
 
-(./test.ind [11] [12
+(./test.ind [17] [18
 
-] [13
+] [19
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 481.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 481.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 702.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 702.
  (./test.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 481.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 481.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 702.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 702.
 Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: 065C1A0DB5EA6E8FC33D1FFA17CD0158;1037.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 481.
+(rerunfilecheck)             Checksum: 3070253ECABB17B0CE1B041583DAC713;1037.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 702.
  ) 
 Here is how much of TeX's memory you used:
- 14107 strings out of 494561
- 199068 string characters out of 6176608
- 375267 words of memory out of 5000000
- 17387 multiletter control sequences out of 15000+600000
- 58302 words of font info for 76 fonts, out of 8000000 for 9000
+ 14188 strings out of 494561
+ 200407 string characters out of 6176608
+ 395327 words of memory out of 5000000
+ 17439 multiletter control sequences out of 15000+600000
+ 59237 words of font info for 79 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 37i,12n,49p,276b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,49p,281b,715s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
@@ -922,10 +982,10 @@ uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
 texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on test.pdf (17 pages, 281686 bytes).
+Output written on test.pdf (23 pages, 6353538 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

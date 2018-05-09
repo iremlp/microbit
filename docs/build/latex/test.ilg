@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [TeX Live 2018] (kpathsea + Thai support).
 Scanning style file ./python.ist.......done (7 attributes redefined, 0 ignored).
-Scanning input file test.idx....done (8 entries accepted, 0 rejected).
-Sorting entries....done (30 comparisons).
-Generating output file test.ind....done (16 lines written, 0 warnings).
+Scanning input file test.idx....done (11 entries accepted, 0 rejected).
+Sorting entries....done (37 comparisons).
+Generating output file test.ind....done (32 lines written, 0 warnings).
 Output written in test.ind.
 Transcript written in test.ilg.

@@ -1,16 +1,32 @@
 \begin{sphinxtheindex}
 \def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
 
+  \bigletter A
+  \item acc\IeC {\'e}l\IeC {\'e}rom\IeC {\`e}tre, \hyperpage{13}
+  \item audio, \hyperpage{6}
+
+  \indexspace
   \bigletter G
-  \item galton, \hyperpage{7}
+  \item galton, \hyperpage{14}
+
+  \indexspace
+  \bigletter L
+  \item luminosit\IeC {\'e}, \hyperpage{4}
 
   \indexspace
   \bigletter M
-  \item micropython, \hyperpage{4}, \hyperpage{6, 7}
+  \item micropython, \hyperpage{6}, \hyperpage{8}, \hyperpage{13, 14}
 
   \indexspace
   \bigletter P
-  \item projet, \hyperpage{4}, \hyperpage{6, 7}
-  \item python, \hyperindexformat{\see{micropython}}{6}
+  \item programmation par blocs, \hyperpage{4}
+
+  \indexspace
+  \bigletter S
+  \item servo, \hyperpage{4}
+
+  \indexspace
+  \bigletter T
+  \item temp\IeC {\'e}rature, \hyperpage{8}
 
 \end{sphinxtheindex}
