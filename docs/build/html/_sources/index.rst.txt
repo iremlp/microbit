@@ -15,9 +15,10 @@ Projets à réaliser
 .. toctree::
    :maxdepth: 2
    :caption: Projets
-   
+
    projets/temperature
    projets/boite-fermee
+   projets/galton
 
 
 

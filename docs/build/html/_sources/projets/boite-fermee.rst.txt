@@ -21,6 +21,6 @@ Fabriquer
 
 Coder
 -----
-
-.. todo:: vidéo / gif / captures / descriptions
-
+.. image:: boite-fermee.png
+   :width: 65%
+   :align: center

@@ -1,16 +1,18 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="fr" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Planche de Galton &mdash; documentation IREM Marseille - Micro:bit 1</title>
+  <title>Planche de Galton &mdash; Documentation IREM Marseille - Micro:bit 1</title>
   
 
+  
+  
   
   
 
@@ -23,25 +25,20 @@
   
 
   
-  
     <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Recherche" href="../search.html"/>
-    <link rel="top" title="documentation IREM Marseille - Micro:bit 1" href="../index.html"/> 
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="prev" title="Boîte fermée" href="boite-fermee.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -82,10 +79,22 @@
           
             
             
-                <p class="caption"><span class="caption-text">Projets</span></p>
-<ul>
+              
+            
+            
+              <p class="caption"><span class="caption-text">Projets</span></p>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="temperature.html">Température</a></li>
 <li class="toctree-l1"><a class="reference internal" href="boite-fermee.html">Boîte fermée</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Planche de Galton</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#description">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#realisation">Réalisation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fabriquer">Fabriquer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#coder">Coder</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
             
@@ -97,34 +106,54 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">IREM Marseille - Micro:bit</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">IREM Marseille - Micro:bit</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-    <li>Planche de Galton</li>
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Planche de Galton</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/projets/galton.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/projets/galton.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -136,7 +165,7 @@
 <h2>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h2>
 <div class="admonition-todo admonition" id="index-0">
 <p class="first admonition-title">À faire</p>
-<p class="last">capture d&#8217;écran / gif animée</p>
+<p class="last">capture d’écran / gif animée</p>
 </div>
 </div>
 <div class="section" id="realisation">
@@ -150,7 +179,7 @@
 </div>
 <div class="section" id="coder">
 <h3>Coder<a class="headerlink" href="#coder" title="Lien permanent vers ce titre">¶</a></h3>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">microbit</span> <span class="k">import</span> <span class="o">*</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">microbit</span> <span class="k">import</span> <span class="o">*</span>
 <span class="kn">from</span> <span class="nn">random</span> <span class="k">import</span> <span class="n">random</span><span class="p">,</span> <span class="n">seed</span>
 
 <span class="n">seed</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>               <span class="c1"># la graine de hasard ???</span>
@@ -204,8 +233,16 @@
 
 
            </div>
+           
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="boite-fermee.html" class="btn btn-neutral" title="Boîte fermée" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -216,7 +253,7 @@
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -235,9 +272,11 @@
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'1',
+            LANGUAGE:'fr',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -252,14 +291,13 @@
     <script type="text/javascript" src="../_static/js/theme.js"></script>
   
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          
+          SphinxRtdTheme.Navigation.enableSticky();
+          
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

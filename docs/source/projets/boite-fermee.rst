@@ -21,6 +21,6 @@ Fabriquer
 
 Coder
 -----
-.. image:: microbit-boite.png
+.. image:: boite-fermee.png
    :width: 65%
    :align: center
