@@ -123,8 +123,8 @@ leçons sur l’accélération.
 .. rubric:: Notes
 
 .. [#bbc-moteur] Make It Digital - The BBC micro:bit. (s. d.). 
-   Consulté 29 mars 2017, à l’adresse 
-   `<http://www.bbc.co.uk/programmes/articles/4hVG2Br1W1LKCmw8nSm9WnQ/the-bbc-micro-bit>`_ 
+   Consulté 29 mars 2017, à l’adresse
+   `<http://www.bbc.co.uk/programmes/articles/4hVG2Br1W1LKCmw8nSm9WnQ/the-bbc-micro-bit>`_
 .. [#bbc-avant] BBC Micro. (2016, septembre 20). 
    In Wikipédia. Consulté à l’adresse 
    `<https://fr.wikipedia.org/w/index.php?title=BBC_Micro&oldid=129763631>`_
@@ -139,7 +139,7 @@ leçons sur l’accélération.
    `<http://www.arm.com/innovation/products/microbit.php>`_
 .. [#samsung]  Code on the go with Samsung & micro:bit. 
    (s. d.). Consulté 29 mars 2017, à l’adresse 
-   `<http://www.samsung.com/uk/microbit/>`_ 
+   `<http://www.samsung.com/uk/citizenship/bbcmicrobit.html>`_ 
 .. [#python] Python editor. (s. d.). Consulté 29 mars 2017, 
    à l’adresse `<http://python.microbit.org/editor.html>`_ 
 .. [#idees] Idées | micro:bit. (s. d.). Consulté 29 mars 
