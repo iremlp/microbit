@@ -1,40 +1,43 @@
 \babel@toc {french}{}
-\contentsline {chapter}{\numberline {1}Projets \IeC {\`a} r\IeC {\'e}aliser}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Bo\IeC {\^\i }te ferm\IeC {\'e}e}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Description}{3}{subsection.1.1.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{3}{subsubsection*.3}
-\contentsline {paragraph}{Escape game}{3}{paragraph*.4}
-\contentsline {subsection}{\numberline {1.1.2}R\IeC {\'e}alisation}{4}{subsection.1.1.2}
-\contentsline {subsubsection}{Fabriquer}{4}{subsubsection*.5}
-\contentsline {subsubsection}{Coder}{5}{subsubsection*.6}
-\contentsline {section}{\numberline {1.2}Pierrot et Simon}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Description}{5}{subsection.1.2.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{5}{subsubsection*.7}
-\contentsline {paragraph}{Escape game}{5}{paragraph*.8}
-\contentsline {subsection}{\numberline {1.2.2}R\IeC {\'e}alisation}{6}{subsection.1.2.2}
-\contentsline {subsubsection}{Fabriquer}{6}{subsubsection*.9}
-\contentsline {subsubsection}{Coder}{6}{subsubsection*.10}
-\contentsline {section}{\numberline {1.3}Temp\IeC {\'e}ratures}{7}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Description}{7}{subsection.1.3.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{7}{subsubsection*.11}
-\contentsline {paragraph}{Escape game}{7}{paragraph*.12}
-\contentsline {subsection}{\numberline {1.3.2}R\IeC {\'e}alisation}{8}{subsection.1.3.2}
-\contentsline {subsubsection}{Fabriquer}{8}{subsubsection*.13}
-\contentsline {subsubsection}{Coder}{8}{subsubsection*.15}
-\contentsline {paragraph}{Le code, \IeC {\'e}tape par \IeC {\'e}tape}{8}{paragraph*.16}
-\contentsline {paragraph}{Le code final}{10}{paragraph*.17}
-\contentsline {section}{\numberline {1.4}Coffre fort}{12}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Description}{12}{subsection.1.4.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{12}{subsubsection*.18}
-\contentsline {paragraph}{Escape game}{12}{paragraph*.19}
-\contentsline {subsection}{\numberline {1.4.2}R\IeC {\'e}alisation}{13}{subsection.1.4.2}
-\contentsline {subsubsection}{Fabriquer}{13}{subsubsection*.20}
-\contentsline {subsubsection}{Coder}{13}{subsubsection*.21}
-\contentsline {section}{\numberline {1.5}Planche de Galton}{14}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Description}{14}{subsection.1.5.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{14}{subsubsection*.22}
-\contentsline {subsection}{\numberline {1.5.2}R\IeC {\'e}alisation}{14}{subsection.1.5.2}
-\contentsline {subsubsection}{Fabriquer}{14}{subsubsection*.23}
-\contentsline {subsubsection}{Coder}{14}{subsubsection*.24}
-\contentsline {chapter}{\numberline {2}Index et page de recherche}{17}{chapter.2}
-\contentsline {chapter}{Index}{19}{section*.25}
+\contentsline {chapter}{\numberline {1}Pr\IeC {\'e}sentation de Micro:bit}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Micro:bit, c\IeC {\textquoteright }est quoi?}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Bref historique}{3}{subsection.1.1.1}
+\contentsline {chapter}{\numberline {2}Projets \IeC {\`a} r\IeC {\'e}aliser}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Bo\IeC {\^\i }te ferm\IeC {\'e}e}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Description}{5}{subsection.2.1.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{5}{subsubsection*.3}
+\contentsline {paragraph}{Escape game}{5}{paragraph*.4}
+\contentsline {subsection}{\numberline {2.1.2}R\IeC {\'e}alisation}{6}{subsection.2.1.2}
+\contentsline {subsubsection}{Fabriquer}{6}{subsubsection*.5}
+\contentsline {subsubsection}{Coder}{7}{subsubsection*.6}
+\contentsline {section}{\numberline {2.2}Pierrot et Simon}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Description}{7}{subsection.2.2.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{7}{subsubsection*.7}
+\contentsline {paragraph}{Escape game}{7}{paragraph*.8}
+\contentsline {subsection}{\numberline {2.2.2}R\IeC {\'e}alisation}{8}{subsection.2.2.2}
+\contentsline {subsubsection}{Fabriquer}{8}{subsubsection*.9}
+\contentsline {subsubsection}{Coder}{8}{subsubsection*.10}
+\contentsline {section}{\numberline {2.3}Temp\IeC {\'e}ratures}{9}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Description}{9}{subsection.2.3.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{9}{subsubsection*.11}
+\contentsline {paragraph}{Escape game}{9}{paragraph*.12}
+\contentsline {subsection}{\numberline {2.3.2}R\IeC {\'e}alisation}{10}{subsection.2.3.2}
+\contentsline {subsubsection}{Fabriquer}{10}{subsubsection*.13}
+\contentsline {subsubsection}{Coder}{10}{subsubsection*.15}
+\contentsline {paragraph}{Le code, \IeC {\'e}tape par \IeC {\'e}tape}{10}{paragraph*.16}
+\contentsline {paragraph}{Le code final}{12}{paragraph*.17}
+\contentsline {section}{\numberline {2.4}Coffre fort}{14}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Description}{14}{subsection.2.4.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{14}{subsubsection*.18}
+\contentsline {paragraph}{Escape game}{14}{paragraph*.19}
+\contentsline {subsection}{\numberline {2.4.2}R\IeC {\'e}alisation}{15}{subsection.2.4.2}
+\contentsline {subsubsection}{Fabriquer}{15}{subsubsection*.20}
+\contentsline {subsubsection}{Coder}{15}{subsubsection*.21}
+\contentsline {section}{\numberline {2.5}Planche de Galton}{16}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Description}{16}{subsection.2.5.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{16}{subsubsection*.22}
+\contentsline {subsection}{\numberline {2.5.2}R\IeC {\'e}alisation}{16}{subsection.2.5.2}
+\contentsline {subsubsection}{Fabriquer}{16}{subsubsection*.23}
+\contentsline {subsubsection}{Coder}{16}{subsubsection*.24}
+\contentsline {chapter}{\numberline {3}Index et page de recherche}{19}{chapter.3}
+\contentsline {chapter}{Index}{21}{section*.25}

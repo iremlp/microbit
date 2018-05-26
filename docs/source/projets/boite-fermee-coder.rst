@@ -10,6 +10,6 @@ du projet :ref:`projetBoite`.
 
 
 
-.. image:: boite-fermee.png
+.. image:: /_static/boite-fermee.*
    :width: 65%
    :align: center

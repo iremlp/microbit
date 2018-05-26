@@ -41,13 +41,27 @@ nous explorons les objets connectés tels que Arduino ou Microbit.
 **Table des matières du document**
 
 
+Prise en main de Micro:bit
+--------------------------
+
+
+.. toctree::
+   :titlesonly:
+   :caption: Prise en main
+   :hidden:
+   :maxdepth: 1
+
+   decouverte/05_generalite
+
+
 Projets à réaliser
-==================
+------------------
 
 .. toctree::
    :titlesonly:
    :caption: Projets par blocs
    :hidden:
+   :maxdepth: 1
 
    projets/boite-fermee
    projets/pierrot
@@ -56,7 +70,8 @@ Projets à réaliser
    :titlesonly:
    :caption: Projets python
    :hidden:
-
+   :maxdepth: 1
+   
    projets/temperature
    projets/coffre
    projets/galton
@@ -66,7 +81,7 @@ Projets à réaliser
 
 
 Index et page de recherche
-==========================
+--------------------------
 
 * :ref:`genindex`
 * :ref:`search`
