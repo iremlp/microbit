@@ -11,11 +11,12 @@ Le but de ce projet de simuler une expérience aléatoire de lancer de pièce.
 A partir d'une situation simple idéale pour une prise en main,
 il s'agit par la suite d'améliorer le programmme pas à pas.
 L'objectif est d'obtenir un programme utilisable dans le cadre de d'un cours sur
- les statisiques et les probabilités.
+les statisiques et les probabilités.
+
 
 .. image:: /_static/pilefaceN2.*
-   :width: 65%
    :align: center
+
 
 Exemple(s) d'utilisation
 ---------------------------------------
