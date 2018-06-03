@@ -14,17 +14,15 @@ L'objectif est d'obtenir un programme utilisable dans le cadre de d'un cours sur
 les statisiques et les probabilités.
 
 
-.. image:: /_static/pilefaceN2.*
+.. image:: /_static/pilefaceN3.gif
    :align: center
 
 
 Exemple(s) d'utilisation
 ---------------------------------------
 
-.. toctree::
-
-   Algorithmique et programmation (thème E) du programme de cycle 4
-   Accompagnement personnalisé pour des élèves de seconde Bac Pro
+  * Algorithmique et programmation (thème E) du programme de cycle 4
+  * Accompagnement personnalisé pour des élèves de seconde Bac Pro
 
 
 Progression
@@ -32,5 +30,6 @@ Progression
 
 .. toctree::
 
-   Niveau 1, découverte des notions élémentaires (affichage, déclenchement, aléa, boucle) <pileface-niveau1>
-   Niveau 2, introduction d'une fonction, instruction conditionnelle <pileface-niveau2>
+   Niveau 1 <pileface-niveau1>
+   Niveau 2 <pileface-niveau2>
+   Niveau 3 <pileface-niveau3>

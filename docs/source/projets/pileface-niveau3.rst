@@ -1,29 +1,29 @@
 
 ====================
-Pile ou Face / Niveau 2
+Pile ou Face / Niveau 3
 ====================
 
-Ce que l’on veut obtenir : afficher P ou F de façon aléatoire à l’issue d’une courte animation.
-Pour ce deuxième niveau, on va utiliser deux nouveaux blocs seulement.
-
+Ce que l’on veut obtenir : compter les issues obtenues et afficher le résultat.
+Pour parvenir à cela il va falloir utiliser une variable.
 
 Les notions abordées
 ------------------------------------
 
 Dans ce niveau nous trouvons les notions suivantes :
-  *  fonction (création et appel)
-  *  instruction conditionnelle
+  *  définition d'une variable
+  *  incrémentation d'une variable
+  *  concaténation de texte et de valeur
 
-.. image:: /_static/pilefaceN2.gif
+.. image:: /_static/pilefaceN3.gif
     :align: center
-
 Les blocs préconisés
 ------------------------------------
 
 On propose aux élèves d'utiliser les blocs suivant :
 
-.. image:: /_static/pilefaceN2blocs.*
+.. image:: /_static/pilefaceN3blocs.*
     :align: center
+    :width: 50%
 
 
 Une solution possible
@@ -31,4 +31,4 @@ Une solution possible
 
 Le résultat escompté est le suivant :
 
-.. image:: /_static/pilefaceN2proposition.*
+.. image:: /_static/pilefaceN3proposition.*
