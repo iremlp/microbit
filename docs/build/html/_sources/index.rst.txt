@@ -9,7 +9,7 @@ Formations et ressources pour Micro:bit
 
 **Contenu du site**
 
-Vous trouverez dans ce document des ressources permettant de se 
+Vous trouverez dans ce document des ressources permettant de se
 former à Micro:bit.
 
 
@@ -65,13 +65,14 @@ Projets à réaliser
 
    projets/boite-fermee
    projets/pierrot
-   
+   projets/pileface
+
 .. toctree::
    :titlesonly:
    :caption: Projets python
    :hidden:
    :maxdepth: 1
-   
+
    projets/temperature
    projets/coffre
    projets/galton

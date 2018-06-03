@@ -1,7 +1,7 @@
 
-====================
+=======================
 Pile ou Face / Niveau 1
-====================
+=======================
 
 Ce que l’on veut obtenir : afficher 0 ou 1 de façon aléatoire à l’issue d’une courte animation.
 Ce premier niveau permet de se familiariser avec l'interface tout en produisant un premier
@@ -17,9 +17,9 @@ Dans ce niveau nous trouvons les notions suivantes :
 
 On propose aux élèves d'utiliser les blocs suivant :
 
-.. image:: /static/pilefaceN1_blocs.png
+.. image:: /_static/pilefaceN1_blocs.png
 
 
 Le résultat escompté est le suivant :
 
-.. image:: /static/pilefaceN1_proposition.png
+.. image:: /_static/pilefaceN1_proposition.png
