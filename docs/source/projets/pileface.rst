@@ -13,7 +13,7 @@ il s'agit par la suite d'améliorer le programmme pas à pas.
 L'objectif est d'obtenir un programme utilisable dans le cadre de d'un cours sur
  les statisiques et les probabilités.
 
-. image:: /_static/pilefaceN2.*
+.. image:: /_static/pilefaceN2.*
    :width: 65%
    :align: center
 
