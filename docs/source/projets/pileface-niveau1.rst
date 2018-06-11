@@ -7,8 +7,6 @@ Ce que l’on veut obtenir : afficher 0 ou 1 de façon aléatoire à l’issue d
 Ce premier niveau permet de se familiariser avec l'interface tout en produisant un premier
 programme fonctionnel et utile.
 
-On utilise l'interface de programmation par bloc :
-https://makecode.microbit.org/
 
 Les notions abordées
 ------------------------------------
@@ -27,9 +25,7 @@ Les blocs préconisés
 On propose aux élèves d'utiliser les blocs suivant :
 
 
-.. image:: /_static/pilefaceN1_blocs.png
-=======
-.. image:: /_static/pilefaceN1blocs.*
+.. image:: /_static/pilefaceN1blocs.png
     :align: center
 
 
@@ -40,6 +36,5 @@ Une solution possible
 Le résultat escompté est le suivant :
 
 
-.. image:: /_static/pilefaceN1_proposition.png
-=======
-.. image:: /_static/pilefaceN1proposition.*
+.. image:: /_static/pilefaceN1proposition.png
+    :align: center

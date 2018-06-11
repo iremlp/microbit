@@ -13,6 +13,8 @@ il s'agit par la suite d'améliorer le programmme pas à pas.
 L'objectif est d'obtenir un programme utilisable dans le cadre de d'un cours sur
 les statisiques et les probabilités.
 
+On utilise l'interface de programmation par bloc :
+https://makecode.microbit.org/
 
 .. image:: /_static/pilefaceN3.gif
    :align: center
