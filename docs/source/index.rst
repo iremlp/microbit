@@ -63,9 +63,10 @@ Projets à réaliser
    :hidden:
    :maxdepth: 1
 
+
+   projets/pileface
    projets/boite-fermee
    projets/pierrot
-   projets/pileface
 
 .. toctree::
    :titlesonly:
