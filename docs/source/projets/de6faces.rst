@@ -13,7 +13,7 @@ Toujours à partir d'une situation simple idéale , le programme peut être éto
 On utilise l'interface de programmation par bloc :
 https://makecode.microbit.org/
 
-.. image:: /_static/pilefaceN3.gif
+.. image:: /_static/deobjectifN2.gif
    :align: center
 
 
@@ -35,4 +35,4 @@ Progression
 
    Niveau 1 <de6faces-niveau1>
    Niveau 2 <de6faces-niveau2>
-   Niveau 3 <de6faces-niveau3>
+   

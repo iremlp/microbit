@@ -65,6 +65,7 @@ Projets à réaliser
 
 
    projets/pileface
+   projets/de6faces
    projets/boite-fermee
    projets/pierrot
 
