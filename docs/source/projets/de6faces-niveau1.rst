@@ -25,6 +25,7 @@ On propose aux élèves d'utiliser les blocs suivant :
 
 .. image:: /_static/de6facesN1blocs.png
     :align: center
+    :width: 50%
 
 
 

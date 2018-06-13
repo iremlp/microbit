@@ -24,6 +24,7 @@ Exemple(s) d'utilisation
 ---------------------------------------
 
   * Algorithmique et programmation (thème E) du programme de cycle 4
+  * Domaine statistiques et probabilités du programme de mathématiques de Bac Pro
   * Accompagnement personnalisé pour des élèves de seconde Bac Pro
 
 
