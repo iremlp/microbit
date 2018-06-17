@@ -1,20 +1,22 @@
-.. _projetPileface:
+.. _blocPileface:
 
-============
-Pile ou Face
-============
+========================
+Pile ou Face avec des  blocs
+========================
+
 
 Description
 ===========
 
 Le but de ce projet de simuler une expérience aléatoire de lancer de pièce.
-A partir d'une situation simple idéale pour une prise en main,
-il s'agit par la suite d'améliorer le programmme pas à pas.
+A partir d'une situation simple idéale pour une prise en main de l'interface
+de programmation, il s'agit par la suite d'améliorer le programmme pas à pas.
 L'objectif est d'obtenir un programme utilisable dans le cadre de d'un cours sur
 les statisiques et les probabilités.
 
 On utilise l'interface de programmation par bloc :
 https://makecode.microbit.org/
+
 
 .. image:: /_static/pilefaceN3.gif
    :align: center
@@ -33,6 +35,6 @@ Progression
 
 .. toctree::
 
-   Niveau 1 <pileface-niveau1>
-   Niveau 2 <pileface-niveau2>
-   Niveau 3 <pileface-niveau3>
+   Niveau 1 <pileface-bloc1>
+   Niveau 2 <pileface-bloc2>
+   Niveau 3 <pileface-bloc3>

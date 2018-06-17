@@ -1,7 +1,7 @@
 from microbit import *
 from random import random, seed
 
-seed(300)               # la graine de hasard ???
+#seed(300)               # la graine de chaos qui fait que l'aléa sera répétitif
 n = [0, 0, 0, 0, 0]     # le tableau contenant les compteurs
 
 

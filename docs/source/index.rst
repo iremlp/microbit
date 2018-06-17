@@ -19,7 +19,7 @@ Nous sommes des enseignants de maths/sciences regroupés au sein d'un groupe de 
 de l'`IREM de Marseille <https://irem.univ-amu.fr/fr>`_.
 
 Notre groupe, *Innovation, Expérimentation et Formation en Lycée Professionnel* (InEFLP)
-a une partie de son travail consacrée l'enseignemnt de l'algorithmique
+a une partie de son travail consacrée l'enseignement de l'algorithmique
 en classes de lycée professionnel. Dans le cadre de cette recherche,
 nous explorons les objets connectés tels que Arduino ou Microbit.
 
@@ -64,8 +64,8 @@ Projets à réaliser
    :maxdepth: 1
 
 
-   projets/pileface
-   projets/de6faces
+   projets/pileface-bloc
+   projets/de6faces-bloc
    projets/boite-fermee
    projets/pierrot
 
@@ -75,6 +75,8 @@ Projets à réaliser
    :hidden:
    :maxdepth: 1
 
+   projets/pileface-python
+   projets/de6faces-python
    projets/temperature
    projets/coffre
    projets/galton

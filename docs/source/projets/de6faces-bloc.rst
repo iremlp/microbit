@@ -1,8 +1,9 @@
-.. _projetDe6faces:
+.. _blocDe6faces:
 
-===================
-Lancer un dé à 6 faces
-===================
+=======================
+Dé à 6 faces avec des blocs
+=======================
+
 
 Description
 ===========
@@ -33,6 +34,5 @@ Progression
 
 .. toctree::
 
-   Niveau 1 <de6faces-niveau1>
-   Niveau 2 <de6faces-niveau2>
-   
+   Niveau 1 <de6faces-bloc1>
+   Niveau 2 <de6faces-bloc2>
