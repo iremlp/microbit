@@ -1,7 +1,6 @@
 from microbit import *
 from random import random, seed
 
-#seed(300)               # la graine de chaos qui fait que l'aléa sera répétitif
 n = [0, 0, 0, 0, 0]     # le tableau contenant les compteurs
 
 
@@ -20,7 +19,7 @@ def chute(t):                # fonction affichant la chute
     sleep(t)
     while y < 4:
         display.clear()
-        if round(random()):      # si arrondi de alea est vrai (différent de 0)
+        if random.randint(0, 1):     # si aléa entre 0 ou 1 est vrai
             y = y + 1            # on augmente y de 1
         else:
             x = x + 1
@@ -38,7 +37,7 @@ while True:
     elif button_b.get_presses():
         n = [0, 0, 0, 0, 0]
         for k in range(80):
-            chute(round(500 / (1.05**k)))
+            chute(round(500 / (1.05**k))) # accélération de la chute
             for j in range(5):
                 aff(n[j], j)
             sleep(200)

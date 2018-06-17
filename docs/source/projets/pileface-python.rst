@@ -9,17 +9,14 @@ Description
 ===========
 
 Le but de ce projet de simuler une expérience aléatoire de lancer de pièce.
-A partir d'une situation simple idéale pour une prise en main avec Python,
+A partir d'une situation simple idéale pour une prise en main avec Python
  il s'agit par la suite d'améliorer le programmme pas à pas.
+
 On verra qu'il ne s'agit pas forcément de la transposition en Python des activités
 proposées en bloc.
+
 Il est intéressant de relever pour chaque étape l'apport que représente la programmation
 avec  ce langage.
-
-
-
-.. image:: /_static/pilefaceN3.gif
-   :align: center
 
 
 Exemple(s) d'utilisation
