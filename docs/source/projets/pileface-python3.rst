@@ -17,12 +17,13 @@ Pour ce niveau, on va avoir besoin :
 
 
 Les éléments utiles
-------------------------------------------
+---------------------------------
 
-* déclaration de 3 variables
-* test de l'égalité d'une variable avec ==
-* instruction if et else
-* incrémentation avec +=
+On propose aux élèves d'appeler les éléments suivants ::
+
+  if: et else: # instructions conditionnelle
+  ==              # qui permet de vérifier l'égalité entre deux objets
+  += 1           # qui permet d'incrémenter une variable de 1
 
 
 Une solution possible

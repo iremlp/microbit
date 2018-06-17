@@ -19,17 +19,14 @@ Dans ce niveau nous trouvons les notions suivantes :
 
 
 Les éléments utiles
-------------------------------------------
+---------------------------------
 
-On propose aux élèves d'appeler les éléments suivants :
+On propose aux élèves d'appeler les éléments suivants ::
 
-* imporeter la bibliothèque random : "import random"
-* utiliser la fonction "Image(xxxxx:xxxxx:xxxxx:xxxxx:xxxxx)"
-où x représente l'intensité d'une diode comprise entre 0 et 9
-* utiliser la fonction permettant de choisir un élément dans une liste : "random.choice()""
-* utiliser une liste ["X","Y"]
-
-
+  import random # bibliothèque pour générer de l'aléa
+  Image("xxxxx:xxxxx:xxxxx:xxxxx:xxxxx") # où x représente l'intensité d'une diode comprise entre 0 et 9
+  random.choice(liste)    # pour choisir un élément au hasard dans une liste
+  ["P", "F"]    # liste des issues (texte) que l'on veut afficher
 
 
 Une solution possible

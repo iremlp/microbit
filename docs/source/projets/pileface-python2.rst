@@ -13,9 +13,11 @@ Ce niveau permet d'appréhender une utilité supplémentaire du type d'objet "li
 
 
 Les éléments utiles
-------------------------------------------
+---------------------------------
 
-* utiliser et appeler une liste [a, b, c ...] qui contient elle même des objets "image".
+On propose aux élèves d'appeler les éléments suivants ::
+
+  [a, b ,c ... ] # une liste ou a,b,c ... sont le nom d'images déclarées précédemment
 
 
 Une solution possible
