@@ -1,13 +1,13 @@
 
-=======================
-Dé à 6 faces / Niveau 1
-=======================
+========
+Niveau 1
+========
 
 Ce que l’on veut obtenir : afficher  un nombre entier entre 1 et 6 de façon aléatoire en secouant l'appareil.
 Ce premier niveau permet d'introduire la problèmatique.
 
 Les notions abordées
-------------------------------------
+--------------------
 
 Dans ce niveau nous trouvons les notions suivantes :
   * interactions avec l'utilisateur (bouton, affichage)
@@ -18,7 +18,7 @@ Dans ce niveau nous trouvons les notions suivantes :
     :align: center
 
 Les blocs préconisés
-------------------------------------
+--------------------
 
 On propose aux élèves d'utiliser les blocs suivant :
 
@@ -30,7 +30,7 @@ On propose aux élèves d'utiliser les blocs suivant :
 
 
 Une solution possible
-------------------------------------
+---------------------
 
 Le résultat escompté est le suivant :
 

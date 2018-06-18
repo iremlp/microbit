@@ -1,8 +1,8 @@
 .. _blocPileface:
 
-========================
-Pile ou Face avec des  blocs
-========================
+====================
+Pile ou face (blocs)
+====================
 
 
 Description
@@ -23,7 +23,7 @@ https://makecode.microbit.org/
 
 
 Exemple(s) d'utilisation
----------------------------------------
+------------------------
 
   * Algorithmique et programmation (thème E) du programme de cycle 4
   * Domaine statistiques et probabilités du programme de mathématiques de Bac Pro
@@ -34,7 +34,8 @@ Progression
 ===========
 
 .. toctree::
-
+   :maxdepth: 1
+   
    Niveau 1 <pileface-bloc1>
    Niveau 2 <pileface-bloc2>
    Niveau 3 <pileface-bloc3>

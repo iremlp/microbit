@@ -52,6 +52,10 @@ Prise en main de Micro:bit
    :maxdepth: 1
 
    decouverte/05_generalite
+   decouverte/pileface-bloc
+   decouverte/de6faces-bloc
+   decouverte/pileface-python
+   decouverte/de6faces-python
 
 
 Projets à réaliser
@@ -63,9 +67,6 @@ Projets à réaliser
    :hidden:
    :maxdepth: 1
 
-
-   projets/pileface-bloc
-   projets/de6faces-bloc
    projets/boite-fermee
    projets/pierrot
 
@@ -75,8 +76,6 @@ Projets à réaliser
    :hidden:
    :maxdepth: 1
 
-   projets/pileface-python
-   projets/de6faces-python
    projets/temperature
    projets/coffre
    projets/galton

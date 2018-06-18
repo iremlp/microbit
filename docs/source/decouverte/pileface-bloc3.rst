@@ -1,13 +1,13 @@
 
-====================
-Pile ou Face / Niveau 3
-====================
+========
+Niveau 3
+========
 
 Ce que l’on veut obtenir : compter les issues obtenues et afficher le résultat.
 Pour parvenir à cela il va falloir utiliser une variable.
 
 Les notions abordées
-------------------------------------
+--------------------
 
 Dans ce niveau nous trouvons les notions suivantes :
   *  définition d'une variable
@@ -17,7 +17,7 @@ Dans ce niveau nous trouvons les notions suivantes :
 .. image:: /_static/pilefaceN3.gif
     :align: center
 Les blocs préconisés
-------------------------------------
+--------------------
 
 On propose aux élèves d'utiliser les blocs suivant :
 
@@ -27,7 +27,7 @@ On propose aux élèves d'utiliser les blocs suivant :
 
 
 Une solution possible
-------------------------------------
+---------------------
 
 Le résultat escompté est le suivant :
 

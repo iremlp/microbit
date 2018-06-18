@@ -18,7 +18,7 @@ La bille position de la bille est représentée par l'allumage d'une diode.
   .. image:: /_static/galton.gif
 
 Type de programmation :
------------------------------------------
+-----------------------
 
 Le projet est ici programmé en python.
 
@@ -37,3 +37,4 @@ Réalisation
 .. toctree::
 
       Coder <galton-coder>
+      Fabriquer <galton-fabriquer>

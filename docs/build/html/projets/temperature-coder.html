@@ -1,16 +1,18 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="fr" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Coder &mdash; documentation IREM Marseille - Micro:bit 1</title>
+  <title>Coder &mdash; Documentation IREM Marseille - Micro:bit 1</title>
   
 
+  
+  
   
   
 
@@ -23,28 +25,21 @@
   
 
   
-  
     <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Recherche" href="../search.html"/>
-    <link rel="top" title="documentation IREM Marseille - Micro:bit 1" href="../index.html"/>
-        <link rel="up" title="Températures" href="temperature.html"/>
-        <link rel="next" title="Coffre fort" href="coffre.html"/>
-        <link rel="prev" title="Fabriquer" href="temperature-fabriquer.html"/> 
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Coffre fort" href="coffre.html" />
+    <link rel="prev" title="Fabriquer" href="temperature-fabriquer.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -85,18 +80,24 @@
           
             
             
-                <p class="caption"><span class="caption-text">Prise en main</span></p>
+              
+            
+            
+              <p class="caption"><span class="caption-text">Prise en main</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../decouverte/05_generalite.html">Micro:bit, c&#8217;est quoi?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../decouverte/05_generalite.html">Micro:bit, c’est quoi?</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Projets par blocs</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="pileface-bloc.html">Pile ou Face avec des  blocs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="de6faces-bloc.html">Dé à 6 faces avec des blocs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="boite-fermee.html">Boîte fermée</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pierrot.html">Pierrot et Simon</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pileface.html">Pile ou Face</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Projets python</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="pileface-python.html">Pile ou Face avec Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="de6faces-python.html">Dé à 6 faces avec Python</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="temperature.html">Températures</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="temperature-exemple-escape.html">Escape game dans un stage IREM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="temperature-fabriquer.html">Fabriquer</a></li>
@@ -116,36 +117,56 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">IREM Marseille - Micro:bit</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">IREM Marseille - Micro:bit</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
           <li><a href="temperature.html">Températures</a> &raquo;</li>
-      
-    <li>Coder</li>
+        
+      <li>Coder</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/projets/temperature-coder.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/projets/temperature-coder.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -165,16 +186,16 @@
 <h2>Le code, étape par étape<a class="headerlink" href="#le-code-etape-par-etape" title="Lien permanent vers ce titre">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Incluons la bibliothèque Micro:bit</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">microbit</span> <span class="k">import</span> <span class="o">*</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">microbit</span> <span class="k">import</span> <span class="o">*</span>
 </pre></div>
 </div>
 </li>
-<li><p class="first">Créons les images qui nous servirons à animer l&#8217;écran.
-La luminosité d&#8217;une diode varie de <code class="code docutils literal"><span class="pre">0</span></code> (éteinte)
-à <code class="code docutils literal"><span class="pre">9</span></code> (maximale).</p>
-<p>Lorsque la température augmente, l&#8217;affichage passe progressivement
-de <code class="code docutils literal"><span class="pre">image1</span></code> à <code class="code docutils literal"><span class="pre">image</span> <span class="pre">5</span></code>.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">image1</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span>
+<li><p class="first">Créons les images qui nous servirons à animer l’écran.
+La luminosité d’une diode varie de <code class="code docutils literal notranslate"><span class="pre">0</span></code> (éteinte)
+à <code class="code docutils literal notranslate"><span class="pre">9</span></code> (maximale).</p>
+<p>Lorsque la température augmente, l’affichage passe progressivement
+de <code class="code docutils literal notranslate"><span class="pre">image1</span></code> à <code class="code docutils literal notranslate"><span class="pre">image</span> <span class="pre">5</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">image1</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span>
     <span class="s1">&#39;00000:&#39;</span>
     <span class="s1">&#39;00000:&#39;</span>
     <span class="s1">&#39;00000:&#39;</span>
@@ -209,36 +230,36 @@ de <code class="code docutils literal"><span class="pre">image1</span></code> à
 </li>
 <li><p class="first">Il y aura deux états dans le jeu :</p>
 <ul class="simple">
-<li>La variable <code class="code docutils literal"><span class="pre">victoire</span></code> est vrai et l&#8217;écran
+<li>La variable <code class="code docutils literal notranslate"><span class="pre">victoire</span></code> est vrai et l’écran
 affiche le code secret.</li>
-<li>la variable <code class="code docutils literal"><span class="pre">victoire</span></code> est fausse et l&#8217;écran
-affiche l&#8217;énigme.</li>
+<li>la variable <code class="code docutils literal notranslate"><span class="pre">victoire</span></code> est fausse et l’écran
+affiche l’énigme.</li>
 </ul>
 <p>Au début, la variable est donc fausse.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">victoire</span> <span class="o">=</span> <span class="kc">False</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">victoire</span> <span class="o">=</span> <span class="kc">False</span>
 </pre></div>
 </div>
 </li>
 <li><p class="first">La phase de configuration est terminée. Passons maintenant à
 la boucle qui… tourne en boucle.</p>
 <p>Tout ce qui suivra cette codee sera donc indenté (tabulation).</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
 </pre></div>
 </div>
 </li>
 <li><p class="first">Nous envisageons trois actions possibles :</p>
 <ol class="loweralpha">
 <li><p class="first">le jeu se réinitialise grâce au bouton A ;</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
         <span class="n">victoire</span> <span class="o">=</span> <span class="kc">False</span>
 </pre></div>
 </div>
 </li>
 </ol>
-<p>b) le jeu est gagné et l&#8217;écran affiche le code final
+<p>b) le jeu est gagné et l’écran affiche le code final
 (après une petite animation);</p>
 <blockquote>
-<div><div class="highlight-default"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">victoire</span><span class="p">:</span>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">victoire</span><span class="p">:</span>
         <span class="c1"># petite image joyeuse</span>
         <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">HAPPY</span><span class="p">)</span>
         <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
@@ -248,17 +269,17 @@ la boucle qui… tourne en boucle.</p>
 </div>
 </div></blockquote>
 <ol class="loweralpha" start="3">
-<li><p class="first">le jeu est en cours et l&#8217;écran affiche les <code class="code docutils literal"><span class="pre">image</span></code>.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="ow">not</span> <span class="n">victoire</span><span class="p">:</span>
+<li><p class="first">le jeu est en cours et l’écran affiche les <code class="code docutils literal notranslate"><span class="pre">image</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="ow">not</span> <span class="n">victoire</span><span class="p">:</span>
 </pre></div>
 </div>
 <p>Lire la température</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>        <span class="n">temp</span> <span class="o">=</span> <span class="n">temperature</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="n">temp</span> <span class="o">=</span> <span class="n">temperature</span><span class="p">()</span>
 </pre></div>
 </div>
 <p>Plus la température augmente, plus les images affichées
-remplissent l&#8217;écran</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>        <span class="k">if</span> <span class="n">temp</span> <span class="o">&lt;</span> <span class="mi">29</span><span class="p">:</span>
+remplissent l’écran</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="k">if</span> <span class="n">temp</span> <span class="o">&lt;</span> <span class="mi">29</span><span class="p">:</span>
             <span class="n">display</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
         <span class="k">elif</span> <span class="mi">29</span> <span class="o">&lt;=</span> <span class="n">temp</span> <span class="o">&lt;</span> <span class="mi">30</span><span class="p">:</span>
             <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">image1</span><span class="p">)</span>
@@ -273,10 +294,10 @@ remplissent l&#8217;écran</p>
 </pre></div>
 </div>
 <p>et enfin, si la température dépasse 34°C,
-alors là on passe en mode <code class="code docutils literal"><span class="pre">victoire</span></code> vrai.
+alors là on passe en mode <code class="code docutils literal notranslate"><span class="pre">victoire</span></code> vrai.
 On ajoute une petite animation pour montrer que la
 victoire approche.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>        <span class="k">elif</span> <span class="mi">34</span> <span class="o">&lt;=</span> <span class="n">temp</span><span class="p">:</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="k">elif</span> <span class="mi">34</span> <span class="o">&lt;=</span> <span class="n">temp</span><span class="p">:</span>
             <span class="n">victoire</span> <span class="o">=</span> <span class="kc">True</span>
             <span class="c1"># petite animation</span>
             <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
@@ -287,7 +308,7 @@ victoire approche.</p>
 </pre></div>
 </div>
 <p>Pour finir, une pause syndicale de 500ms.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>        <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
 </pre></div>
 </div>
 </li>
@@ -297,7 +318,7 @@ victoire approche.</p>
 </div>
 <div class="section" id="le-code-final">
 <h2>Le code final<a class="headerlink" href="#le-code-final" title="Lien permanent vers ce titre">¶</a></h2>
-<div class="highlight-default"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
  4
@@ -465,15 +486,16 @@ victoire approche.</p>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="coffre.html" class="btn btn-neutral float-right" title="Coffre fort" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="coffre.html" class="btn btn-neutral float-right" title="Coffre fort" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="temperature-fabriquer.html" class="btn btn-neutral" title="Fabriquer" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="temperature-fabriquer.html" class="btn btn-neutral" title="Fabriquer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -486,7 +508,7 @@ victoire approche.</p>
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -505,9 +527,11 @@ victoire approche.</p>
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'1',
+            LANGUAGE:'fr',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -522,14 +546,13 @@ victoire approche.</p>
     <script type="text/javascript" src="../_static/js/theme.js"></script>
   
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          
+          SphinxRtdTheme.Navigation.enableSticky();
+          
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

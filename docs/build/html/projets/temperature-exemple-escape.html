@@ -1,16 +1,18 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="fr" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Escape game &mdash; documentation IREM Marseille - Micro:bit 1</title>
+  <title>Escape game &mdash; Documentation IREM Marseille - Micro:bit 1</title>
   
 
+  
+  
   
   
 
@@ -23,28 +25,21 @@
   
 
   
-  
     <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Recherche" href="../search.html"/>
-    <link rel="top" title="documentation IREM Marseille - Micro:bit 1" href="../index.html"/>
-        <link rel="up" title="Températures" href="temperature.html"/>
-        <link rel="next" title="Fabriquer" href="temperature-fabriquer.html"/>
-        <link rel="prev" title="Températures" href="temperature.html"/> 
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Fabriquer" href="temperature-fabriquer.html" />
+    <link rel="prev" title="Températures" href="temperature.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -85,18 +80,24 @@
           
             
             
-                <p class="caption"><span class="caption-text">Prise en main</span></p>
+              
+            
+            
+              <p class="caption"><span class="caption-text">Prise en main</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../decouverte/05_generalite.html">Micro:bit, c&#8217;est quoi?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../decouverte/05_generalite.html">Micro:bit, c’est quoi?</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Projets par blocs</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="pileface-bloc.html">Pile ou Face avec des  blocs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="de6faces-bloc.html">Dé à 6 faces avec des blocs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="boite-fermee.html">Boîte fermée</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pierrot.html">Pierrot et Simon</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pileface.html">Pile ou Face</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Projets python</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="pileface-python.html">Pile ou Face avec Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="de6faces-python.html">Dé à 6 faces avec Python</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="temperature.html">Températures</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Escape game dans un stage IREM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="temperature-fabriquer.html">Fabriquer</a></li>
@@ -116,36 +117,56 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">IREM Marseille - Micro:bit</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">IREM Marseille - Micro:bit</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
           <li><a href="temperature.html">Températures</a> &raquo;</li>
-      
-    <li>Escape game</li>
+        
+      <li>Escape game</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/projets/temperature-exemple-escape.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/projets/temperature-exemple-escape.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -155,32 +176,33 @@
 <span id="projettempescape"></span><h1>Escape game<a class="headerlink" href="#escape-game" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Nous avons utilisé le projet <a class="reference internal" href="temperature.html#projettemp"><span class="std std-ref">Températures</span></a> pour un escape game proposé en stage.</p>
 <ul class="simple">
-<li>diaporama d&#8217;acceuil : <a class="reference external" href="http://url.univ-irem.fr/temp">http://url.univ-irem.fr/temp</a></li>
+<li>diaporama d’acceuil : <a class="reference external" href="http://url.univ-irem.fr/temp">http://url.univ-irem.fr/temp</a></li>
 <li>page de formation : <a class="reference external" href="http://url.univ-irem.fr/algo1718-temp">http://url.univ-irem.fr/algo1718-temp</a></li>
 </ul>
-<p>Le but était d&#8217;afficher un code secret permettant d&#8217;accéder
-à l&#8217;énigme suivante.</p>
+<p>Le but était d’afficher un code secret permettant d’accéder
+à l’énigme suivante.</p>
 <img alt="../_images/fig-escape2.png" src="../_images/fig-escape2.png" />
 <p>Les stagiaires devaient donc prendre connaissance du diaporama
-d&#8217;accueil qui les renvoyaient vers des indices et le code source
+d’accueil qui les renvoyaient vers des indices et le code source
 téléversé dans le micro:bit.</p>
-<p>À l&#8217;aide de l&#8217;étude du code source, des indices et la bidouille,
+<p>À l’aide de l’étude du code source, des indices et la bidouille,
 les stagiaires devaient effectuer les manipulations nécessaires à
-l&#8217;affichage du code source.</p>
+l’affichage du code source.</p>
 <p>De très bons moments pour tous !</p>
 </div>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="temperature-fabriquer.html" class="btn btn-neutral float-right" title="Fabriquer" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="temperature-fabriquer.html" class="btn btn-neutral float-right" title="Fabriquer" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="temperature.html" class="btn btn-neutral" title="Températures" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="temperature.html" class="btn btn-neutral" title="Températures" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -193,7 +215,7 @@ l&#8217;affichage du code source.</p>
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -212,9 +234,11 @@ l&#8217;affichage du code source.</p>
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'1',
+            LANGUAGE:'fr',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -229,14 +253,13 @@ l&#8217;affichage du code source.</p>
     <script type="text/javascript" src="../_static/js/theme.js"></script>
   
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          
+          SphinxRtdTheme.Navigation.enableSticky();
+          
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

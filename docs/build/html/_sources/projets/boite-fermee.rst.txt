@@ -7,7 +7,8 @@ Boîte fermée
 Description
 ===========
 
-.. todo:: capture d'écran / gif animée
+.. image:: /_static/boite_ouverture.gif
+    :align: center
 
 
 Exemple(s) d'utilisation
@@ -22,7 +23,6 @@ Réalisation
 ===========
 
 .. toctree::
-   
+
    Fabriquer <boite-fermee-fabriquer>
    Coder <boite-fermee-coder>
-

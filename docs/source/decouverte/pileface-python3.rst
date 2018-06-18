@@ -1,14 +1,14 @@
 
-=======================
-Pile ou Face / Niveau 3
-=======================
+========
+Niveau 3
+========
 
 Ce que l’on veut obtenir : afficher "P" ou "F" de façon aléatoire à l’issue d’une courte animation et compter le nombre
 d'issues obtenues.
 
 
 Les notions abordées
-------------------------------------
+--------------------
 
 Pour ce niveau, on va avoir besoin :
  * d'une variable pour stocker le résultat du tirage
@@ -17,7 +17,7 @@ Pour ce niveau, on va avoir besoin :
 
 
 Les éléments utiles
----------------------------------
+-------------------
 
 On propose aux élèves d'appeler les éléments suivants ::
 
@@ -27,7 +27,7 @@ On propose aux élèves d'appeler les éléments suivants ::
 
 
 Une solution possible
-------------------------------------
+---------------------
 
 Le résultat escompté est le suivant :
 

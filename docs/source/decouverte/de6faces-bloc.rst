@@ -1,8 +1,8 @@
 .. _blocDe6faces:
 
-=======================
-Dé à 6 faces avec des blocs
-=======================
+==================
+Dé 6 faces (blocs)
+==================
 
 
 Description
@@ -19,11 +19,10 @@ https://makecode.microbit.org/
 
 
 Exemple(s) d'utilisation
----------------------------------------
+------------------------
 
   * Algorithmique et programmation (thème E) du programme de cycle 4
-  * Domaine statistique et probabilités du programme de mathématiques
-  en seconde et première Bac Pro.
+  * Domaine statistique et probabilités du programme de mathématiques en seconde et première Bac Pro.
   * Accompagnement personnalisé pour des élèves de seconde Bac Pro
 
 

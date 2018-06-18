@@ -1,14 +1,14 @@
 
-=======================
-Pile ou Face / Niveau 2
-=======================
+========
+Niveau 2
+========
 
 Ce que l’on veut obtenir : afficher P ou F de façon aléatoire à l’issue d’une courte animation.
 Pour ce deuxième niveau, on va utiliser deux nouveaux blocs seulement.
 
 
 Les notions abordées
-------------------------------------
+--------------------
 
 Dans ce niveau nous trouvons les notions suivantes :
   *  fonction (création et appel)
@@ -18,7 +18,7 @@ Dans ce niveau nous trouvons les notions suivantes :
     :align: center
 
 Les blocs préconisés
-------------------------------------
+--------------------
 
 On propose aux élèves d'utiliser les blocs suivant :
 
@@ -27,7 +27,7 @@ On propose aux élèves d'utiliser les blocs suivant :
 
 
 Une solution possible
-------------------------------------
+---------------------
 
 Le résultat escompté est le suivant :
 
