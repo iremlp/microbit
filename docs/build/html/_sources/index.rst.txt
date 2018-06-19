@@ -76,6 +76,7 @@ Projets à réaliser
    :hidden:
    :maxdepth: 1
 
+   projets/goFast
    projets/temperature
    projets/coffre
    projets/galton

@@ -32,6 +32,7 @@ Progression
 ===========
 
 .. toctree::
+   :maxdepth: 1
 
    Niveau 1 <de6faces-bloc1>
    Niveau 2 <de6faces-bloc2>
