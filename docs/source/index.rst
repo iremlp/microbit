@@ -53,6 +53,7 @@ Prise en main de Micro:bit
 
    decouverte/05_generalite
    decouverte/prise_en_main_blocs
+   decouverte/prise_en_main_python
    decouverte/pileface-bloc
    decouverte/de6faces-bloc
    decouverte/pileface-python

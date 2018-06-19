@@ -1,11 +1,11 @@
-.. _dec_blocs:
+.. _dec_python:
 
 ======================
 Programmation en Python
 ======================
 
 Le micro:bit peut exécuter une version allégée de Python qui s'appelle MicroPython.
-C'est un langage spécialement dédié au microcontroleurs.
+C'est une version spécialement dédiée aux microcontroleurs.
 
 Une interface en ligne
 ------------------------------------
