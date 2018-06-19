@@ -154,7 +154,8 @@ Boucle
       :lines: 44
 
    Mais attention, si un joueur presse un bouton dans cet état,
-   la partie est immédiatement perdue.
+   la partie est immédiatement perdue (et on passe alors à l'état ``3``
+   sans passer par la case *Départ*).
    
    .. literalinclude:: goFast.py
       :lines: 46-51
@@ -163,10 +164,55 @@ Boucle
    sont en millisecondes).
    
    .. literalinclude:: goFast.py
-      :lines: 54-59
+      :lines: 54-60
+      
+   Puis après les 3 secondes, on va effacer l'écran, déterminer une
+   durée d'attente au hasard, choisir une image au hasard et enfin
+   passer à l'état ``2``.
    
+   .. literalinclude:: goFast.py
+      :lines: 60,64,66-68
+      
+#. L'état ``2`` est le jeu à proprement dit. Le plus rapide des 
+   joueur à presser son bouton sera enfin déclaré vainqueur.
    
+   .. literalinclude:: goFast.py
+      :lines: 70
+   
+   Mais attention, si un joueur clique avant la durée d'attente alors
+   son adversaire gagne immédiatement (et on passe alors à l'état ``3``).
+   
+   .. literalinclude:: goFast.py
+      :lines: 72-78
+      
+   Une fois que la durée a dépassée l'attente souhaitée, alors là
+   le plus rapide gagne.
+   
+   .. literalinclude:: goFast.py
+      :lines: 81-88
 
+#. L'état ``3`` permet d'indiquer le vainqueur.
+   
+   .. literalinclude:: goFast.py
+      :lines: 90
+   
+   D'abord une petite animation pour le suspens.
+   
+   .. literalinclude:: goFast.py
+      :lines: 92-96
+      
+   Puis enfin le vainqueur. Nous allons utiliser une flèche pointant
+   vers le bouton en question. La flêche Ouest qui pointe le bouton de gauche
+   (*A*) et la flêche Est qui pointe le bouton *B* de droite.
+   
+   .. literalinclude:: goFast.py
+      :lines: 98-102
+   
+   Pour finir, une pause qui ne fait pas de mal (peut être même que
+   ça économise les piles...).
+   
+   .. literalinclude:: goFast.py
+      :lines: 104 
 
 Le code final
 =============
