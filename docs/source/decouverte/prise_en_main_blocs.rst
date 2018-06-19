@@ -1,8 +1,8 @@
 .. _dec_blocs:
 
-=====================================
-Micro:bit, comment le programmer en bloc ?
-=====================================
+================================
+Programmation par blocs :  Makecode
+================================
 
 Une interface en ligne
 ------------------------------------
@@ -45,6 +45,9 @@ et par technicité.
      :align: center
      :width: 50%
 
+     .. note::
+       L'interface propose aussi de programmer en javascript, il suffit juste de cliquer
+       sur un bouton pour changer de type de programmation.
 
 Documentation
 --------------------------
