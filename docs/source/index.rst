@@ -52,6 +52,7 @@ Prise en main de Micro:bit
    :maxdepth: 1
 
    decouverte/05_generalite
+   decouverte/prise_en_main_blocs
    decouverte/pileface-bloc
    decouverte/de6faces-bloc
    decouverte/pileface-python
