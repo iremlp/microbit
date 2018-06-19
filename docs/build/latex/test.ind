@@ -2,31 +2,39 @@
 \def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
 
   \bigletter A
-  \item acc\IeC {\'e}l\IeC {\'e}rom\IeC {\`e}tre, \hyperpage{43}
-  \item audio, \hyperpage{36}
+  \item acc\IeC {\'e}l\IeC {\'e}rom\IeC {\`e}tre, \hyperpage{56}
+  \item audio, \hyperpage{38}
+
+  \indexspace
+  \bigletter B
+  \item bouton, \hyperpage{39}, \hyperpage{44}
+
+  \indexspace
+  \bigletter D
+  \item dur\IeC {\'e}e, \hyperpage{39}, \hyperpage{44}
 
   \indexspace
   \bigletter G
-  \item galton, \hyperpage{44}
+  \item galton, \hyperpage{57}
 
   \indexspace
   \bigletter L
-  \item luminosit\IeC {\'e}, \hyperpage{35}
+  \item luminosit\IeC {\'e}, \hyperpage{37}
 
   \indexspace
   \bigletter M
-  \item micropython, \hyperpage{36}, \hyperpage{38}, \hyperpage{43, 44}
+  \item micropython, \hyperpage{38}, \hyperpage{44}, \hyperpage{51}, \hyperpage{56, 57}
 
   \indexspace
   \bigletter P
-  \item programmation par blocs, \hyperpage{35}
+  \item programmation par blocs, \hyperpage{37}, \hyperpage{39}
 
   \indexspace
   \bigletter S
-  \item servo, \hyperpage{35}
+  \item servo, \hyperpage{37}
 
   \indexspace
   \bigletter T
-  \item temp\IeC {\'e}rature, \hyperpage{38}
+  \item temp\IeC {\'e}rature, \hyperpage{51}
 
 \end{sphinxtheindex}

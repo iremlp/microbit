@@ -58,7 +58,7 @@
 
 
 \title{Ressources pour la carte Micro:bit}
-\date{juin 19, 2018}
+\date{juin 20, 2018}
 \release{1}
 \author{IREM Marseille}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -237,6 +237,117 @@ leçons sur l’accélération.
 \paragraph{Notes}
 
 
+\section{Programmation par blocs :  Makecode}
+\label{\detokenize{decouverte/prise_en_main_blocs:dec-blocs}}\label{\detokenize{decouverte/prise_en_main_blocs:programmation-par-blocs-makecode}}\label{\detokenize{decouverte/prise_en_main_blocs::doc}}
+
+\subsection{Une interface en ligne}
+\label{\detokenize{decouverte/prise_en_main_blocs:une-interface-en-ligne}}
+L’interface de programmation par blocs a été développée en
+partenariat avec microsoft, elle se trouve en ligne à cette adresse:
+\sphinxurl{https://makecode.microbit.org/}
+
+Il s’agit donc d’une page internet mais dont le code est mis en cache par le navigateur
+ce qui signifie qu’elle reste opérationnelle hors ligne.
+\begin{quote}
+
+\begin{sphinxadmonition}{note}{Note:}
+A partir de chrome par exemple, il est possible de créer un raccourci sur le bureau.
+\end{sphinxadmonition}
+\end{quote}
+
+
+\subsection{Un simulateur !}
+\label{\detokenize{decouverte/prise_en_main_blocs:un-simulateur}}
+Le très gros intérêt de cette interface consiste en son simulateur de carte qui
+permet d’avoir un aperçu du fonctionnement du programme avant même de
+le télécharger sur la carte.
+\begin{quote}
+
+\begin{sphinxadmonition}{note}{Note:}
+Le simulateur peut ne pas fonctionner hors ligne.
+\end{sphinxadmonition}
+\end{quote}
+
+
+\subsection{Compilation et enregistrement}
+\label{\detokenize{decouverte/prise_en_main_blocs:compilation-et-enregistrement}}
+Le téléchargement sur la carte se fait très simplement puiqu’elle est reconnue comme une clé USB
+il suffit donc de cliquer sur «  »télécharger » » et de copier le fichier obtenu (.hex) sur la carte.
+
+
+\subsection{Programmation}
+\label{\detokenize{decouverte/prise_en_main_blocs:programmation}}
+Comme toute interface de programmation par blocs, elle est très intuitive à manipuler.
+Les premiers programmes se font très simplement et les catégories sont classées par couleurs
+et par technicité.
+\begin{quote}
+\end{quote}
+
+
+\subsection{Documentation}
+\label{\detokenize{decouverte/prise_en_main_blocs:documentation}}
+Une page de documentation présente les éléments de base pour la programmation par blocs:
+\sphinxurl{https://makecode.microbit.org/blocks}
+
+Une page de références présentent quelques fonctionnalités propre au microbit :
+\sphinxurl{https://makecode.microbit.org/reference}
+
+
+\section{Programmation en Python}
+\label{\detokenize{decouverte/prise_en_main_python:dec-python}}\label{\detokenize{decouverte/prise_en_main_python:programmation-en-python}}\label{\detokenize{decouverte/prise_en_main_python::doc}}
+Le micro:bit peut exécuter une version allégée de Python qui s’appelle MicroPython.
+C’est une version spécialement dédiée aux microcontroleurs.
+
+
+\subsection{Une interface en ligne}
+\label{\detokenize{decouverte/prise_en_main_python:une-interface-en-ligne}}
+Il est possible de programmer en python à partir d’un éditeur en ligne
+\sphinxurl{http://python.microbit.org}
+
+L’interface est cependant assez pauvre en fonctionnalité et ne dispose pas de l’autocomplétion.
+\begin{quote}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{python_enligne}.png}\hspace*{\fill}}
+\end{quote}
+
+
+\subsection{Mu : une interface complète}
+\label{\detokenize{decouverte/prise_en_main_python:mu-une-interface-complete}}
+Comme le dit (en anglais) la page d’accueil de Mu :
+\sphinxstyleemphasis{Mu est un éditeur de code simple pour les programmeurs débutants.
+Il est développé en Python et fonctionne sur Windows, OSX, Linux et Raspberry Pi.}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{prise_en_main_mu}.png}\hspace*{\fill}}
+
+
+\subsection{Programmation}
+\label{\detokenize{decouverte/prise_en_main_python:programmation}}
+L’autocomplétion et l’autoindentation est très efficace. L’interface est rapidement utilisable
+par un débutant en programmation.
+
+
+\subsection{Compilation et enregistrement}
+\label{\detokenize{decouverte/prise_en_main_python:compilation-et-enregistrement}}
+Le téléchargement sur la carte se fait très simplement puisqu’il suffit de cliquer sur
+le bouton \sphinxincludegraphics[width=30\sphinxpxdimen]{{flash}.png} . Il est tout de même préférable d’avoir au préalable le réflexe
+de vérifier le code avec \sphinxincludegraphics[width=30\sphinxpxdimen]{{check}.png} .
+
+
+\subsection{Communication série}
+\label{\detokenize{decouverte/prise_en_main_python:communication-serie}}
+La fonction REPL de Mu permet d’ouvrir une communication via un port série
+avec le micro:bit. Il est ainsi possible d’envoyer et de recevoir des données.
+Sur les versions bêta il y a même un plotteur qui permet de visualiser graphiquement les données reçues.
+
+
+\subsection{Documentation}
+\label{\detokenize{decouverte/prise_en_main_python:documentation}}
+Il est existe un documentation sur microbit et micropython, qui bien qu’en
+anglais reste très accessible.
+
+\sphinxurl{https://microbit-micropython.readthedocs.io/en/latest/index.html}
+
+
 \section{Pile ou face (blocs)}
 \label{\detokenize{decouverte/pileface-bloc:pile-ou-face-blocs}}\label{\detokenize{decouverte/pileface-bloc::doc}}\label{\detokenize{decouverte/pileface-bloc:blocpileface}}
 
@@ -391,7 +502,7 @@ Le résultat escompté est le suivant :
 
 \subsection{Description}
 \label{\detokenize{decouverte/de6faces-bloc:description}}
-Le but de ce projet de simuler une expérience aléatoire de lancer d’un dé à 6 faces..
+Le but de ce projet de simuler une expérience aléatoire de lancer d’un dé à 6 faces.
 Toujours à partir d’une situation simple idéale , le programme peut être étoffé au gré des besoins.
 
 On utilise l’interface de programmation par bloc :
@@ -500,7 +611,11 @@ Le résultat escompté est le suivant :
 Le but de ce projet de simuler une expérience aléatoire de lancer de pièce.
 A partir d’une situation simple idéale pour une prise en main avec Python
 il s’agit par la suite d’améliorer le programmme pas à pas.
+\begin{quote}
+
 {\hyperref[\detokenize{decouverte/pileface-bloc:blocpileface}]{\sphinxcrossref{\DUrole{std,std-ref}{Pile ou face (blocs)}}}}
+\end{quote}
+
 On verra qu’il ne s’agit pas forcément de la transposition en Python des activités
 proposées en bloc.
 
@@ -839,12 +954,9 @@ on peut se contenter des 3 lignes ci-dessous.
 
 Ce qui n’a pas d’autre intérêt que d’introduire la fonction
 \sphinxcode{\sphinxupquote{randint}}.
-Ici, contrairement à la progression utilisée lors du projet
-
-, nous suggèrons de commencer par simuler l’affichage tel
-qu’il apparaît sur un vrai dé.
-Cela qui permet de réexploiter les listes d’images
-introduites avec le projet pile ou face.
+Ici, contrairement à la progression utilisée lors du projet en blocs, nous suggèrons
+de commencer par simuler l’affichage tel qu’il apparaît sur un vrai dé.
+Cela  permet de réexploiter les listes d’images introduites avec le projet pile ou face.
 
 
 \subsection{Progression}
@@ -862,6 +974,11 @@ utilisées lors du projet pile ou face.
 \label{\detokenize{decouverte/de6faces-python1:les-notions-abordees}}\begin{description}
 \item[{Dans ce niveau nous trouvons les notions suivantes :}] \leavevmode\begin{itemize}
 \item {} 
+constitution d’une liste
+
+\item {} 
+tirage d’un élément au hasard dans une liste
+
 \end{itemize}
 
 \end{description}
@@ -870,6 +987,15 @@ utilisées lors du projet pile ou face.
 \paragraph{Les éléments utiles}
 \label{\detokenize{decouverte/de6faces-python1:les-elements-utiles}}
 On propose aux élèves d’appeler les éléments suivants
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{.}\PYG{o}{.} \PYG{n}{code}\PYG{o}{\PYGZhy{}}\PYG{n}{block}\PYG{p}{:}\PYG{p}{:} \PYG{n}{python}
+
+  \PYG{n}{un} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:00000:00900:00000:00000}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}   \PYG{c+c1}{\PYGZsh{} création d\PYGZsq{}une image par face}
+  \PYG{n}{issues} \PYG{o}{=} \PYG{p}{[}\PYG{n}{un}\PYG{p}{,} \PYG{o}{.}\PYG{o}{.}\PYG{o}{.}\PYG{p}{]}    \PYG{c+c1}{\PYGZsh{} création d\PYGZsq{}une liste d\PYGZsq{}images}
+  \PYG{n}{random}\PYG{o}{.}\PYG{n}{choice}\PYG{p}{(}\PYG{n}{issues}\PYG{p}{)}     \PYG{c+c1}{\PYGZsh{} tirage d\PYGZsq{}un élément au hasard dans une liste}
+\end{sphinxVerbatim}
 
 
 \paragraph{Une solution possible}
@@ -1127,7 +1253,7 @@ capture d’écran / gif animée
 
 \paragraph{Escape game}
 \label{\detokenize{projets/pierrot-exemple-escape:escape-game}}\label{\detokenize{projets/pierrot-exemple-escape::doc}}
-Nous avons utilisé le projet {\hyperref[\detokenize{projets/pierrot:projetpierrot}]{\sphinxcrossref{\DUrole{std,std-ref}{Pierrot et Simon}}}} pour un escape
+Nous avons utilisé le projet \DUrole{xref,std,std-ref}{projetPierrot} pour un escape
 game proposé en stage.
 \begin{itemize}
 \item {} 
@@ -1148,7 +1274,7 @@ page de formation : \sphinxurl{http://url.univ-irem.fr/algo1718-pierrot}
 \label{\detokenize{projets/pierrot-fabriquer::doc}}\label{\detokenize{projets/pierrot-fabriquer:fabriquer}}
 Nous détaillons ici comment fabriquer et assembler
 le matériel nécessaire à la réalisation du projet
-{\hyperref[\detokenize{projets/pierrot:projetpierrot}]{\sphinxcrossref{\DUrole{std,std-ref}{Pierrot et Simon}}}}.
+\DUrole{xref,std,std-ref}{projetPierrot}.
 
 \begin{sphinxadmonition}{note}{\label{projets/pierrot-fabriquer:index-0}À faire:}
 tout faire.
@@ -1159,11 +1285,672 @@ tout faire.
 \subsubsection{Coder}
 \label{\detokenize{projets/pierrot-coder:index-0}}\label{\detokenize{projets/pierrot-coder:coder}}\label{\detokenize{projets/pierrot-coder::doc}}
 Nous détaillons ici le code nécessaire à la réalisation
-du projet {\hyperref[\detokenize{projets/pierrot:projetpierrot}]{\sphinxcrossref{\DUrole{std,std-ref}{Pierrot et Simon}}}}.
+du projet \DUrole{xref,std,std-ref}{projetPierrot}.
 
 \begin{sphinxadmonition}{note}{\label{projets/pierrot-coder:index-1}À faire:}
 tout à faire!
 \end{sphinxadmonition}
+
+
+\section{Go Fast}
+\label{\detokenize{projets/goFast::doc}}\label{\detokenize{projets/goFast:go-fast}}\label{\detokenize{projets/goFast:projetgofast}}
+
+\subsection{Description}
+\label{\detokenize{projets/goFast:description}}
+L’objectif de ce projet est de créer un jeu : le \sphinxstylestrong{Go Fast}.
+
+Ce jeux se joue à deux joueurs. Le gagnant est celui qui est le plus
+rapide à appuyer sur le bouton. Mais attention, si le bouton est
+déclanché trop tôt, alors la partie est perdue !
+\begin{quote}
+
+\noindent\sphinxincludegraphics{{goFast}.png}
+\end{quote}
+
+
+\subsubsection{Règle du jeu}
+\label{\detokenize{projets/goFast:regle-du-jeu}}\begin{enumerate}
+\item {} 
+initialiser le Micro:bit
+
+\item {} 
+lancer une partie en pressant le bouton A ou le bouton B
+
+\item {} 
+un compte à rebours de 3 secondes s’affiche à l’écran
+
+\item {} 
+après un temps \sphinxstyleemphasis{indéterminé}, un symbole s’affiche à l’écran
+
+\item {} 
+\sphinxstylestrong{le gagnant} est le premier à appuyer sur son bouton
+
+\item {} 
+recommencer à l’étape 2. pour faire une nouvelle partie
+
+\end{enumerate}
+
+
+\subsubsection{Simulateur}
+\label{\detokenize{projets/goFast:simulateur}}
+\begin{sphinxadmonition}{warning}{Avertissement:}
+L’image ci-dessous est dynamique. Une fois chargée (si tout
+se passe bien), elle vous propose une image qui simule le
+micro:bit.
+\begin{itemize}
+\item {} 
+cliquer sur le bouton A ou B pour lancer le jeu ;
+
+\item {} 
+cliquer sur un des deux boutons pour désigner le gagnant ;
+
+\item {} 
+cliquer (encore?) sur un bouton pour relancer une partie.
+
+\end{itemize}
+\end{sphinxadmonition}
+
+
+
+
+\subsection{Réalisation}
+\label{\detokenize{projets/goFast:realisation}}\phantomsection\label{\detokenize{projets/goFast-bloc-coder:gofast-bloc-coder}}
+\index{programmation par blocs}\index{bouton}\index{durée}\ignorespaces 
+
+\subsubsection{Coder par blocs}
+\label{\detokenize{projets/goFast-bloc-coder:index-0}}\label{\detokenize{projets/goFast-bloc-coder:coder-par-blocs}}\label{\detokenize{projets/goFast-bloc-coder::doc}}
+
+\paragraph{Structure de base du programme}
+\label{\detokenize{projets/goFast-bloc-coder:structure-de-base-du-programme}}
+
+\subparagraph{Initialisation du programme}
+\label{\detokenize{projets/goFast-bloc-coder:initialisation-du-programme}}
+\noindent\sphinxincludegraphics{{goFast_makecode_01}.png}
+
+Quelques remarques concernant cette initialisation du micro:bit.
+
+\begin{sphinxadmonition}{important}{Important:}
+Il y a dans ce jeu différents \sphinxstylestrong{états}.
+Le programme débute à l’état \sphinxcode{\sphinxupquote{0}}.
+\begin{itemize}
+\item {} 
+\sphinxcode{\sphinxupquote{etat =  0}} : le jeu est en attente d’une partie.
+On quitte cet état en pressant le bouton A ou B
+
+\item {} 
+\sphinxcode{\sphinxupquote{etat = 1}} : le compte à rebours se lance.
+3 secondes plus tard, on passe automatiquement à l’état 2.
+
+\item {} 
+\sphinxcode{\sphinxupquote{etat = 2}} : la partie est en cours. Une pression sur le bouton
+A ou B permet de passer à l’état 3.
+
+\item {} 
+\sphinxcode{\sphinxupquote{etat = 3}} : l’écran indique le bouton gagnant puis passe
+automatiquement à l’état 0.
+
+\end{itemize}
+\end{sphinxadmonition}
+
+\begin{sphinxadmonition}{note}{Note:}\begin{itemize}
+\item {} 
+\sphinxstylestrong{Victoire}
+\begin{quote}
+
+La variable \sphinxcode{\sphinxupquote{victoire}} permet d’afficher le gagnant.
+Ce sera un texte qui vaudra \sphinxcode{\sphinxupquote{"A"}}, \sphinxcode{\sphinxupquote{"B"}} ou rien du tout \sphinxcode{\sphinxupquote{""}}.
+\end{quote}
+
+\item {} 
+\sphinxstylestrong{Temps de référence}
+\begin{quote}
+
+Pour déterminer les durées, nous allons utilisé et mettre à jour
+à la demande un temps de référence \sphinxcode{\sphinxupquote{t0}}.
+
+Ainsi, la durée sera déterminée par
+la différence entre le \sphinxcode{\sphinxupquote{temps d'exécution}} du micro:bit
+et ce temps de référence.
+\end{quote}
+
+\end{itemize}
+\end{sphinxadmonition}
+
+
+\subparagraph{Boucle principale}
+\label{\detokenize{projets/goFast-bloc-coder:boucle-principale}}
+\begin{sphinxadmonition}{warning}{Avertissement:}
+Lorsqu’un objet connecté est mis sous tension, le programme
+s’exécute après une brève phase d’initialisation.
+
+S’il n’y a pas de boucle, le programme ne s’exécute \sphinxstylestrong{qu’une seule
+fois} puis… plus rien!
+
+En fait, un objet connecté est en permanence en train d’attendre
+que quelque chose se passe : un bouton pressé, un geste, une
+certaine température, luminosité ou autres.
+
+Un peu comme votre clavier qui attend \sphinxstylestrong{en permanence} que vous
+appuyiez sur une touche.
+
+C’est pour cela qu’il est nécessaire d’exécuter une boucle infinie
+qui met le microcontrôleur en état d’attente. Cette boucle infinie
+se nomme \sphinxcode{\sphinxupquote{toujours}}.
+\end{sphinxadmonition}
+
+Dans la boucle principale du programme, nous testerons donc
+les différents états. Pour chacun des états, nous appellerons
+la \sphinxstylestrong{fonction} dédiée.
+
+\noindent\sphinxincludegraphics{{goFast_makecode_02}.png}
+
+\begin{sphinxadmonition}{tip}{Astuce:}
+Pour que cette boucle n’exécute que la tâche souhaitée, nous
+testons la valeur de la variable \sphinxcode{\sphinxupquote{etat}}.
+
+Ainsi, à chaque itération de la boucle, tant que \sphinxcode{\sphinxupquote{etat}} n’est pas
+modifiée, c’est toujours la même fonction qui est appelée.
+
+Cette méthode est très pratique pour afficher le compte à rebours
+(état \sphinxcode{\sphinxupquote{1}}) ou le gagnant (état \sphinxcode{\sphinxupquote{3}}).
+\end{sphinxadmonition}
+
+\begin{sphinxadmonition}{note}{Note:}
+La durée d’exécution du jeu est mise à jour entre les tests des
+états 0 et 1.
+
+Comme indiquée plus haut, la durée sera déterminée par
+la différence entre le \sphinxcode{\sphinxupquote{temps d'exécution}} du micro:bit
+et le temps de référence \sphinxcode{\sphinxupquote{t0}}.
+\end{sphinxadmonition}
+
+
+\subparagraph{La fonction \sphinxstyleliteralintitle{\sphinxupquote{etat\_0}}}
+\label{\detokenize{projets/goFast-bloc-coder:la-fonction-etat-0}}
+L’état \sphinxcode{\sphinxupquote{0}} est un état de \sphinxstyleemphasis{repos} du micro:bit : il ne fait rien
+à par attendre qu’une partie démarre. Pour le sortir de cet état,
+il suffit de presser un des deux boutons.
+
+\noindent\sphinxincludegraphics{{goFast_makecode_03}.png}
+
+\begin{sphinxadmonition}{note}{Note:}
+Dès qu’un bouton est pressé, le temps de référence de cette
+nouvelle partie est réinitialisé.
+
+Nous ajoutons une pause afin éviter de détecter un double appui
+ou un appui prolongé sur le bouton. Ceci entraînerait, inévitablement,
+la perte de la partie pour le joueur concerné.
+\end{sphinxadmonition}
+
+
+\subparagraph{La fonction \sphinxstyleliteralintitle{\sphinxupquote{etat\_1}}}
+\label{\detokenize{projets/goFast-bloc-coder:la-fonction-etat-1}}
+La fonction \sphinxcode{\sphinxupquote{etat\_1}} est dédiée à l’affichage du compte à rebours.
+La partie a débutée et si un joueur a le malheur de presser son
+bouton maintenant : la partie s’arrête et le nom du gagnant s’affiche
+en passant à l’état \sphinxcode{\sphinxupquote{3}}.
+
+\noindent\sphinxincludegraphics{{goFast_makecode_04}.png}
+
+\begin{sphinxadmonition}{note}{Note:}
+Une fois que le compte à rebours est écoulé, on détermine
+de façon aléatoire un temps d’attente entre 500ms et 5000ms.
+On passe alors à l’état 2.
+\end{sphinxadmonition}
+
+
+\subparagraph{La fonction \sphinxstyleliteralintitle{\sphinxupquote{etat\_2}}}
+\label{\detokenize{projets/goFast-bloc-coder:la-fonction-etat-2}}
+Cet état est le jeu à proprement parlé. Si un des joueurs appui
+sur son bouton avant que la première LED ne s’allume, la partie est
+immédiatement perdue pour lui.
+
+En revanche, s’il est le premier à appuyer après la durée d’attente
+(aléatoire et déterminée à l’état \sphinxcode{\sphinxupquote{1}}), alors il est le gagnant.
+
+\noindent\sphinxincludegraphics{{goFast_makecode_05}.png}
+
+
+\subparagraph{La fonction \sphinxstyleliteralintitle{\sphinxupquote{etat\_3}}}
+\label{\detokenize{projets/goFast-bloc-coder:la-fonction-etat-3}}
+Cet état arrêter la partie. Mais avant cela, il y a une petite
+animation, un léger suspens et puis une flêche indique le gagant.
+
+\noindent\sphinxincludegraphics{{goFast_makecode_06}.png}
+
+\begin{sphinxadmonition}{note}{Note:}
+Les flêches sont différenciées selon les points cardinaux. La flêche
+qui pointe vers la gauche est la flêche Ouest alors que celle pointant
+vers la droite est la flêche Est.
+\end{sphinxadmonition}
+\phantomsection\label{\detokenize{projets/goFast-python-coder:gofast-bloc-coder}}
+\index{micropython}\index{bouton}\index{durée}\ignorespaces 
+
+\subsubsection{Coder en Python}
+\label{\detokenize{projets/goFast-python-coder:index-0}}\label{\detokenize{projets/goFast-python-coder:coder-en-python}}\label{\detokenize{projets/goFast-python-coder::doc}}
+Le code nécessaire à la réalisation du projet {\hyperref[\detokenize{projets/goFast:projetgofast}]{\sphinxcrossref{\DUrole{std,std-ref}{Go Fast}}}} a été
+écrit en micropython. Vous trouverez ci-dessous :
+\begin{itemize}
+\item {} 
+{\hyperref[\detokenize{projets/goFast-python-coder:le-code-etape-par-etape}]{\sphinxcrossref{Le code, étape par étape}}}
+
+\item {} 
+{\hyperref[\detokenize{projets/goFast-python-coder:le-code-final}]{\sphinxcrossref{Le code final}}}
+
+\end{itemize}
+
+
+\paragraph{Le code, étape par étape}
+\label{\detokenize{projets/goFast-python-coder:le-code-etape-par-etape}}
+
+\subparagraph{Initialisation du programme}
+\label{\detokenize{projets/goFast-python-coder:initialisation-du-programme}}\begin{enumerate}
+\item {} 
+Incluons la bibliothèque Micro:bit et la bibliothèque
+\sphinxcode{\sphinxupquote{random}} pour générer de l’aléa :
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{microbit} \PYG{k}{import} \PYG{o}{*}
+\PYG{k+kn}{import} \PYG{n+nn}{random}
+\end{sphinxVerbatim}
+
+\item {} 
+Il y a dans ce jeu différents états. Initialement, le programme
+commence à l’état 0.
+
+\begin{sphinxadmonition}{note}{Note:}
+L’utilisation de la variable \sphinxcode{\sphinxupquote{etat}} permet de naviguer
+entre différent moment du programme.
+\end{sphinxadmonition}
+\begin{itemize}
+\item {} 
+\sphinxcode{\sphinxupquote{etat =  0}} : le jeu est en attente d’une partie.
+On quitte cet état en pressant le bouton A ou B
+
+\item {} 
+\sphinxcode{\sphinxupquote{etat = 1}} : le compte à rebours se lance.
+3 secondes plus tard, on passe automatiquement à l’état 2.
+
+\item {} 
+\sphinxcode{\sphinxupquote{etat = 2}} : la partie est en cours. Une pression sur le bouton
+A ou B permet de passer à l’état 3.
+
+\item {} 
+\sphinxcode{\sphinxupquote{etat = 3}} : l’écran indique le bouton gagnant puis passe
+automatiquement à l’état 0.
+
+\end{itemize}
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{0}
+\end{sphinxVerbatim}
+
+\item {} 
+La variable \sphinxcode{\sphinxupquote{victoire}} stocke le nom du bouton gagnant.
+Cette variable est un texte qui peut valoir \sphinxcode{\sphinxupquote{"A"}} ou \sphinxcode{\sphinxupquote{"B"}}.
+En début de partie, nous l’initialisons à un texte vide :
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZdq{}}
+\end{sphinxVerbatim}
+
+\begin{sphinxadmonition}{tip}{Astuce:}
+Pour faire une pause d’une certaine durée, il n’est parfois
+pas recommandé d’utiliser la commande \sphinxcode{\sphinxupquote{sleep}}.
+
+En effet, \sphinxcode{\sphinxupquote{sleep}} empêche l’exécution de toutes
+les autres directives du programme durant cette pause.
+
+Il est préférable de déterminer une durée depuis un temps de
+référence et de tester, \sphinxstylestrong{à chaque boucle d’itération} la
+durée écoulée.
+
+Pour cela, il faudra utiliser la commande \sphinxcode{\sphinxupquote{runing\_time()}}.
+\end{sphinxadmonition}
+
+\item {} 
+Dans ce programme, il faut parvenir à déterminer une \sphinxstylestrong{durée}.
+Pour cela, nous allons utiliser la commande \sphinxcode{\sphinxupquote{running\_time()}}
+qui retourne la durée depuis laquelle le Micro:bit est sous
+tension.
+
+Après avoir initialisé notre temps de référence \sphinxcode{\sphinxupquote{t0}}
+(au démarrage du micro:bit ou en appuyant sur un bouton),
+nous calculerons la différence \sphinxcode{\sphinxupquote{running\_time() - t0}}
+qui déterminera la durée.
+
+Initialisons \sphinxcode{\sphinxupquote{t0}}
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{n}{t0} \PYG{o}{=} \PYG{n}{running\PYGZus{}time}\PYG{p}{(}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+\item {} 
+Pour déterminer une durée, définissons la fonction \sphinxcode{\sphinxupquote{chrono()}}.
+
+La durée écoulée entre le temps de référence \sphinxcode{\sphinxupquote{t0}} et le moment
+de l’appel de la fonction.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{chrono}\PYG{p}{(}\PYG{n}{t0}\PYG{p}{)}\PYG{p}{:}
+    \PYG{n}{t1} \PYG{o}{=} \PYG{n}{running\PYGZus{}time}\PYG{p}{(}\PYG{p}{)}
+    \PYG{n}{duree} \PYG{o}{=} \PYG{n}{t1}\PYG{o}{\PYGZhy{}}\PYG{n}{t0}
+    \PYG{k}{return} \PYG{n}{duree}
+\end{sphinxVerbatim}
+
+\item {} 
+Enfin, affichons à l’écran une image pour indiquer le programme
+est en attente.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{HEART\PYGZus{}SMALL}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+\end{enumerate}
+
+
+\subparagraph{Boucle}
+\label{\detokenize{projets/goFast-python-coder:boucle}}
+\begin{sphinxadmonition}{warning}{Avertissement:}
+Lorsqu’un objet connecté est mis sous tension, le programme
+s’exécute après une brève phase d’initialisation.
+
+S’il n’y a pas de boucle, le programme ne s’exécute \sphinxstylestrong{qu’une seule
+fois} puis… plus rien!
+
+En fait, un objet connecté est en permanence en train d’attendre
+que quelque chose se passe : un bouton pressé, un geste, une
+certaine température, luminosité ou autres.
+
+Un peu comme votre clavier qui attend \sphinxstylestrong{en permanence} que vous
+appuyiez sur une touche.
+
+C’est pour cela qu’il est nécessaire d’exécuter une boucle infinie
+qui met le microcontrôleur en état d’attente.
+\end{sphinxadmonition}
+\begin{enumerate}
+\item {} 
+La phase de configuration est terminée. Passons maintenant
+à la boucle qui… tourne en boucle.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k}{while} \PYG{k+kc}{True}\PYG{p}{:}
+\end{sphinxVerbatim}
+
+\item {} 
+Configurons l’état \sphinxcode{\sphinxupquote{0}} du programme qui attend que l’un
+des joueurs presse son bouton.
+
+Lorsqu’un bouton est pressé, il faut initialiser le temps de
+référence \sphinxcode{\sphinxupquote{t0}} puis changer d’état. La pause \sphinxcode{\sphinxupquote{sleep(250)}}
+permet d’éviter un \sphinxstyleemphasis{double-clic} du bouton
+qui entraînerait la fin prématurée de la partie.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+    \PYG{k}{if} \PYG{n}{etat} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+        \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)} \PYG{o+ow}{or} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+            \PYG{c+c1}{\PYGZsh{} remise à zéro de la durée de la partie}
+            \PYG{n}{t0} \PYG{o}{=} \PYG{n}{running\PYGZus{}time}\PYG{p}{(}\PYG{p}{)}
+            \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{1}
+            \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{250}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+\item {} 
+Il est temps de relever la durée écoulée depuis le temps de
+référence.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+    \PYG{n}{duree} \PYG{o}{=} \PYG{n}{chrono}\PYG{p}{(}\PYG{n}{t0}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+\item {} 
+L’état \sphinxcode{\sphinxupquote{1}} affiche le compte à rebours.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+    \PYG{k}{if} \PYG{n}{etat} \PYG{o}{==} \PYG{l+m+mi}{1}\PYG{p}{:}        
+\end{sphinxVerbatim}
+
+Mais attention, si un joueur presse un bouton dans cet état,
+la partie est immédiatement perdue (et on passe alors à l’état \sphinxcode{\sphinxupquote{3}}
+sans passer par la case \sphinxstyleemphasis{Départ}).
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+        \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+            \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{B}\PYG{l+s+s2}{\PYGZdq{}}
+            \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+        \PYG{k}{if} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+            \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{A}\PYG{l+s+s2}{\PYGZdq{}}
+            \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+\end{sphinxVerbatim}
+
+Affichons le compte à rebours (sans oublier que les durées
+sont en millisecondes).
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+        \PYG{k}{if} \PYG{n}{duree} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{1000}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{3}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+        \PYG{k}{elif} \PYG{n}{duree} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{2000}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{2}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+        \PYG{k}{elif} \PYG{n}{duree} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{3000}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{1}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+        \PYG{k}{else}\PYG{p}{:}
+\end{sphinxVerbatim}
+
+Puis après les 3 secondes, on va effacer l’écran, déterminer une
+durée d’attente au hasard, choisir une image au hasard et enfin
+passer à l’état \sphinxcode{\sphinxupquote{2}}.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{clear}\PYG{p}{(}\PYG{p}{)}
+            \PYG{n}{attente} \PYG{o}{=} \PYG{n}{duree} \PYG{o}{+} \PYG{n}{random}\PYG{o}{.}\PYG{n}{randint}\PYG{p}{(}\PYG{l+m+mi}{500}\PYG{p}{,} \PYG{l+m+mi}{5000}\PYG{p}{)}
+            \PYG{n}{imageAuHasard} \PYG{o}{=} \PYG{n}{random}\PYG{o}{.}\PYG{n}{choice}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{ALL\PYGZus{}CLOCKS}\PYG{p}{)}
+            \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{2}
+\end{sphinxVerbatim}
+
+\item {} 
+L’état \sphinxcode{\sphinxupquote{2}} est le jeu à proprement dit. Le plus rapide des
+joueur à presser son bouton sera enfin déclaré vainqueur.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+    \PYG{k}{if} \PYG{n}{etat} \PYG{o}{==} \PYG{l+m+mi}{2}\PYG{p}{:}        
+\end{sphinxVerbatim}
+
+Mais attention, si un joueur clique avant la durée d’attente alors
+son adversaire gagne immédiatement (et on passe alors à l’état \sphinxcode{\sphinxupquote{3}}).
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+        \PYG{k}{if} \PYG{n}{duree} \PYG{o}{\PYGZlt{}} \PYG{n}{attente}\PYG{p}{:}
+            \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+                \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{B}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+            \PYG{k}{if} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+                \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{A}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+\end{sphinxVerbatim}
+
+Une fois que la durée a dépassée l’attente souhaitée, alors là
+le plus rapide gagne.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+        \PYG{k}{if} \PYG{n}{duree} \PYG{o}{\PYGZgt{}} \PYG{n}{attente}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{imageAuHasard}\PYG{p}{)}
+            \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+                \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{A}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+            \PYG{k}{if} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+                \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{B}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+\end{sphinxVerbatim}
+
+\item {} 
+L’état \sphinxcode{\sphinxupquote{3}} permet d’indiquer le vainqueur.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+    \PYG{k}{if} \PYG{n}{etat} \PYG{o}{==} \PYG{l+m+mi}{3}\PYG{p}{:}
+\end{sphinxVerbatim}
+
+D’abord une petite animation pour le suspens.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+        \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{)}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{HEART\PYGZus{}SMALL}\PYG{p}{)}
+            \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{HEART}\PYG{p}{)}
+            \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+Puis enfin le vainqueur. Nous allons utiliser une flèche pointant
+vers le bouton en question. La flêche Ouest qui pointe le bouton de gauche
+(\sphinxstyleemphasis{A}) et la flêche Est qui pointe le bouton \sphinxstyleemphasis{B} de droite.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+        \PYG{k}{if} \PYG{n}{victoire} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{A}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{ARROW\PYGZus{}W}\PYG{p}{)}
+        \PYG{k}{if} \PYG{n}{victoire} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{B}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{ARROW\PYGZus{}E}\PYG{p}{)}
+        \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{0}
+\end{sphinxVerbatim}
+
+Pour finir, une pause qui ne fait pas de mal (peut être même que
+ça économise les piles…).
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+    \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+\end{enumerate}
+
+
+\paragraph{Le code final}
+\label{\detokenize{projets/goFast-python-coder:le-code-final}}
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\},numbers=left,firstnumber=1,stepnumber=1]
+\PYG{c+c1}{\PYGZsh{} \PYGZhy{}*\PYGZhy{} coding: utf\PYGZhy{}8\PYGZhy{}*\PYGZhy{}\PYGZsh{} Encoding cookie added by Mu Editor}
+\PYG{c+c1}{\PYGZsh{} code utilisé pour l\PYGZsq{}atelier colloque C2i collège}
+\PYG{c+c1}{\PYGZsh{} auteur : groupe InEFLP IREM de Marseille}
+
+\PYG{k+kn}{from} \PYG{n+nn}{microbit} \PYG{k}{import} \PYG{o}{*}
+\PYG{k+kn}{import} \PYG{n+nn}{random}
+
+\PYG{c+c1}{\PYGZsh{} différente ETAT du jeu}
+\PYG{c+c1}{\PYGZsh{} si etat == 0 : attente du début de partie (A ou B)}
+\PYG{c+c1}{\PYGZsh{} si etat == 1 : compte à rebours}
+\PYG{c+c1}{\PYGZsh{} si etat == 2 : en cours de partie}
+\PYG{c+c1}{\PYGZsh{} si etat == 3 : affichage du gagnant}
+\PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{0}
+
+\PYG{c+c1}{\PYGZsh{} victoire == \PYGZdq{}A\PYGZdq{} : bouton A gagne}
+\PYG{c+c1}{\PYGZsh{} victoire == \PYGZdq{}B\PYGZdq{} : bouton B gagne}
+\PYG{c+c1}{\PYGZsh{} victoire == \PYGZdq{}\PYGZdq{} : personne}
+\PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} fonction CHRONO qui sert de chronomètre}
+\PYG{c+c1}{\PYGZsh{} retourne la durée écoulée depuis}
+\PYG{c+c1}{\PYGZsh{} l\PYGZsq{}instant t0}
+\PYG{n}{t0} \PYG{o}{=} \PYG{n}{running\PYGZus{}time}\PYG{p}{(}\PYG{p}{)}
+
+\PYG{k}{def} \PYG{n+nf}{chrono}\PYG{p}{(}\PYG{n}{t0}\PYG{p}{)}\PYG{p}{:}
+    \PYG{n}{t1} \PYG{o}{=} \PYG{n}{running\PYGZus{}time}\PYG{p}{(}\PYG{p}{)}
+    \PYG{n}{duree} \PYG{o}{=} \PYG{n}{t1}\PYG{o}{\PYGZhy{}}\PYG{n}{t0}
+    \PYG{k}{return} \PYG{n}{duree}
+
+\PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{HEART\PYGZus{}SMALL}\PYG{p}{)}
+
+\PYG{k}{while} \PYG{k+kc}{True}\PYG{p}{:}
+    
+    \PYG{k}{if} \PYG{n}{etat} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+        \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)} \PYG{o+ow}{or} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+            \PYG{c+c1}{\PYGZsh{} remise à zéro de la durée de la partie}
+            \PYG{n}{t0} \PYG{o}{=} \PYG{n}{running\PYGZus{}time}\PYG{p}{(}\PYG{p}{)}
+            \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{1}
+            \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{250}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} duree de la partie}
+    \PYG{n}{duree} \PYG{o}{=} \PYG{n}{chrono}\PYG{p}{(}\PYG{n}{t0}\PYG{p}{)}
+    
+    \PYG{k}{if} \PYG{n}{etat} \PYG{o}{==} \PYG{l+m+mi}{1}\PYG{p}{:}        
+        \PYG{c+c1}{\PYGZsh{} si les joueurs sont trop pressés, ils perdent…}
+        \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+            \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{B}\PYG{l+s+s2}{\PYGZdq{}}
+            \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+        \PYG{k}{if} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+            \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{A}\PYG{l+s+s2}{\PYGZdq{}}
+            \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+        
+        \PYG{c+c1}{\PYGZsh{} affichage du compte à rebours}
+        \PYG{k}{if} \PYG{n}{duree} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{1000}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{3}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+        \PYG{k}{elif} \PYG{n}{duree} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{2000}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{2}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+        \PYG{k}{elif} \PYG{n}{duree} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{3000}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{1}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{c+c1}{\PYGZsh{} initialisation d\PYGZsq{}une partie}
+            \PYG{c+c1}{\PYGZsh{}}
+            \PYG{c+c1}{\PYGZsh{} effacer écran}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{clear}\PYG{p}{(}\PYG{p}{)}
+            \PYG{c+c1}{\PYGZsh{} attente et image aléatoire}
+            \PYG{n}{attente} \PYG{o}{=} \PYG{n}{duree} \PYG{o}{+} \PYG{n}{random}\PYG{o}{.}\PYG{n}{randint}\PYG{p}{(}\PYG{l+m+mi}{500}\PYG{p}{,} \PYG{l+m+mi}{5000}\PYG{p}{)}
+            \PYG{n}{imageAuHasard} \PYG{o}{=} \PYG{n}{random}\PYG{o}{.}\PYG{n}{choice}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{ALL\PYGZus{}CLOCKS}\PYG{p}{)}
+            \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{2}
+    
+    \PYG{k}{if} \PYG{n}{etat} \PYG{o}{==} \PYG{l+m+mi}{2}\PYG{p}{:}        
+        \PYG{c+c1}{\PYGZsh{} si les joueurs sont trop pressés, ils perdent…}
+        \PYG{k}{if} \PYG{n}{duree} \PYG{o}{\PYGZlt{}} \PYG{n}{attente}\PYG{p}{:}
+            \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+                \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{B}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+            \PYG{k}{if} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+                \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{A}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+        
+        \PYG{c+c1}{\PYGZsh{} détermination du plus rapide des 2 joueurs}
+        \PYG{k}{if} \PYG{n}{duree} \PYG{o}{\PYGZgt{}} \PYG{n}{attente}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{imageAuHasard}\PYG{p}{)}
+            \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+                \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{A}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+            \PYG{k}{if} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{is\PYGZus{}pressed}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+                \PYG{n}{victoire} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{B}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{3}
+    
+    \PYG{k}{if} \PYG{n}{etat} \PYG{o}{==} \PYG{l+m+mi}{3}\PYG{p}{:}
+        \PYG{c+c1}{\PYGZsh{} petite animation pour le suspens}
+        \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{)}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{HEART\PYGZus{}SMALL}\PYG{p}{)}
+            \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{HEART}\PYG{p}{)}
+            \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+        \PYG{c+c1}{\PYGZsh{} affichage du gagnant}
+        \PYG{k}{if} \PYG{n}{victoire} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{A}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{ARROW\PYGZus{}W}\PYG{p}{)}
+        \PYG{k}{if} \PYG{n}{victoire} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{B}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{Image}\PYG{o}{.}\PYG{n}{ARROW\PYGZus{}E}\PYG{p}{)}
+        \PYG{n}{etat} \PYG{o}{=} \PYG{l+m+mi}{0}
+    
+    \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+\end{sphinxVerbatim}
 
 
 \section{Températures}
@@ -1186,7 +1973,7 @@ une petite animation.
 
 \paragraph{Escape game}
 \label{\detokenize{projets/temperature-exemple-escape:projettempescape}}\label{\detokenize{projets/temperature-exemple-escape:escape-game}}\label{\detokenize{projets/temperature-exemple-escape::doc}}
-Nous avons utilisé le projet {\hyperref[\detokenize{projets/temperature:projettemp}]{\sphinxcrossref{\DUrole{std,std-ref}{Températures}}}} pour un escape game proposé en stage.
+Nous avons utilisé le projet \DUrole{xref,std,std-ref}{projetTemp} pour un escape game proposé en stage.
 \begin{itemize}
 \item {} 
 diaporama d’acceuil : \sphinxurl{http://url.univ-irem.fr/temp}
@@ -1217,7 +2004,7 @@ De très bons moments pour tous !
 
 \subsubsection{Fabriquer}
 \label{\detokenize{projets/temperature-fabriquer:projettempfabriquer}}\label{\detokenize{projets/temperature-fabriquer::doc}}\label{\detokenize{projets/temperature-fabriquer:fabriquer}}
-Pour le projet {\hyperref[\detokenize{projets/temperature:projettemp}]{\sphinxcrossref{\DUrole{std,std-ref}{Températures}}}}, il n’y a besoin de presque rien :
+Pour le projet \DUrole{xref,std,std-ref}{projetTemp}, il n’y a besoin de presque rien :
 \begin{itemize}
 \item {} 
 carte micro:bit ;
@@ -1231,7 +2018,7 @@ alimentation électrique (pile par exemple).
 
 \subsubsection{Coder}
 \label{\detokenize{projets/temperature-coder:index-0}}\label{\detokenize{projets/temperature-coder:coder}}\label{\detokenize{projets/temperature-coder::doc}}
-Le code nécessaire à la réalisation du projet {\hyperref[\detokenize{projets/temperature:projettemp}]{\sphinxcrossref{\DUrole{std,std-ref}{Températures}}}} a été
+Le code nécessaire à la réalisation du projet \DUrole{xref,std,std-ref}{projetTemp} a été
 écrit en micropython. Vous trouverez ci-dessous :
 \begin{itemize}
 \item {} 

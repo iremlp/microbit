@@ -26,6 +26,22 @@ Règle du jeu
 #. **le gagnant** est le premier à appuyer sur son bouton
 #. recommencer à l'étape 2. pour faire une nouvelle partie
 
+Simulateur
+----------
+
+
+
+.. warning::
+   L'image ci-dessous est dynamique. Une fois chargée (si tout
+   se passe bien), elle vous propose une image qui simule le
+   micro:bit.
+   
+   * cliquer sur le bouton A ou B pour lancer le jeu ;
+   * cliquer sur un des deux boutons pour désigner le gagnant ;
+   * cliquer (encore?) sur un bouton pour relancer une partie.
+   
+.. raw:: html
+   :file: goFast_iframe.html
 
 
 Réalisation
@@ -35,5 +51,6 @@ Réalisation
 .. toctree::
    :maxdepth: 1
    
+   Coder par blocs <goFast-bloc-coder>
    Coder en Python <goFast-python-coder>
    

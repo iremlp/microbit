@@ -1,12 +1,12 @@
-.. _goFast-python-coder:
+.. _goFast-bloc-coder:
 
 .. index:: micropython, bouton, durée
 
-=====
-Coder
-=====
+===============
+Coder en Python
+===============
 
-
+ 
 
 Le code nécessaire à la réalisation du projet :ref:`projetGoFast` a été
 écrit en micropython. Vous trouverez ci-dessous :
@@ -28,7 +28,7 @@ Initialisation du programme
       :lines: 5-6
 
 #. Il y a dans ce jeu différents états. Initialement, le programme
-   comment à l'état 0.
+   commence à l'état 0.
 
 
    .. note:: 

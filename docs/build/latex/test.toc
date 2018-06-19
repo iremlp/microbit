@@ -4,106 +4,137 @@
 \contentsline {subsection}{\numberline {1.1.1}Bref historique}{3}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}La carte Micro:bit}{5}{subsection.1.1.2}
 \contentsline {paragraph}{Notes}{8}{paragraph*.3}
-\contentsline {section}{\numberline {1.2}Pile ou face (blocs)}{8}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Description}{8}{subsection.1.2.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{9}{subsubsection*.4}
-\contentsline {subsection}{\numberline {1.2.2}Progression}{9}{subsection.1.2.2}
-\contentsline {subsubsection}{Niveau 1}{9}{subsubsection*.5}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{9}{paragraph*.6}
-\contentsline {paragraph}{Les blocs pr\IeC {\'e}conis\IeC {\'e}s}{10}{paragraph*.7}
-\contentsline {paragraph}{Une solution possible}{10}{paragraph*.8}
-\contentsline {subsubsection}{Niveau 2}{11}{subsubsection*.9}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{12}{paragraph*.10}
-\contentsline {paragraph}{Les blocs pr\IeC {\'e}conis\IeC {\'e}s}{12}{paragraph*.11}
-\contentsline {paragraph}{Une solution possible}{13}{paragraph*.12}
-\contentsline {subsubsection}{Niveau 3}{14}{subsubsection*.13}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{14}{paragraph*.14}
-\contentsline {paragraph}{Les blocs pr\IeC {\'e}conis\IeC {\'e}s}{15}{paragraph*.15}
-\contentsline {paragraph}{Une solution possible}{16}{paragraph*.16}
-\contentsline {section}{\numberline {1.3}D\IeC {\'e} 6 faces (blocs)}{17}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Description}{17}{subsection.1.3.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{18}{subsubsection*.17}
-\contentsline {subsection}{\numberline {1.3.2}Progression}{18}{subsection.1.3.2}
-\contentsline {subsubsection}{Niveau 1}{18}{subsubsection*.18}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{18}{paragraph*.19}
-\contentsline {paragraph}{Les blocs pr\IeC {\'e}conis\IeC {\'e}s}{19}{paragraph*.20}
-\contentsline {paragraph}{Une solution possible}{20}{paragraph*.21}
-\contentsline {subsubsection}{Niveau 2}{20}{subsubsection*.22}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{20}{paragraph*.23}
-\contentsline {paragraph}{Les blocs pr\IeC {\'e}conis\IeC {\'e}s}{20}{paragraph*.24}
-\contentsline {paragraph}{Une solution possible}{21}{paragraph*.25}
-\contentsline {section}{\numberline {1.4}Pile ou face (Python)}{23}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Description}{23}{subsection.1.4.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{23}{subsubsection*.26}
-\contentsline {subsection}{\numberline {1.4.2}Progression}{23}{subsection.1.4.2}
-\contentsline {subsubsection}{Niveau 1}{23}{subsubsection*.27}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{23}{paragraph*.28}
-\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{23}{paragraph*.29}
-\contentsline {paragraph}{Une solution possible}{23}{paragraph*.30}
-\contentsline {subsubsection}{Niveau 2}{25}{subsubsection*.31}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{25}{paragraph*.32}
-\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{25}{paragraph*.33}
-\contentsline {paragraph}{Une solution possible}{25}{paragraph*.34}
-\contentsline {subsubsection}{Niveau 3}{26}{subsubsection*.35}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{26}{paragraph*.36}
-\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{26}{paragraph*.37}
-\contentsline {paragraph}{Une solution possible}{26}{paragraph*.38}
-\contentsline {section}{\numberline {1.5}D\IeC {\'e} 6 faces (Python)}{27}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Description}{27}{subsection.1.5.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{27}{subsubsection*.39}
-\contentsline {subsection}{\numberline {1.5.2}Progression}{28}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Progression}{28}{subsection.1.5.3}
-\contentsline {subsubsection}{Niveau 1}{28}{subsubsection*.40}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{28}{paragraph*.41}
-\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{28}{paragraph*.42}
-\contentsline {paragraph}{Une solution possible}{28}{paragraph*.43}
-\contentsline {subsubsection}{Niveau 2}{29}{subsubsection*.44}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{29}{paragraph*.45}
-\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{29}{paragraph*.46}
-\contentsline {paragraph}{Une solution possible}{29}{paragraph*.47}
-\contentsline {subsubsection}{Niveau 3}{30}{subsubsection*.48}
-\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{30}{paragraph*.49}
-\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{30}{paragraph*.50}
-\contentsline {paragraph}{Une solution possible}{30}{paragraph*.51}
-\contentsline {chapter}{\numberline {2}Projets \IeC {\`a} r\IeC {\'e}aliser}{33}{chapter.2}
-\contentsline {section}{\numberline {2.1}Bo\IeC {\^\i }te ferm\IeC {\'e}e}{33}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Description}{33}{subsection.2.1.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{33}{subsubsection*.52}
-\contentsline {paragraph}{Escape game}{34}{paragraph*.53}
-\contentsline {subsection}{\numberline {2.1.2}R\IeC {\'e}alisation}{34}{subsection.2.1.2}
-\contentsline {subsubsection}{Fabriquer}{35}{subsubsection*.54}
-\contentsline {paragraph}{Mat\IeC {\'e}riel :}{35}{paragraph*.55}
-\contentsline {paragraph}{Assemblage :}{35}{paragraph*.56}
-\contentsline {subsubsection}{Coder}{35}{subsubsection*.57}
-\contentsline {section}{\numberline {2.2}Pierrot et Simon}{35}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Description}{35}{subsection.2.2.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{36}{subsubsection*.58}
-\contentsline {paragraph}{Escape game}{36}{paragraph*.59}
-\contentsline {subsection}{\numberline {2.2.2}R\IeC {\'e}alisation}{36}{subsection.2.2.2}
-\contentsline {subsubsection}{Fabriquer}{36}{subsubsection*.60}
-\contentsline {subsubsection}{Coder}{36}{subsubsection*.61}
-\contentsline {section}{\numberline {2.3}Temp\IeC {\'e}ratures}{37}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Description}{37}{subsection.2.3.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{37}{subsubsection*.62}
-\contentsline {paragraph}{Escape game}{37}{paragraph*.63}
-\contentsline {subsection}{\numberline {2.3.2}R\IeC {\'e}alisation}{38}{subsection.2.3.2}
-\contentsline {subsubsection}{Fabriquer}{38}{subsubsection*.64}
-\contentsline {subsubsection}{Coder}{38}{subsubsection*.66}
-\contentsline {paragraph}{Le code, \IeC {\'e}tape par \IeC {\'e}tape}{38}{paragraph*.67}
-\contentsline {paragraph}{Le code final}{40}{paragraph*.68}
-\contentsline {section}{\numberline {2.4}Coffre fort}{42}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Description}{42}{subsection.2.4.1}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{42}{subsubsection*.69}
-\contentsline {paragraph}{Escape game}{42}{paragraph*.70}
-\contentsline {subsection}{\numberline {2.4.2}R\IeC {\'e}alisation}{43}{subsection.2.4.2}
-\contentsline {subsubsection}{Fabriquer}{43}{subsubsection*.71}
-\contentsline {subsubsection}{Coder}{43}{subsubsection*.72}
-\contentsline {section}{\numberline {2.5}Planche de Galton}{44}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Description}{44}{subsection.2.5.1}
-\contentsline {subsubsection}{Type de programmation :}{44}{subsubsection*.73}
-\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{44}{subsubsection*.74}
-\contentsline {subsection}{\numberline {2.5.2}R\IeC {\'e}alisation}{44}{subsection.2.5.2}
-\contentsline {subsubsection}{Coder}{44}{subsubsection*.75}
-\contentsline {subsubsection}{Fabriquer}{45}{subsubsection*.76}
-\contentsline {chapter}{\numberline {3}Index et page de recherche}{47}{chapter.3}
-\contentsline {chapter}{Index}{49}{section*.77}
+\contentsline {section}{\numberline {1.2}Programmation par blocs : Makecode}{8}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Une interface en ligne}{8}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Un simulateur !}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Compilation et enregistrement}{8}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Programmation}{9}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Documentation}{9}{subsection.1.2.5}
+\contentsline {section}{\numberline {1.3}Programmation en Python}{9}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Une interface en ligne}{9}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Mu : une interface compl\IeC {\`e}te}{10}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Programmation}{10}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Compilation et enregistrement}{10}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Communication s\IeC {\'e}rie}{10}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Documentation}{11}{subsection.1.3.6}
+\contentsline {section}{\numberline {1.4}Pile ou face (blocs)}{11}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Description}{11}{subsection.1.4.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{11}{subsubsection*.4}
+\contentsline {subsection}{\numberline {1.4.2}Progression}{11}{subsection.1.4.2}
+\contentsline {subsubsection}{Niveau 1}{11}{subsubsection*.5}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{12}{paragraph*.6}
+\contentsline {paragraph}{Les blocs pr\IeC {\'e}conis\IeC {\'e}s}{12}{paragraph*.7}
+\contentsline {paragraph}{Une solution possible}{13}{paragraph*.8}
+\contentsline {subsubsection}{Niveau 2}{14}{subsubsection*.9}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{14}{paragraph*.10}
+\contentsline {paragraph}{Les blocs pr\IeC {\'e}conis\IeC {\'e}s}{14}{paragraph*.11}
+\contentsline {paragraph}{Une solution possible}{15}{paragraph*.12}
+\contentsline {subsubsection}{Niveau 3}{16}{subsubsection*.13}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{16}{paragraph*.14}
+\contentsline {paragraph}{Les blocs pr\IeC {\'e}conis\IeC {\'e}s}{17}{paragraph*.15}
+\contentsline {paragraph}{Une solution possible}{18}{paragraph*.16}
+\contentsline {section}{\numberline {1.5}D\IeC {\'e} 6 faces (blocs)}{19}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Description}{19}{subsection.1.5.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{20}{subsubsection*.17}
+\contentsline {subsection}{\numberline {1.5.2}Progression}{20}{subsection.1.5.2}
+\contentsline {subsubsection}{Niveau 1}{20}{subsubsection*.18}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{20}{paragraph*.19}
+\contentsline {paragraph}{Les blocs pr\IeC {\'e}conis\IeC {\'e}s}{21}{paragraph*.20}
+\contentsline {paragraph}{Une solution possible}{22}{paragraph*.21}
+\contentsline {subsubsection}{Niveau 2}{22}{subsubsection*.22}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{22}{paragraph*.23}
+\contentsline {paragraph}{Les blocs pr\IeC {\'e}conis\IeC {\'e}s}{22}{paragraph*.24}
+\contentsline {paragraph}{Une solution possible}{23}{paragraph*.25}
+\contentsline {section}{\numberline {1.6}Pile ou face (Python)}{25}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Description}{25}{subsection.1.6.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{25}{subsubsection*.26}
+\contentsline {subsection}{\numberline {1.6.2}Progression}{25}{subsection.1.6.2}
+\contentsline {subsubsection}{Niveau 1}{25}{subsubsection*.27}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{25}{paragraph*.28}
+\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{25}{paragraph*.29}
+\contentsline {paragraph}{Une solution possible}{25}{paragraph*.30}
+\contentsline {subsubsection}{Niveau 2}{27}{subsubsection*.31}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{27}{paragraph*.32}
+\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{27}{paragraph*.33}
+\contentsline {paragraph}{Une solution possible}{27}{paragraph*.34}
+\contentsline {subsubsection}{Niveau 3}{28}{subsubsection*.35}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{28}{paragraph*.36}
+\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{28}{paragraph*.37}
+\contentsline {paragraph}{Une solution possible}{28}{paragraph*.38}
+\contentsline {section}{\numberline {1.7}D\IeC {\'e} 6 faces (Python)}{29}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Description}{29}{subsection.1.7.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{29}{subsubsection*.39}
+\contentsline {subsection}{\numberline {1.7.2}Progression}{30}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}Progression}{30}{subsection.1.7.3}
+\contentsline {subsubsection}{Niveau 1}{30}{subsubsection*.40}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{30}{paragraph*.41}
+\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{30}{paragraph*.42}
+\contentsline {paragraph}{Une solution possible}{30}{paragraph*.43}
+\contentsline {subsubsection}{Niveau 2}{31}{subsubsection*.44}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{31}{paragraph*.45}
+\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{31}{paragraph*.46}
+\contentsline {paragraph}{Une solution possible}{31}{paragraph*.47}
+\contentsline {subsubsection}{Niveau 3}{32}{subsubsection*.48}
+\contentsline {paragraph}{Les notions abord\IeC {\'e}es}{32}{paragraph*.49}
+\contentsline {paragraph}{Les \IeC {\'e}l\IeC {\'e}ments utiles}{32}{paragraph*.50}
+\contentsline {paragraph}{Une solution possible}{32}{paragraph*.51}
+\contentsline {chapter}{\numberline {2}Projets \IeC {\`a} r\IeC {\'e}aliser}{35}{chapter.2}
+\contentsline {section}{\numberline {2.1}Bo\IeC {\^\i }te ferm\IeC {\'e}e}{35}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Description}{35}{subsection.2.1.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{35}{subsubsection*.52}
+\contentsline {paragraph}{Escape game}{36}{paragraph*.53}
+\contentsline {subsection}{\numberline {2.1.2}R\IeC {\'e}alisation}{36}{subsection.2.1.2}
+\contentsline {subsubsection}{Fabriquer}{37}{subsubsection*.54}
+\contentsline {paragraph}{Mat\IeC {\'e}riel :}{37}{paragraph*.55}
+\contentsline {paragraph}{Assemblage :}{37}{paragraph*.56}
+\contentsline {subsubsection}{Coder}{37}{subsubsection*.57}
+\contentsline {section}{\numberline {2.2}Pierrot et Simon}{37}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Description}{37}{subsection.2.2.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{38}{subsubsection*.58}
+\contentsline {paragraph}{Escape game}{38}{paragraph*.59}
+\contentsline {subsection}{\numberline {2.2.2}R\IeC {\'e}alisation}{38}{subsection.2.2.2}
+\contentsline {subsubsection}{Fabriquer}{38}{subsubsection*.60}
+\contentsline {subsubsection}{Coder}{38}{subsubsection*.61}
+\contentsline {section}{\numberline {2.3}Go Fast}{39}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Description}{39}{subsection.2.3.1}
+\contentsline {subsubsection}{R\IeC {\`e}gle du jeu}{39}{subsubsection*.62}
+\contentsline {subsubsection}{Simulateur}{39}{subsubsection*.63}
+\contentsline {subsection}{\numberline {2.3.2}R\IeC {\'e}alisation}{39}{subsection.2.3.2}
+\contentsline {subsubsection}{Coder par blocs}{39}{subsubsection*.65}
+\contentsline {paragraph}{Structure de base du programme}{39}{paragraph*.66}
+\contentsline {subparagraph}{Initialisation du programme}{40}{subparagraph*.67}
+\contentsline {subparagraph}{Boucle principale}{40}{subparagraph*.68}
+\contentsline {subparagraph}{La fonction \sphinxstyleliteralintitle {\sphinxupquote {etat\_0}}}{41}{subparagraph*.69}
+\contentsline {subparagraph}{La fonction \sphinxstyleliteralintitle {\sphinxupquote {etat\_1}}}{42}{subparagraph*.70}
+\contentsline {subparagraph}{La fonction \sphinxstyleliteralintitle {\sphinxupquote {etat\_2}}}{43}{subparagraph*.71}
+\contentsline {subparagraph}{La fonction \sphinxstyleliteralintitle {\sphinxupquote {etat\_3}}}{43}{subparagraph*.72}
+\contentsline {subsubsection}{Coder en Python}{44}{subsubsection*.74}
+\contentsline {paragraph}{Le code, \IeC {\'e}tape par \IeC {\'e}tape}{44}{paragraph*.75}
+\contentsline {subparagraph}{Initialisation du programme}{44}{subparagraph*.76}
+\contentsline {subparagraph}{Boucle}{45}{subparagraph*.77}
+\contentsline {paragraph}{Le code final}{47}{paragraph*.78}
+\contentsline {section}{\numberline {2.4}Temp\IeC {\'e}ratures}{50}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Description}{50}{subsection.2.4.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{50}{subsubsection*.79}
+\contentsline {paragraph}{Escape game}{50}{paragraph*.80}
+\contentsline {subsection}{\numberline {2.4.2}R\IeC {\'e}alisation}{51}{subsection.2.4.2}
+\contentsline {subsubsection}{Fabriquer}{51}{subsubsection*.81}
+\contentsline {subsubsection}{Coder}{51}{subsubsection*.83}
+\contentsline {paragraph}{Le code, \IeC {\'e}tape par \IeC {\'e}tape}{51}{paragraph*.84}
+\contentsline {paragraph}{Le code final}{53}{paragraph*.85}
+\contentsline {section}{\numberline {2.5}Coffre fort}{55}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Description}{55}{subsection.2.5.1}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{55}{subsubsection*.86}
+\contentsline {paragraph}{Escape game}{55}{paragraph*.87}
+\contentsline {subsection}{\numberline {2.5.2}R\IeC {\'e}alisation}{56}{subsection.2.5.2}
+\contentsline {subsubsection}{Fabriquer}{56}{subsubsection*.88}
+\contentsline {subsubsection}{Coder}{56}{subsubsection*.89}
+\contentsline {section}{\numberline {2.6}Planche de Galton}{57}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Description}{57}{subsection.2.6.1}
+\contentsline {subsubsection}{Type de programmation :}{57}{subsubsection*.90}
+\contentsline {subsubsection}{Exemple(s) d\IeC {\textquoteright }utilisation}{57}{subsubsection*.91}
+\contentsline {subsection}{\numberline {2.6.2}R\IeC {\'e}alisation}{57}{subsection.2.6.2}
+\contentsline {subsubsection}{Coder}{57}{subsubsection*.92}
+\contentsline {subsubsection}{Fabriquer}{58}{subsubsection*.93}
+\contentsline {chapter}{\numberline {3}Index et page de recherche}{59}{chapter.3}
+\contentsline {chapter}{Index}{61}{section*.94}
