@@ -22,7 +22,7 @@ Mu : une interface complète
 -----------------------------------------------
 Comme le dit (en anglais) la page d'accueil de Mu :
 *Mu est un éditeur de code simple pour les programmeurs débutants.
-C'est développé en Python et fonctionne sur Windows, OSX, Linux et Raspberry Pi.*
+Il est développé en Python et fonctionne sur Windows, OSX, Linux et Raspberry Pi.*
 
 .. image:: /_static/prise_en_main_mu.*
   :align: center
@@ -38,8 +38,12 @@ Compilation et enregistrement
 ---------------------------------------------------
 
 Le téléchargement sur la carte se fait très simplement puisqu'il suffit de cliquer sur
-le bouton ""flash"". Il est tout de même préférable d'avoir au préalable le réflexe de vérifier le code avec ""Check""
+le bouton |Flash| . Il est tout de même préférable d'avoir au préalable le réflexe
+de vérifier le code avec |Check| .
 
+  .. |Flash|  image:: /_static/flash.png
+
+  .. |Check| image:: /_static/check.png
 
 Documentation
 --------------------------
