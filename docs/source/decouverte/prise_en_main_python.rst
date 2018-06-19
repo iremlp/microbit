@@ -41,11 +41,11 @@ Le téléchargement sur la carte se fait très simplement puisqu'il suffit de cl
 le bouton |Flash| . Il est tout de même préférable d'avoir au préalable le réflexe
 de vérifier le code avec |Check| .
 
-  .. |Flash|  image:: /_static/flash.png
-  :width: 50%
+.. |Flash|  image:: /_static/flash.png
+    :width: 50%
 
-  .. |Check| image:: /_static/check.png
-  :width: 50%
+.. |Check| image:: /_static/check.png
+    :width: 50%
 
 
 Communication série
