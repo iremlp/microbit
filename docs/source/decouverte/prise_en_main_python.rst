@@ -47,6 +47,14 @@ de vérifier le code avec |Check| .
   .. |Check| image:: /_static/check.png
   :width: 50%
 
+
+Communication série
+------------------------------------
+
+La fonction REPL de Mu permet d'ouvrir une communication via un port série
+avec le micro:bit. Il est ainsi possible d'envoyer et de recevoir des données.
+Sur les versions bêta il y a même un plotteur qui permet de visualiser graphiquement les données reçues.
+
 Documentation
 --------------------------
 
