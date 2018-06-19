@@ -27,6 +27,11 @@ le télécharger sur la carte.
   .. note::
     Le simulateur peut ne pas fonctionner hors ligne.
 
+.. image:: /_static/prise_en_main_blocs.*
+    :align: conter
+    :width: 80%
+
+
 Compilation et enregistrement
 ---------------------------------------------------
 

@@ -42,10 +42,10 @@ le bouton |Flash| . Il est tout de même préférable d'avoir au préalable le r
 de vérifier le code avec |Check| .
 
 .. |Flash|  image:: /_static/flash.png
-  :width: 50%
+  :width: 30px
 
 .. |Check| image:: /_static/check.png
-  :width: 50%
+  :width: 30px
 
 
 Communication série
