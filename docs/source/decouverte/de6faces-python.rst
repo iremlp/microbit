@@ -34,17 +34,14 @@ on peut se contenter des 3 lignes ci-dessous.
    while True:
       if button_a.get_presses():
          # "str" car "display.show" n'affiche que du texte
-         display.show(str(random.randint(1, 6)))  
+         display.show(str(random.randint(1, 6)))
 
 
 Ce qui n'a pas d'autre intérêt que d'introduire la fonction
 :code:`randint`.
-Ici, contrairement à la progression utilisée lors du projet 
-
-, nous suggèrons de commencer par simuler l'affichage tel
-qu'il apparaît sur un vrai dé.
-Cela qui permet de réexploiter les listes d'images
-introduites avec le projet pile ou face.
+Ici, contrairement à la progression utilisée lors du projet en blocs, nous suggèrons
+de commencer par simuler l'affichage tel qu'il apparaît sur un vrai dé.
+Cela  permet de réexploiter les listes d'images introduites avec le projet pile ou face.
 
 
 Progression
@@ -52,7 +49,7 @@ Progression
 
 .. toctree::
    :maxdepth: 1
-   
+
    Niveau 1 <de6faces-python1>
    Niveau 2 <de6faces-python2>
    Niveau 3 <de6faces-python3>

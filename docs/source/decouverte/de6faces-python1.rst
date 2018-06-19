@@ -12,13 +12,20 @@ Les notions abordées
 --------------------
 
 Dans ce niveau nous trouvons les notions suivantes :
-  *
+  * constitution d'une liste
+  * tirage d'un élément au hasard dans une liste
 
 
 Les éléments utiles
 -------------------
 
 On propose aux élèves d'appeler les éléments suivants ::
+
+  .. code-block:: python
+
+    un = Image("00000:00000:00900:00000:00000")   # création d'une image par face
+    issues = [un, ...]    # création d'une liste d'images
+    random.choice(issues)     # tirage d'un élément au hasard dans une liste
 
 
 

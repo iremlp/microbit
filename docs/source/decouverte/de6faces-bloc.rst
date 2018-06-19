@@ -8,7 +8,7 @@ Dé 6 faces (blocs)
 Description
 ===========
 
-Le but de ce projet de simuler une expérience aléatoire de lancer d'un dé à 6 faces..
+Le but de ce projet de simuler une expérience aléatoire de lancer d'un dé à 6 faces.
 Toujours à partir d'une situation simple idéale , le programme peut être étoffé au gré des besoins.
 
 On utilise l'interface de programmation par bloc :
