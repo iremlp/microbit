@@ -14,7 +14,7 @@ Dans ce niveau nous trouvons les notions suivantes :
   * boucle
   * aléa
 
-.. image:: /_static/deobjectifN1.gif
+.. image:: /_static/deobjectifN1.*
     :align: center
 
 Les blocs préconisés

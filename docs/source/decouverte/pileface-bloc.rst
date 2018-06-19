@@ -18,7 +18,7 @@ On utilise l'interface de programmation par bloc :
 https://makecode.microbit.org/
 
 
-.. image:: /_static/pilefaceN3.gif
+.. image:: /_static/pilefaceN3.*
    :align: center
 
 

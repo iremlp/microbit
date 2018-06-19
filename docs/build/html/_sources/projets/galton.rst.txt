@@ -15,7 +15,7 @@ descend verticalement en se décalant horizontalement vers la droite.
 
 La bille position de la bille est représentée par l'allumage d'une diode.
 
-  .. image:: /_static/galton.gif
+  .. image:: /_static/galton.*
 
 Type de programmation :
 -----------------------

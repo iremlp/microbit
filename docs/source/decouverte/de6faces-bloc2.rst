@@ -14,7 +14,7 @@ Dans ce niveau nous trouvons les notions suivantes :
   *  variable
   *  instruction conditionnelle si/sinon
 
-.. image:: /_static/deobjectifN2.gif
+.. image:: /_static/deobjectifN2.*
     :align: center
 
 Les blocs préconisés

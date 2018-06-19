@@ -179,6 +179,15 @@ html_static_path = [u'_static']
 htmlhelp_basename = 'testdoc'
 
 
+from sphinx.builders.html import StandaloneHTMLBuilder
+StandaloneHTMLBuilder.supported_image_types = [
+    'image/svg+xml',
+    'image/gif',
+    'image/png',
+    'image/jpeg'
+]
+
+
 # -- Options for LaTeX output --------------------------------------------------
 
 # The paper size ('letter' or 'a4').

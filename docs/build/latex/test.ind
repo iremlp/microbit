@@ -2,31 +2,31 @@
 \def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
 
   \bigletter A
-  \item acc\IeC {\'e}l\IeC {\'e}rom\IeC {\`e}tre, \hyperpage{15}
-  \item audio, \hyperpage{8}
+  \item acc\IeC {\'e}l\IeC {\'e}rom\IeC {\`e}tre, \hyperpage{43}
+  \item audio, \hyperpage{36}
 
   \indexspace
   \bigletter G
-  \item galton, \hyperpage{16}
+  \item galton, \hyperpage{44}
 
   \indexspace
   \bigletter L
-  \item luminosit\IeC {\'e}, \hyperpage{6}
+  \item luminosit\IeC {\'e}, \hyperpage{35}
 
   \indexspace
   \bigletter M
-  \item micropython, \hyperpage{8}, \hyperpage{10}, \hyperpage{15, 16}
+  \item micropython, \hyperpage{36}, \hyperpage{38}, \hyperpage{43, 44}
 
   \indexspace
   \bigletter P
-  \item programmation par blocs, \hyperpage{6}
+  \item programmation par blocs, \hyperpage{35}
 
   \indexspace
   \bigletter S
-  \item servo, \hyperpage{6}
+  \item servo, \hyperpage{35}
 
   \indexspace
   \bigletter T
-  \item temp\IeC {\'e}rature, \hyperpage{10}
+  \item temp\IeC {\'e}rature, \hyperpage{38}
 
 \end{sphinxtheindex}

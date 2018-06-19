@@ -7,7 +7,7 @@ Boîte fermée
 Description
 ===========
 
-.. image:: /_static/boite_ouverture.gif
+.. image:: /_static/boite_ouverture.*
     :align: center
 
 

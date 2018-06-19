@@ -14,7 +14,7 @@ Toujours à partir d'une situation simple idéale , le programme peut être éto
 On utilise l'interface de programmation par bloc :
 https://makecode.microbit.org/
 
-.. image:: /_static/deobjectifN2.gif
+.. image:: /_static/deobjectifN2.*
    :align: center
 
 

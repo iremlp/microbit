@@ -14,7 +14,7 @@ Dans ce niveau nous trouvons les notions suivantes :
   *  incrémentation d'une variable
   *  concaténation de texte et de valeur
 
-.. image:: /_static/pilefaceN3.gif
+.. image:: /_static/pilefaceN3.*
     :align: center
 Les blocs préconisés
 --------------------

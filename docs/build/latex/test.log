@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Debian) (preloaded format=pdflatex 2018.5.21)  26 MAY 2018 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Debian) (preloaded format=pdflatex 2018.6.4)  19 JUN 2018 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -525,12 +525,7 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+))))
 \sphinxverbatimsep=\dimen139
 \sphinxverbatimborder=\dimen140
 \sphinxshadowsep=\dimen141
@@ -857,12 +852,12 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 ] [2
 
 ]
-<logo-irem-2013-blanc.jpg, id=83, 93.5046pt x 44.03764pt>
+<logo-irem-2013-blanc.jpg, id=52, 93.5046pt x 44.03764pt>
 File: logo-irem-2013-blanc.jpg Graphic file (type jpg)
 <use logo-irem-2013-blanc.jpg>
 Package pdftex.def Info: logo-irem-2013-blanc.jpg  used on input line 2.
 (pdftex.def)             Requested size: 112.92114pt x 53.18422pt.
-<amu.png, id=85, 1289.2968pt x 441.8106pt>
+<amu.png, id=54, 1289.2968pt x 441.8106pt>
 File: amu.png Graphic file (type png)
 <use amu.png>
 Package pdftex.def Info: amu.png  used on input line 2.
@@ -873,123 +868,277 @@ Package pdftex.def Info: amu.png  used on input line 2.
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 100.
-[3] [4
-
-]
-Chapitre 2.
-<fig-escape3.png, id=110, 692.5875pt x 759.83875pt>
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 146.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-File: fig-escape3.png Graphic file (type png)
-<use fig-escape3.png>
-Package pdftex.def Info: fig-escape3.png  used on input line 146.
-(pdftex.def)             Requested size: 469.75502pt x 515.38496pt.
- [5] [6 <./fig-escape3.png>]
-<boite-fermee.png, id=124, 2692.0575pt x 1158.3275pt>
-File: boite-fermee.png Graphic file (type png)
-<use boite-fermee.png>
-Package pdftex.def Info: boite-fermee.png  used on input line 169.
-(pdftex.def)             Requested size: 305.33789pt x 131.37553pt.
-<fig-escape.png, id=128, 1245.65375pt x 861.2175pt>
-File: fig-escape.png Graphic file (type png)
-<use fig-escape.png>
-Package pdftex.def Info: fig-escape.png  used on input line 198.
-(pdftex.def)             Requested size: 469.75502pt x 324.78238pt.
- [7 <./boite-fermee.png>]
-<fig-temp.png, id=140, 538.01pt x 359.3425pt>
-File: fig-temp.png Graphic file (type png)
-<use fig-temp.png>
-Package pdftex.def Info: fig-temp.png  used on input line 231.
-(pdftex.def)             Requested size: 469.75502pt x 313.75496pt.
- [8 <./fig-escape.png>]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 235.
+<mb.png, id=68, 1027.84pt x 683.55376pt>
+File: mb.png Graphic file (type png)
+<use mb.png>
+Package pdftex.def Info: mb.png  used on input line 113.
+(pdftex.def)             Requested size: 305.33789pt x 203.06511pt.
+[3 <./mb.png>]
+<mb4.jpg, id=77, 963.6pt x 722.7pt>
+File: mb4.jpg Graphic file (type jpg)
+<use mb4.jpg>
+Package pdftex.def Info: mb4.jpg  used on input line 126.
+(pdftex.def)             Requested size: 305.33789pt x 228.99706pt.
+<mb2.jpeg, id=90, 259.97125pt x 194.7275pt>
+File: mb2.jpeg Graphic file (type jpg)
+<use mb2.jpeg>
+Package pdftex.def Info: mb2.jpeg  used on input line 179.
+(pdftex.def)             Requested size: 305.33789pt x 228.70973pt.
+ [4 <./mb4.jpg>]
+<mb7.png, id=106, 780.9175pt x 427.5975pt>
+File: mb7.png Graphic file (type png)
+<use mb7.png>
+Package pdftex.def Info: mb7.png  used on input line 184.
+(pdftex.def)             Requested size: 305.33789pt x 167.18645pt.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 195.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<fig-escape2.png, id=151, 1228.59pt x 806.01125pt>
-File: fig-escape2.png Graphic file (type png)
-<use fig-escape2.png>
-Package pdftex.def Info: fig-escape2.png  used on input line 259.
-(pdftex.def)             Requested size: 469.75502pt x 308.18146pt.
- [9 <./fig-temp.png>] [10 <./fig-escape2.png>]
+<mb6.png, id=107, 762.85pt x 409.53pt>
+File: mb6.png Graphic file (type png)
+<use mb6.png>
+Package pdftex.def Info: mb6.png  used on input line 201.
+(pdftex.def)             Requested size: 305.33789pt x 163.91531pt.
+ [5 <./mb2.jpeg> <./mb7.png>]
+<mb5.jpg, id=115, 602.25pt x 803.0pt>
+File: mb5.jpg Graphic file (type jpg)
+<use mb5.jpg>
+Package pdftex.def Info: mb5.jpg  used on input line 221.
+(pdftex.def)             Requested size: 305.33789pt x 407.1353pt.
+ [6 <./mb6.png>]
+<mb3.jpg, id=123, 1027.84pt x 770.88pt>
+File: mb3.jpg Graphic file (type jpg)
+<use mb3.jpg>
+Package pdftex.def Info: mb3.jpg  used on input line 236.
+(pdftex.def)             Requested size: 305.33789pt x 229.00735pt.
+ [7 <./mb5.jpg>]
+<pilefaceN3.png, id=130, 321.2pt x 260.975pt>
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 254.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+File: pilefaceN3.png Graphic file (type png)
+<use pilefaceN3.png>
+Package pdftex.def Info: pilefaceN3.png  used on input line 254.
+(pdftex.def)             Requested size: 321.19922pt x 260.97437pt.
+ [8 <./mb3.jpg>]
+<pilefaceN1.png, id=138, 321.2pt x 262.9825pt>
+File: pilefaceN1.png Graphic file (type png)
+<use pilefaceN1.png>
+Package pdftex.def Info: pilefaceN1.png  used on input line 297.
+(pdftex.def)             Requested size: 321.19922pt x 262.98184pt.
+
+[9 <./pilefaceN3.png>]
+<pilefaceN1blocs.png, id=149, 684.5575pt x 341.275pt>
+File: pilefaceN1blocs.png Graphic file (type png)
+<use pilefaceN1blocs.png>
+Package pdftex.def Info: pilefaceN1blocs.png  used on input line 304.
+(pdftex.def)             Requested size: 469.75502pt x 234.19376pt.
+<pilefaceN1proposition.png, id=150, 344.28625pt x 541.02126pt>
+File: pilefaceN1proposition.png Graphic file (type png)
+<use pilefaceN1proposition.png>
+Package pdftex.def Info: pilefaceN1proposition.png  used on input line 311.
+(pdftex.def)             Requested size: 344.2854pt x 541.01993pt.
+ [10 <./pilefaceN1.png> <./pilefaceN1blocs.png>] [11 <./pilefaceN1proposition.p
+ng>]
+<pilefaceN2.png, id=167, 321.2pt x 262.9825pt>
+File: pilefaceN2.png Graphic file (type png)
+<use pilefaceN2.png>
+Package pdftex.def Info: pilefaceN2.png  used on input line 333.
+(pdftex.def)             Requested size: 321.19922pt x 262.98184pt.
+<pilefaceN2blocs.png, id=168, 321.2pt x 408.52625pt>
+File: pilefaceN2blocs.png Graphic file (type png)
+<use pilefaceN2blocs.png>
+Package pdftex.def Info: pilefaceN2blocs.png  used on input line 340.
+(pdftex.def)             Requested size: 321.19922pt x 408.52525pt.
+ [12 <./pilefaceN2.png>]
+<pilefaceN2proposition.png, id=175, 652.4375pt x 529.98pt>
+File: pilefaceN2proposition.png Graphic file (type png)
+<use pilefaceN2proposition.png>
+Package pdftex.def Info: pilefaceN2proposition.png  used on input line 347.
+(pdftex.def)             Requested size: 469.75502pt x 381.60147pt.
+ [13 <./pilefaceN2blocs.png>]
+File: pilefaceN3.png Graphic file (type png)
+<use pilefaceN3.png>
+Package pdftex.def Info: pilefaceN3.png  used on input line 372.
+(pdftex.def)             Requested size: 321.19922pt x 260.97437pt.
+[14 <./pilefaceN2proposition.png>]
+<pilefaceN3blocs.png, id=189, 861.2175pt x 1197.47375pt>
+File: pilefaceN3blocs.png Graphic file (type png)
+<use pilefaceN3blocs.png>
+Package pdftex.def Info: pilefaceN3blocs.png  used on input line 379.
+(pdftex.def)             Requested size: 234.8775pt x 326.57465pt.
+ [15]
+<pilefaceN3proposition.png, id=196, 2682.02pt x 2798.455pt>
+File: pilefaceN3proposition.png Graphic file (type png)
+<use pilefaceN3proposition.png>
+Package pdftex.def Info: pilefaceN3proposition.png  used on input line 386.
+(pdftex.def)             Requested size: 469.75502pt x 490.12128pt.
+ [16 <./pilefaceN3blocs.png>]
+<deobjectifN2.png, id=204, 321.2pt x 262.9825pt>
+File: deobjectifN2.png Graphic file (type png)
+<use deobjectifN2.png>
+Package pdftex.def Info: deobjectifN2.png  used on input line 400.
+(pdftex.def)             Requested size: 321.19922pt x 262.98184pt.
+ [17 <./pilefaceN3proposition.png>]
+<deobjectifN1.png, id=212, 321.2pt x 262.9825pt>
+File: deobjectifN1.png Graphic file (type png)
+<use deobjectifN1.png>
+Package pdftex.def Info: deobjectifN1.png  used on input line 442.
+(pdftex.def)             Requested size: 321.19922pt x 262.98184pt.
+ [18 <./deobjectifN2.png>]
+<de6facesN1blocs.png, id=222, 1055.945pt x 1206.5075pt>
+File: de6facesN1blocs.png Graphic file (type png)
+<use de6facesN1blocs.png>
+Package pdftex.def Info: de6facesN1blocs.png  used on input line 449.
+(pdftex.def)             Requested size: 234.8775pt x 268.35963pt.
+ [19 <./deobjectifN1.png> <./de6facesN1blocs.png>]
+<de6facesN1proposition.png, id=231, 2215.27625pt x 546.04pt>
+File: de6facesN1proposition.png Graphic file (type png)
+<use de6facesN1proposition.png>
+Package pdftex.def Info: de6facesN1proposition.png  used on input line 456.
+(pdftex.def)             Requested size: 469.75502pt x 115.78825pt.
+File: deobjectifN2.png Graphic file (type png)
+<use deobjectifN2.png>
+Package pdftex.def Info: deobjectifN2.png  used on input line 478.
+(pdftex.def)             Requested size: 321.19922pt x 262.98184pt.
+<de6facesN2blocs.png, id=232, 3388.66pt x 2577.63pt>
+File: de6facesN2blocs.png Graphic file (type png)
+<use de6facesN2blocs.png>
+Package pdftex.def Info: de6facesN2blocs.png  used on input line 485.
+(pdftex.def)             Requested size: 469.75502pt x 357.32591pt.
+ [20 <./de6facesN1proposition.png>]
+<de6facesN2proposition.png, id=241, 1778.645pt x 5018.75pt>
+File: de6facesN2proposition.png Graphic file (type png)
+<use de6facesN2proposition.png>
+Package pdftex.def Info: de6facesN2proposition.png  used on input line 492.
+(pdftex.def)             Requested size: 469.75502pt x 1325.44424pt.
+ [21 <./de6facesN2blocs.png>]
+Overfull \vbox (675.01424pt too high) has occurred while \output is active []
+
+
+[22 <./de6facesN2proposition.png>]
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 310.
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 324.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 560.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 560.
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 560.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 407.
- [11]
 LaTeX Font Info:    Font shape `TS1/pcr/m/it' in size <9> not available
-(Font)              Font shape `TS1/pcr/m/sl' tried instead on input line 519.
- [12]
-Underfull \vbox (badness 10000) detected at line 564
+(Font)              Font shape `TS1/pcr/m/sl' tried instead on input line 560.
+ [23] [24] [25]
+[26] [27] [28] [29] [30] [31] [32
+
+]
+Chapitre 2.
+<boite_ouverture.png, id=335, 321.2pt x 255.95625pt>
+File: boite_ouverture.png Graphic file (type png)
+<use boite_ouverture.png>
+Package pdftex.def Info: boite_ouverture.png  used on input line 1037.
+(pdftex.def)             Requested size: 321.19922pt x 255.95561pt.
+[33 <./boite_ouverture.png>]
+<fig-escape3.png, id=348, 692.5875pt x 759.83875pt>
+File: fig-escape3.png Graphic file (type png)
+<use fig-escape3.png>
+Package pdftex.def Info: fig-escape3.png  used on input line 1053.
+(pdftex.def)             Requested size: 469.75502pt x 515.38496pt.
+ [34 <./fig-escape3.png>]
+<boite-fermee.png, id=357, 2692.0575pt x 1158.3275pt>
+File: boite-fermee.png Graphic file (type png)
+<use boite-fermee.png>
+Package pdftex.def Info: boite-fermee.png  used on input line 1112.
+(pdftex.def)             Requested size: 305.33789pt x 131.37553pt.
+ [35 <./boite-fermee.png>]
+<fig-escape.png, id=371, 1245.65375pt x 861.2175pt>
+File: fig-escape.png Graphic file (type png)
+<use fig-escape.png>
+Package pdftex.def Info: fig-escape.png  used on input line 1141.
+(pdftex.def)             Requested size: 469.75502pt x 324.78238pt.
+<fig-temp.png, id=374, 538.01pt x 359.3425pt>
+File: fig-temp.png Graphic file (type png)
+<use fig-temp.png>
+Package pdftex.def Info: fig-temp.png  used on input line 1174.
+(pdftex.def)             Requested size: 469.75502pt x 313.75496pt.
+[36 <./fig-escape.png>]
+<fig-escape2.png, id=387, 1228.59pt x 806.01125pt>
+File: fig-escape2.png Graphic file (type png)
+<use fig-escape2.png>
+Package pdftex.def Info: fig-escape2.png  used on input line 1202.
+(pdftex.def)             Requested size: 469.75502pt x 308.18146pt.
+ [37 <./fig-temp.png>] [38 <./fig-escape2.png>] [39]
+[40]
+Underfull \vbox (badness 10000) detected at line 1507
  []
 
 
-Overfull \vbox (2.68169pt too high) detected at line 564
+Overfull \vbox (2.68169pt too high) detected at line 1507
  []
 
-[13]
-<fig-escape4.png, id=200, 829.0975pt x 616.3025pt>
+[41]
+<fig-escape4.png, id=434, 829.0975pt x 616.3025pt>
 File: fig-escape4.png Graphic file (type png)
 <use fig-escape4.png>
-Package pdftex.def Info: fig-escape4.png  used on input line 593.
+Package pdftex.def Info: fig-escape4.png  used on input line 1536.
 (pdftex.def)             Requested size: 469.75502pt x 349.18018pt.
- [14] [15 <./fig-escape4.png>]
-Overfull \vbox (0.9118pt too high) detected at line 701
- []
-
-[16] [17] [18
+ [42] [43 <./fig-escape4.png>]
+<galton.png, id=452, 321.2pt x 231.86626pt>
+File: galton.png Graphic file (type png)
+<use galton.png>
+Package pdftex.def Info: galton.png  used on input line 1577.
+(pdftex.def)             Requested size: 321.19922pt x 231.86568pt.
+ [44 <./galton.png>] [45] [46
 
 ]
 Chapitre 3.
 
 Package hyperref Warning: Suppressing empty link on input line 2.
 
-(./test.ind [19] [20
+(./test.ind [47] [48
 
-] [21
+] [49
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 722.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 722.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1684.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1684.
  (./test.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 722.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 722.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1684.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1684.
+
 Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: C687121338B9E728B70C6A0A5FD3846D;1388.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 722.
+(rerunfilecheck)             Checksum: F2BEAF8DB3ABD3582F2CF5ABCCBC0011;585.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1684.
  ) 
 Here is how much of TeX's memory you used:
- 14213 strings out of 494561
- 200833 string characters out of 6176608
- 396408 words of memory out of 5000000
- 17459 multiletter control sequences out of 15000+600000
- 59237 words of font info for 79 fonts, out of 8000000 for 9000
+ 14538 strings out of 494560
+ 208121 string characters out of 6176601
+ 414747 words of memory out of 5000000
+ 17641 multiletter control sequences out of 15000+600000
+ 65059 words of font info for 93 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 37i,12n,49p,281b,715s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,45p,360b,715s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
-uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on test.pdf (25 pages, 6355644 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucr
+ro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on test.pdf (53 pages, 9917532 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 577 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

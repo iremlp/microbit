@@ -16,7 +16,7 @@ Dans ce niveau nous trouvons les notions suivantes :
   *  boucle
   * aléa
 
-.. image:: /_static/pilefaceN1.gif
+.. image:: /_static/pilefaceN1.*
     :align: center
 
 Les blocs préconisés

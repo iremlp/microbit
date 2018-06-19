@@ -14,7 +14,7 @@ Dans ce niveau nous trouvons les notions suivantes :
   *  fonction (création et appel)
   *  instruction conditionnelle
 
-.. image:: /_static/pilefaceN2.gif
+.. image:: /_static/pilefaceN2.*
     :align: center
 
 Les blocs préconisés

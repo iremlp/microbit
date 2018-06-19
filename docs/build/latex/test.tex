@@ -42,7 +42,7 @@
 \usepackage{hypcap}% it must be loaded after hyperref.
 % Set up styles of URL: it should be placed after hyperref.
 \urlstyle{same}
-\addto\captionsfrench{\renewcommand{\contentsname}{Présentation de Micro:bit}}
+\addto\captionsfrench{\renewcommand{\contentsname}{Prise en main}}
 
 \addto\captionsfrench{\renewcommand{\figurename}{Fig.}}
 \addto\captionsfrench{\renewcommand{\tablename}{Tableau}}
@@ -53,12 +53,12 @@
 
 \addto\extrasfrench{\def\pageautorefname{page}}
 
-
+\setcounter{tocdepth}{0}
 
 
 
 \title{Ressources pour la carte Micro:bit}
-\date{mai 26, 2018}
+\date{juin 19, 2018}
 \release{1}
 \author{IREM Marseille}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -85,7 +85,7 @@ Nous sommes des enseignants de maths/sciences regroupés au sein d’un groupe d
 de l”\sphinxhref{https://irem.univ-amu.fr/fr}{IREM de Marseille}.
 
 Notre groupe, \sphinxstyleemphasis{Innovation, Expérimentation et Formation en Lycée Professionnel} (InEFLP)
-a une partie de son travail consacrée l’enseignemnt de l’algorithmique
+a une partie de son travail consacrée l’enseignement de l’algorithmique
 en classes de lycée professionnel. Dans le cadre de cette recherche,
 nous explorons les objets connectés tels que Arduino ou Microbit.
 
@@ -94,25 +94,937 @@ nous explorons les objets connectés tels que Arduino ou Microbit.
 \sphinxstylestrong{Table des matières du document}
 
 
-\chapter{Présentation de Micro:bit}
-\label{\detokenize{index:presentation-de-micro-bit}}\label{\detokenize{index:formations-et-ressources-pour-micro-bit}}
+\chapter{Prise en main de Micro:bit}
+\label{\detokenize{index:prise-en-main-de-micro-bit}}\label{\detokenize{index:formations-et-ressources-pour-micro-bit}}
 
 \section{Micro:bit, c’est quoi?}
 \label{\detokenize{decouverte/05_generalite:micro-bit-c-est-quoi}}\label{\detokenize{decouverte/05_generalite:dec-generalite}}\label{\detokenize{decouverte/05_generalite::doc}}
 Micro:bit est un microcontrôleur développé au Royaume-Unis.
-Par ses caractéristiques techniques et ses interfaces pédagogiques,
-cet objet possède un fort potentiel pour l’enseignement de
-l’algorithmique.
+Par ses caractéristiques techniques et ses interfaces
+pédagogiques, cet objet possède un fort potentiel pour
+l’enseignement de l’algorithmique.
 
-Après un bref rappel historique, nous expliquerons plus en détail
-les caractéristiques propres de cet objet.
+Après un bref rappel historique, nous expliquerons plus en
+détail les caractéristiques propres de cet objet.
 Nous mettrons ensuite en avant la facilité de mise en œuvre en
 formation puis nous poursuivrons en donnant un premier aperçu
 de l’intérêt pédagogique de Micro:bit.
 
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=0.650\linewidth]{{mb}.png}\hspace*{\fill}}
+
 
 \subsection{Bref historique}
 \label{\detokenize{decouverte/05_generalite:bref-historique}}
+Le développement de Micro:bit s’inscrit dans le cadr
+d’une politique volontariste de développement de
+l’apprentissage de la programmation. L’objectif premier
+visait à équiper tous les élèves de 11/12 ans du
+Royaume-Unis ainsi que leur enseignant. Maintenant
+que c’est chose faite, le reste du monde peut en
+profiter aussi.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=0.650\linewidth]{{mb4}.jpg}\hspace*{\fill}}
+
+La BBC %
+\begin{footnote}[1]\sphinxAtStartFootnote
+Make It Digital - The BBC micro:bit. (s. d.).
+Consulté 29 mars 2017, à l’adresse
+\sphinxurl{http://www.bbc.co.uk/programmes/articles/4hVG2Br1W1LKCmw8nSm9WnQ/the-bbc-micro-bit}
+%
+\end{footnote} est le moteur de ce projet. 30 ans
+après sa première distribution d’ordinateurs aux enfants
+britanniques %
+\begin{footnote}[2]\sphinxAtStartFootnote
+BBC Micro. (2016, septembre 20).
+In Wikipédia. Consulté à l’adresse
+\sphinxurl{https://fr.wikipedia.org/w/index.php?title=BBC\_Micro\&oldid=129763631}
+%
+\end{footnote}, “la Vieille Dame” remet ça
+aujourd’hui. La BBC utilise ses moyens de diffusions
+pour promouvoir et accompagner les utilisateurs,
+notamment en proposant des émissions de TV dédié à cet
+objet sur un mode ludique et divertissant.
+Sur les 29 %
+\begin{footnote}[3]\sphinxAtStartFootnote
+Partners. (s. d.). Consulté 29 mars 2017, à l’adresse
+\sphinxurl{https://www.microbit.co.uk/partners}
+%
+\end{footnote} partenaires de ce projet,
+se trouvent entre autres Microsoft %
+\begin{footnote}[4]\sphinxAtStartFootnote
+The BBC micro:bit and Microsoft -
+Microsoft Research. (s. d.). Consulté 29 mars 2017,
+à l’adresse
+\sphinxurl{https://www.microsoft.com/en-us/research/project/the-bbc-microbit-and-microsoft/}
+%
+\end{footnote} pour une partie
+logiciel et interface de programmation, ARM %
+\begin{footnote}[5]\sphinxAtStartFootnote
+Ltd, A. R. M. (s. d.). ARM \textbar{} Innovation Hub -
+BBC micro:bit. Consulté 29 mars 2017, à l’adresse
+\sphinxurl{http://www.arm.com/innovation/products/microbit.php}
+%
+\end{footnote} pour
+la construction des processeur et la partie matériel,
+et Samsung %
+\begin{footnote}[6]\sphinxAtStartFootnote
+Code on the go with Samsung \& micro:bit.
+(s. d.). Consulté 29 mars 2017, à l’adresse
+\sphinxurl{http://www.samsung.com/uk/citizenship/bbcmicrobit.html}
+%
+\end{footnote} pour un support mobile. C’est donc un
+projet qui mobilise des acteurs majeurs du numériques
+et de la communication, prévu pour durer.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=0.650\linewidth]{{mb2}.jpeg}\hspace*{\fill}}
+
+
+\subsection{La carte Micro:bit}
+\label{\detokenize{decouverte/05_generalite:la-carte-micro-bit}}
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=0.650\linewidth]{{mb7}.png}\hspace*{\fill}}
+
+Concrètement de quoi s’agit-il ? On parle ici de
+microcontrôleur, à savoir une carte électronique
+programmable pour interagir avec le monde réel.
+C’est une version accessible de l’électronique que
+tout un chacun manipule au quotidien sans se poser
+de question, par exemple les dispositifs de domotique
+qui permettent de gérer à distance le chauffage,
+la sécurité, l’arrosage du géranium…
+Ou bien plus simplement la bouilloire programmable
+au degré °C près, la guirlande du sapin qui
+clignote au rythme de “Jingle Bells”.
+Ce microcontrôleur permet d’élaborer par exemple
+un podomètre, un doudou sensoriel, un sismographe
+rudimentaire…
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=0.650\linewidth]{{mb6}.png}\hspace*{\fill}}
+
+L’interface de programmation est conçue pour être
+utilisable par un enfant d’une dizaine d’année, c’est
+donc la simplicité qui prime. On dispose en première
+approche d’une application internet utilisant le
+principe de la programmation par bloc, à savoir sur
+le principe des Blockly que l’on retrouve dans Scratch
+ou StudioCode. En plus d’une programmation accessible,
+l’interface propose une simulation de la carte.
+Ceci permet de voir directement les effets du programme
+dans l’interface. Pour un usage plus avancé il est
+notamment possible de programmer avec le langage
+Python %
+\begin{footnote}[7]\sphinxAtStartFootnote
+Python editor. (s. d.). Consulté 29 mars 2017,
+à l’adresse \sphinxurl{http://python.microbit.org/editor.html}
+%
+\end{footnote} ou Javascript.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=0.650\linewidth]{{mb5}.jpg}\hspace*{\fill}}
+
+Bien entendu de nombreux exemples de projets existent,
+qu’ils soient issus des émissions BBC ou de la
+communauté éducative. Sur le site officiel on
+trouve des idées, des tutoriels, des leçons %
+\begin{footnote}[8]\sphinxAtStartFootnote
+Idées \textbar{} micro:bit. (s. d.). Consulté 29 mars
+2017, à l’adresse \sphinxurl{http://microbit.org/fr/ideas/}
+%
+\end{footnote}
+comme par exemple : une alarme de trousse, un
+compteur de frappe (au baseball) ou encore des
+leçons sur l’accélération.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=0.650\linewidth]{{mb3}.jpg}\hspace*{\fill}}
+\paragraph{Notes}
+
+
+\section{Pile ou face (blocs)}
+\label{\detokenize{decouverte/pileface-bloc:pile-ou-face-blocs}}\label{\detokenize{decouverte/pileface-bloc::doc}}\label{\detokenize{decouverte/pileface-bloc:blocpileface}}
+
+\subsection{Description}
+\label{\detokenize{decouverte/pileface-bloc:description}}
+Le but de ce projet de simuler une expérience aléatoire de lancer de pièce.
+A partir d’une situation simple idéale pour une prise en main de l’interface
+de programmation, il s’agit par la suite d’améliorer le programmme pas à pas.
+L’objectif est d’obtenir un programme utilisable dans le cadre de d’un cours sur
+les statisiques et les probabilités.
+
+On utilise l’interface de programmation par bloc :
+\sphinxurl{https://makecode.microbit.org/}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{pilefaceN3}.png}\hspace*{\fill}}
+
+
+\subsubsection{Exemple(s) d’utilisation}
+\label{\detokenize{decouverte/pileface-bloc:exemple-s-d-utilisation}}\begin{itemize}
+\item {} 
+Algorithmique et programmation (thème E) du programme de cycle 4
+
+\item {} 
+Domaine statistiques et probabilités du programme de mathématiques de Bac Pro
+
+\item {} 
+Accompagnement personnalisé pour des élèves de seconde Bac Pro
+
+\end{itemize}
+
+
+\subsection{Progression}
+\label{\detokenize{decouverte/pileface-bloc:progression}}
+
+\subsubsection{Niveau 1}
+\label{\detokenize{decouverte/pileface-bloc1:niveau-1}}\label{\detokenize{decouverte/pileface-bloc1::doc}}
+Ce que l’on veut obtenir : afficher 0 ou 1 de façon aléatoire à l’issue d’une courte animation.
+Ce premier niveau permet de se familiariser avec l’interface tout en produisant un premier
+programme fonctionnel et utile.
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/pileface-bloc1:les-notions-abordees}}\begin{description}
+\item[{Dans ce niveau nous trouvons les notions suivantes :}] \leavevmode\begin{itemize}
+\item {} 
+interactions avec l’utilisateur (bouton, affichage)
+
+\item {} 
+boucle
+
+\item {} 
+aléa
+
+\end{itemize}
+
+\end{description}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{pilefaceN1}.png}\hspace*{\fill}}
+
+
+\paragraph{Les blocs préconisés}
+\label{\detokenize{decouverte/pileface-bloc1:les-blocs-preconises}}
+On propose aux élèves d’utiliser les blocs suivant :
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{pilefaceN1blocs}.png}\hspace*{\fill}}
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/pileface-bloc1:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{pilefaceN1proposition}.png}\hspace*{\fill}}
+
+
+\subsubsection{Niveau 2}
+\label{\detokenize{decouverte/pileface-bloc2::doc}}\label{\detokenize{decouverte/pileface-bloc2:niveau-2}}
+Ce que l’on veut obtenir : afficher P ou F de façon aléatoire à l’issue d’une courte animation.
+Pour ce deuxième niveau, on va utiliser deux nouveaux blocs seulement.
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/pileface-bloc2:les-notions-abordees}}\begin{description}
+\item[{Dans ce niveau nous trouvons les notions suivantes :}] \leavevmode\begin{itemize}
+\item {} 
+fonction (création et appel)
+
+\item {} 
+instruction conditionnelle
+
+\end{itemize}
+
+\end{description}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{pilefaceN2}.png}\hspace*{\fill}}
+
+
+\paragraph{Les blocs préconisés}
+\label{\detokenize{decouverte/pileface-bloc2:les-blocs-preconises}}
+On propose aux élèves d’utiliser les blocs suivant :
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{pilefaceN2blocs}.png}\hspace*{\fill}}
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/pileface-bloc2:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\noindent\sphinxincludegraphics{{pilefaceN2proposition}.png}
+
+
+\subsubsection{Niveau 3}
+\label{\detokenize{decouverte/pileface-bloc3::doc}}\label{\detokenize{decouverte/pileface-bloc3:niveau-3}}
+Ce que l’on veut obtenir : compter les issues obtenues et afficher le résultat.
+Pour parvenir à cela il va falloir utiliser une variable.
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/pileface-bloc3:les-notions-abordees}}\begin{description}
+\item[{Dans ce niveau nous trouvons les notions suivantes :}] \leavevmode\begin{itemize}
+\item {} 
+définition d’une variable
+
+\item {} 
+incrémentation d’une variable
+
+\item {} 
+concaténation de texte et de valeur
+
+\end{itemize}
+
+\end{description}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{pilefaceN3}.png}\hspace*{\fill}}
+
+
+\paragraph{Les blocs préconisés}
+\label{\detokenize{decouverte/pileface-bloc3:les-blocs-preconises}}
+On propose aux élèves d’utiliser les blocs suivant :
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=0.500\linewidth]{{pilefaceN3blocs}.png}\hspace*{\fill}}
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/pileface-bloc3:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\noindent\sphinxincludegraphics{{pilefaceN3proposition}.png}
+
+
+\section{Dé 6 faces (blocs)}
+\label{\detokenize{decouverte/de6faces-bloc:blocde6faces}}\label{\detokenize{decouverte/de6faces-bloc::doc}}\label{\detokenize{decouverte/de6faces-bloc:de-6-faces-blocs}}
+
+\subsection{Description}
+\label{\detokenize{decouverte/de6faces-bloc:description}}
+Le but de ce projet de simuler une expérience aléatoire de lancer d’un dé à 6 faces..
+Toujours à partir d’une situation simple idéale , le programme peut être étoffé au gré des besoins.
+
+On utilise l’interface de programmation par bloc :
+\sphinxurl{https://makecode.microbit.org/}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{deobjectifN2}.png}\hspace*{\fill}}
+
+
+\subsubsection{Exemple(s) d’utilisation}
+\label{\detokenize{decouverte/de6faces-bloc:exemple-s-d-utilisation}}\begin{itemize}
+\item {} 
+Algorithmique et programmation (thème E) du programme de cycle 4
+
+\item {} 
+Domaine statistique et probabilités du programme de mathématiques en seconde et première Bac Pro.
+
+\item {} 
+Accompagnement personnalisé pour des élèves de seconde Bac Pro
+
+\end{itemize}
+
+
+\subsection{Progression}
+\label{\detokenize{decouverte/de6faces-bloc:progression}}
+
+\subsubsection{Niveau 1}
+\label{\detokenize{decouverte/de6faces-bloc1:niveau-1}}\label{\detokenize{decouverte/de6faces-bloc1::doc}}
+Ce que l’on veut obtenir : afficher  un nombre entier entre 1 et 6 de façon aléatoire en secouant l’appareil.
+Ce premier niveau permet d’introduire la problèmatique.
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/de6faces-bloc1:les-notions-abordees}}\begin{description}
+\item[{Dans ce niveau nous trouvons les notions suivantes :}] \leavevmode\begin{itemize}
+\item {} 
+interactions avec l’utilisateur (bouton, affichage)
+
+\item {} 
+boucle
+
+\item {} 
+aléa
+
+\end{itemize}
+
+\end{description}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{deobjectifN1}.png}\hspace*{\fill}}
+
+
+\paragraph{Les blocs préconisés}
+\label{\detokenize{decouverte/de6faces-bloc1:les-blocs-preconises}}
+On propose aux élèves d’utiliser les blocs suivant :
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=0.500\linewidth]{{de6facesN1blocs}.png}\hspace*{\fill}}
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/de6faces-bloc1:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{de6facesN1proposition}.png}\hspace*{\fill}}
+
+
+\subsubsection{Niveau 2}
+\label{\detokenize{decouverte/de6faces-bloc2::doc}}\label{\detokenize{decouverte/de6faces-bloc2:niveau-2}}
+Ce que l’on veut obtenir : simuler l’affichage d’un dé à l’issue d’un tirage aléatoire.
+Ce deuxième niveau, va permettre d’introduire de nouvelle notions.
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/de6faces-bloc2:les-notions-abordees}}\begin{description}
+\item[{Dans ce niveau nous trouvons les notions suivantes :}] \leavevmode\begin{itemize}
+\item {} 
+variable
+
+\item {} 
+instruction conditionnelle si/sinon
+
+\end{itemize}
+
+\end{description}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{deobjectifN2}.png}\hspace*{\fill}}
+
+
+\paragraph{Les blocs préconisés}
+\label{\detokenize{decouverte/de6faces-bloc2:les-blocs-preconises}}
+On propose aux élèves d’utiliser les blocs suivant :
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{de6facesN2blocs}.png}\hspace*{\fill}}
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/de6faces-bloc2:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\noindent\sphinxincludegraphics{{de6facesN2proposition}.png}
+
+
+\section{Pile ou face (Python)}
+\label{\detokenize{decouverte/pileface-python:pile-ou-face-python}}\label{\detokenize{decouverte/pileface-python::doc}}\label{\detokenize{decouverte/pileface-python:pythonpileface}}
+
+\subsection{Description}
+\label{\detokenize{decouverte/pileface-python:description}}
+Le but de ce projet de simuler une expérience aléatoire de lancer de pièce.
+A partir d’une situation simple idéale pour une prise en main avec Python
+il s’agit par la suite d’améliorer le programmme pas à pas.
+{\hyperref[\detokenize{decouverte/pileface-bloc:blocpileface}]{\sphinxcrossref{\DUrole{std,std-ref}{Pile ou face (blocs)}}}}
+On verra qu’il ne s’agit pas forcément de la transposition en Python des activités
+proposées en bloc.
+
+Il est intéressant de relever pour chaque étape l’apport que représente la programmation
+avec  ce langage.
+
+
+\subsubsection{Exemple(s) d’utilisation}
+\label{\detokenize{decouverte/pileface-python:exemple-s-d-utilisation}}\begin{itemize}
+\item {} 
+Domaine statistiques et probabilités du programme de mathématiques de Bac Pro
+
+\item {} 
+Accompagnement personnalisé pour des élèves de seconde Bac Pro
+
+\item {} 
+Algorithmique et programmation au lycée général et technologique
+
+\end{itemize}
+
+
+\subsection{Progression}
+\label{\detokenize{decouverte/pileface-python:progression}}
+
+\subsubsection{Niveau 1}
+\label{\detokenize{decouverte/pileface-python1:niveau-1}}\label{\detokenize{decouverte/pileface-python1::doc}}
+Ce que l’on veut obtenir : afficher « P » ou « F » de façon aléatoire à l’issue d’une courte animation.
+Ce premier niveau permet de se familiariser avec les fonctions utilisées pour interagir avec le microbit.
+Contrairement à la programmation par bloc, il est plus efficace ici de choisir « P » ou « F »
+aléatoirement dans la liste composée de ces 2 singletons.
+De plus cela permettra facilement de truquer l’expérience aléatoire.
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/pileface-python1:les-notions-abordees}}\begin{description}
+\item[{Dans ce niveau nous trouvons les notions suivantes :}] \leavevmode\begin{itemize}
+\item {} 
+interactions avec le microbit (bouton, affichage)
+
+\item {} 
+aléa (random)
+
+\item {} 
+notion de liste
+
+\end{itemize}
+
+\end{description}
+
+
+\paragraph{Les éléments utiles}
+\label{\detokenize{decouverte/pileface-python1:les-elements-utiles}}
+On propose aux élèves d’appeler les éléments suivants
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{random} \PYG{c+c1}{\PYGZsh{} bibliothèque pour générer de l\PYGZsq{}aléa}
+\PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{xxxxx:xxxxx:xxxxx:xxxxx:xxxxx}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} où x représente l\PYGZsq{}intensité d\PYGZsq{}une diode comprise entre 0 et 9}
+\PYG{n}{random}\PYG{o}{.}\PYG{n}{choice}\PYG{p}{(}\PYG{n}{liste}\PYG{p}{)}    \PYG{c+c1}{\PYGZsh{} pour choisir un élément au hasard dans une liste}
+\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{P}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{F}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{]}    \PYG{c+c1}{\PYGZsh{} liste des issues (texte) que l\PYGZsq{}on veut afficher}
+\end{sphinxVerbatim}
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/pileface-python1:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{microbit} \PYG{k+kn}{import} \PYG{o}{*}
+
+\PYG{k+kn}{import} \PYG{n+nn}{random}
+
+\PYG{n}{piece1} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}           \PYG{c+c1}{\PYGZsh{} définiton de l\PYGZsq{}image \PYGZdq{}piece1\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}        \PYG{c+c1}{\PYGZsh{} aucune diode n\PYGZsq{}est éclairée}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{99999:}\PYG{l+s+s2}{\PYGZdq{}}        \PYG{c+c1}{\PYGZsh{} toutes les diodes de la 4ème ligne sont éclairées au maximum}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece2} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{09000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00090:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece3} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece4} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00009:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00090:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{09000:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece5} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{99999:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+    \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{piece1}\PYG{p}{)}        \PYG{c+c1}{\PYGZsh{} la matrice de LED montre l\PYGZsq{}image \PYGZdq{}piece1\PYGZdq{}}
+        \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{200}\PYG{p}{)}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{piece2}\PYG{p}{)}
+        \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{200}\PYG{p}{)}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{piece3}\PYG{p}{)}
+        \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{200}\PYG{p}{)}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{piece4}\PYG{p}{)}
+        \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{200}\PYG{p}{)}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{piece5}\PYG{p}{)}
+        \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{200}\PYG{p}{)}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{piece1}\PYG{p}{)}
+        \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{200}\PYG{p}{)}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{random}\PYG{o}{.}\PYG{n}{choice}\PYG{p}{(}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{P}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{F}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{]}\PYG{p}{)}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} affichage au hasard de P ou F}
+\end{sphinxVerbatim}
+
+
+\subsubsection{Niveau 2}
+\label{\detokenize{decouverte/pileface-python2::doc}}\label{\detokenize{decouverte/pileface-python2:niveau-2}}
+Ce que l’on veut obtenir : afficher « P » ou « F » de façon aléatoire à l’issue d’une courte animation.
+L’intérêt ici est de comprendre l’appel à une liste pour l’animation et ainsi de gagner en efficacité et en lisibilité.
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/pileface-python2:les-notions-abordees}}
+Ce niveau permet d’appréhender une utilité supplémentaire du type d’objet « liste ».
+
+
+\paragraph{Les éléments utiles}
+\label{\detokenize{decouverte/pileface-python2:les-elements-utiles}}
+On propose aux élèves d’appeler les éléments suivants
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{p}{[}\PYG{n}{a}\PYG{p}{,} \PYG{n}{b} \PYG{p}{,}\PYG{n}{c} \PYG{o}{.}\PYG{o}{.}\PYG{o}{.} \PYG{p}{]} \PYG{c+c1}{\PYGZsh{} une liste ou a,b,c ... sont le nom d\PYGZsq{}images déclarées précédemment}
+\end{sphinxVerbatim}
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/pileface-python2:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{microbit} \PYG{k+kn}{import} \PYG{o}{*}
+
+\PYG{k+kn}{import} \PYG{n+nn}{random}
+
+\PYG{n}{piece1} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{99999:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece2} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{09000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00090:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece3} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece4} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00009:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00090:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{09000:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece5} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{99999:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+                \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{pieces} \PYG{o}{=} \PYG{p}{[}\PYG{n}{piece1}\PYG{p}{,} \PYG{n}{piece2}\PYG{p}{,} \PYG{n}{piece3}\PYG{p}{,} \PYG{n}{piece4}\PYG{p}{,} \PYG{n}{piece5}\PYG{p}{,} \PYG{n}{piece1}\PYG{p}{]}   \PYG{c+c1}{\PYGZsh{} la séquence d\PYGZsq{}images}
+
+\PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+    \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{pieces}\PYG{p}{,} \PYG{n}{delay}\PYG{o}{=}\PYG{l+m+mi}{200}\PYG{p}{)}             \PYG{c+c1}{\PYGZsh{} la matrice affiche chacune des images de la liste \PYGZdq{}pieces\PYGZdq{} avec une pause de 200ms entre chaque image}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{random}\PYG{o}{.}\PYG{n}{choice}\PYG{p}{(}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{P}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{F}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{]}\PYG{p}{)}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+
+\subsubsection{Niveau 3}
+\label{\detokenize{decouverte/pileface-python3::doc}}\label{\detokenize{decouverte/pileface-python3:niveau-3}}
+Ce que l’on veut obtenir : afficher « P » ou « F » de façon aléatoire à l’issue d’une courte animation et compter le nombre
+d’issues obtenues.
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/pileface-python3:les-notions-abordees}}\begin{description}
+\item[{Pour ce niveau, on va avoir besoin :}] \leavevmode\begin{itemize}
+\item {} 
+d’une variable pour stocker le résultat du tirage
+
+\item {} 
+de variables pour dénombres les issues « P » et les issues « F »
+
+\item {} 
+d’une intruction conditionnelle pour tester et agir selon le résultat du tirage
+
+\end{itemize}
+
+\end{description}
+
+
+\paragraph{Les éléments utiles}
+\label{\detokenize{decouverte/pileface-python3:les-elements-utiles}}
+On propose aux élèves d’appeler les éléments suivants
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k}{if}\PYG{p}{:} \PYG{n}{et} \PYG{k}{else}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} instructions conditionnelle}
+\PYG{o}{==}              \PYG{c+c1}{\PYGZsh{} qui permet de vérifier l\PYGZsq{}égalité entre deux objets}
+\PYG{o}{+}\PYG{o}{=} \PYG{l+m+mi}{1}           \PYG{c+c1}{\PYGZsh{} qui permet d\PYGZsq{}incrémenter une variable de 1}
+\end{sphinxVerbatim}
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/pileface-python3:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{microbit} \PYG{k+kn}{import} \PYG{o}{*}
+
+\PYG{k+kn}{import} \PYG{n+nn}{random}
+
+\PYG{n}{p} \PYG{o}{=} \PYG{l+m+mi}{0}           \PYG{c+c1}{\PYGZsh{} variable stockant le nombre d\PYGZsq{}issues pile}
+\PYG{n}{f} \PYG{o}{=} \PYG{l+m+mi}{0}           \PYG{c+c1}{\PYGZsh{} variable stockant le nombre d\PYGZsq{}issues face}
+
+\PYG{n}{piece1} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{99999:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece2} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{09000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00090:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece3} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece4} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00009:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00090:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00900:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{09000:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{piece5} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{99999:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}
+               \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{pieces} \PYG{o}{=} \PYG{p}{[}\PYG{n}{piece1}\PYG{p}{,} \PYG{n}{piece2}\PYG{p}{,} \PYG{n}{piece3}\PYG{p}{,} \PYG{n}{piece4}\PYG{p}{,} \PYG{n}{piece5}\PYG{p}{,} \PYG{n}{piece1}\PYG{p}{]}
+
+\PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+    \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{pieces}\PYG{p}{,} \PYG{n}{delay}\PYG{o}{=}\PYG{l+m+mi}{200}\PYG{p}{)}
+        \PYG{n}{issue} \PYG{o}{=} \PYG{n}{random}\PYG{o}{.}\PYG{n}{choice}\PYG{p}{(}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{P}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{F}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{]}\PYG{p}{)}
+        \PYG{k}{if} \PYG{n}{issue} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{P}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{P}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+            \PYG{n}{p} \PYG{o}{+}\PYG{o}{=} \PYG{l+m+mi}{1}                          \PYG{c+c1}{\PYGZsh{} incrémentation de la variable p (pile)}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{F}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+            \PYG{n}{f} \PYG{o}{+}\PYG{o}{=} \PYG{l+m+mi}{1}                          \PYG{c+c1}{\PYGZsh{} incrémentation de la variable f (face)}
+
+    \PYG{k}{if} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{scroll}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{P:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{o}{+}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{p}\PYG{p}{)}\PYG{p}{)}     \PYG{c+c1}{\PYGZsh{} affichage du nombre d\PYGZsq{}issues associées à P}
+        \PYG{n}{delay} \PYG{o}{=} \PYG{l+m+mi}{200}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{scroll}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{F:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{o}{+}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{f}\PYG{p}{)}\PYG{p}{)}     \PYG{c+c1}{\PYGZsh{} affichage du nombre d\PYGZsq{}issues associées à F}
+\end{sphinxVerbatim}
+
+
+\section{Dé 6 faces (Python)}
+\label{\detokenize{decouverte/de6faces-python::doc}}\label{\detokenize{decouverte/de6faces-python:pythonde6faces}}\label{\detokenize{decouverte/de6faces-python:de-6-faces-python}}
+
+\subsection{Description}
+\label{\detokenize{decouverte/de6faces-python:description}}
+Le but de ce projet de simuler une expérience aléatoire de lancer d’un dé à 6 faces.
+Tout comme le projet simulant un pile ou face, cette situation permet de comprendre
+l’intérêt des listes et va un peu plus loin dans leur utilisation.
+
+
+\subsubsection{Exemple(s) d’utilisation}
+\label{\detokenize{decouverte/de6faces-python:exemple-s-d-utilisation}}\begin{itemize}
+\item {} 
+Algorithmique et programmation au lycée général et technologique
+
+\item {} 
+Domaine statistique et probabilités du programme de mathématiques en seconde et première Bac Pro.
+
+\item {} 
+Accompagnement personnalisé pour des élèves de seconde Bac Pro
+
+\end{itemize}
+
+
+\subsection{Progression}
+\label{\detokenize{decouverte/de6faces-python:progression}}
+Pour afficher aléatoirement un nombre entier entre 1 et 6,
+on peut se contenter des 3 lignes ci-dessous.
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+   \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+      \PYG{c+c1}{\PYGZsh{} \PYGZdq{}str\PYGZdq{} car \PYGZdq{}display.show\PYGZdq{} n\PYGZsq{}affiche que du texte}
+      \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{random}\PYG{o}{.}\PYG{n}{randint}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{6}\PYG{p}{)}\PYG{p}{)}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+Ce qui n’a pas d’autre intérêt que d’introduire la fonction
+\sphinxcode{\sphinxupquote{randint}}.
+Ici, contrairement à la progression utilisée lors du projet
+
+, nous suggèrons de commencer par simuler l’affichage tel
+qu’il apparaît sur un vrai dé.
+Cela qui permet de réexploiter les listes d’images
+introduites avec le projet pile ou face.
+
+
+\subsection{Progression}
+\label{\detokenize{decouverte/de6faces-python:id1}}
+
+\subsubsection{Niveau 1}
+\label{\detokenize{decouverte/de6faces-python1:niveau-1}}\label{\detokenize{decouverte/de6faces-python1::doc}}
+Ce que l’on veut obtenir : afficher  un nombre entier entre 1 et 6 de façon aléatoire mais
+à la façon d’un vrai dé, c-a-d avec des points.
+Ce premier niveau permet d’introduire la problèmatique et de réinvestir les notions
+utilisées lors du projet pile ou face.
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/de6faces-python1:les-notions-abordees}}\begin{description}
+\item[{Dans ce niveau nous trouvons les notions suivantes :}] \leavevmode\begin{itemize}
+\item {} 
+\end{itemize}
+
+\end{description}
+
+
+\paragraph{Les éléments utiles}
+\label{\detokenize{decouverte/de6faces-python1:les-elements-utiles}}
+On propose aux élèves d’appeler les éléments suivants
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/de6faces-python1:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{microbit} \PYG{k+kn}{import} \PYG{o}{*}
+
+\PYG{k+kn}{import} \PYG{n+nn}{random}
+
+\PYG{n}{un} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:00000:00900:00000:00000}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{deux} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00009:00000:00000:00000:90000}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{trois} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90000:00000:00900:00000:00009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{quatre} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90009:00000:00000:00000:90009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{cinq} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90009:00000:00900:00000:90009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{six} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90009:00000:90009:00000:90009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{issues} \PYG{o}{=} \PYG{p}{[}\PYG{n}{un}\PYG{p}{,} \PYG{n}{deux}\PYG{p}{,} \PYG{n}{trois}\PYG{p}{,} \PYG{n}{quatre}\PYG{p}{,} \PYG{n}{cinq}\PYG{p}{,} \PYG{n}{six}\PYG{p}{]}
+
+\PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+    \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{random}\PYG{o}{.}\PYG{n}{choice}\PYG{p}{(}\PYG{n}{issues}\PYG{p}{)}\PYG{p}{)}
+        \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{800}\PYG{p}{)}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{clear}\PYG{p}{(}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+
+\subsubsection{Niveau 2}
+\label{\detokenize{decouverte/de6faces-python2::doc}}\label{\detokenize{decouverte/de6faces-python2:niveau-2}}
+Ce que l’on veut obtenir :
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/de6faces-python2:les-notions-abordees}}\begin{description}
+\item[{Dans ce niveau nous trouvons les notions suivantes :}] \leavevmode\begin{itemize}
+\item {} 
+\end{itemize}
+
+\end{description}
+
+
+\paragraph{Les éléments utiles}
+\label{\detokenize{decouverte/de6faces-python2:les-elements-utiles}}
+On propose aux élèves d’appeler les éléments suivants
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/de6faces-python2:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{microbit} \PYG{k+kn}{import} \PYG{o}{*}
+
+\PYG{k+kn}{import} \PYG{n+nn}{random}
+
+\PYG{n}{un} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:00000:00900:00000:00000}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{deux} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00009:00000:00000:00000:90000}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{trois} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90000:00000:00900:00000:00009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{quatre} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90009:00000:00000:00000:90009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{cinq} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90009:00000:00900:00000:90009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{six} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90009:00000:90009:00000:90009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{n1} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{n}{n2} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{n}{n3} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{n}{n4} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{n}{n5} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{n}{n6} \PYG{o}{=} \PYG{l+m+mi}{0}
+
+\PYG{n}{issues} \PYG{o}{=} \PYG{p}{[}\PYG{n}{un}\PYG{p}{,} \PYG{n}{deux}\PYG{p}{,} \PYG{n}{trois}\PYG{p}{,} \PYG{n}{quatre}\PYG{p}{,} \PYG{n}{cinq}\PYG{p}{,} \PYG{n}{six}\PYG{p}{]}
+
+\PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+    \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+        \PYG{n}{issue} \PYG{o}{=} \PYG{n}{random}\PYG{o}{.}\PYG{n}{choice}\PYG{p}{(}\PYG{n}{issues}\PYG{p}{)}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{issue}\PYG{p}{)}
+        \PYG{k}{if} \PYG{n}{issue} \PYG{o}{==} \PYG{n}{un}\PYG{p}{:}
+            \PYG{n}{n1} \PYG{o}{+}\PYG{o}{=} \PYG{l+m+mi}{1}
+        \PYG{k}{elif} \PYG{n}{issue} \PYG{o}{==} \PYG{n}{deux}\PYG{p}{:}
+            \PYG{n}{n2} \PYG{o}{+}\PYG{o}{=} \PYG{l+m+mi}{2}
+        \PYG{k}{elif} \PYG{n}{issue} \PYG{o}{==} \PYG{n}{trois}\PYG{p}{:}
+            \PYG{n}{n3} \PYG{o}{+}\PYG{o}{=} \PYG{l+m+mi}{1}
+        \PYG{k}{elif} \PYG{n}{issue} \PYG{o}{==} \PYG{n}{quatre}\PYG{p}{:}
+            \PYG{n}{n4} \PYG{o}{+}\PYG{o}{=} \PYG{l+m+mi}{1}
+        \PYG{k}{elif} \PYG{n}{issue} \PYG{o}{==} \PYG{n}{cinq}\PYG{p}{:}
+            \PYG{n}{n5} \PYG{o}{+}\PYG{o}{=} \PYG{l+m+mi}{1}
+        \PYG{k}{elif} \PYG{n}{issue} \PYG{o}{==} \PYG{n}{six}\PYG{p}{:}
+            \PYG{n}{n6} \PYG{o}{+}\PYG{o}{=} \PYG{l+m+mi}{1}
+        \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{)}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{clear}\PYG{p}{(}\PYG{p}{)}
+    
+    \PYG{k}{if} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{scroll}\PYG{p}{(}
+            \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{n1}\PYG{p}{)}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ /}\PYG{l+s+s2}{\PYGZdq{}}\PYG{o}{+}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{n2}\PYG{p}{)}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ /}\PYG{l+s+s2}{\PYGZdq{}}
+            \PYG{o}{+} \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{n3}\PYG{p}{)}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ /}\PYG{l+s+s2}{\PYGZdq{}}\PYG{o}{+}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{n4}\PYG{p}{)}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ /}\PYG{l+s+s2}{\PYGZdq{}}
+            \PYG{o}{+} \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{n5}\PYG{p}{)}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ /}\PYG{l+s+s2}{\PYGZdq{}}\PYG{o}{+}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{n6}\PYG{p}{)}
+            \PYG{p}{)}
+\end{sphinxVerbatim}
+
+
+\subsubsection{Niveau 3}
+\label{\detokenize{decouverte/de6faces-python3::doc}}\label{\detokenize{decouverte/de6faces-python3:niveau-3}}
+Ce que l’on veut obtenir : afficher  un nombre entier entre 1 et 6 de façon aléatoire en secouant l’appareil.
+
+
+\paragraph{Les notions abordées}
+\label{\detokenize{decouverte/de6faces-python3:les-notions-abordees}}\begin{description}
+\item[{Dans ce niveau nous trouvons les notions suivantes :}] \leavevmode\begin{itemize}
+\item {} 
+\end{itemize}
+
+\end{description}
+
+
+\paragraph{Les éléments utiles}
+\label{\detokenize{decouverte/de6faces-python3:les-elements-utiles}}
+On propose aux élèves d’appeler les éléments suivants
+
+
+\paragraph{Une solution possible}
+\label{\detokenize{decouverte/de6faces-python3:une-solution-possible}}
+Le résultat escompté est le suivant :
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{microbit} \PYG{k+kn}{import} \PYG{o}{*}
+
+\PYG{k+kn}{import} \PYG{n+nn}{random}
+
+\PYG{n}{un} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00000:00000:00900:00000:00000}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{deux} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{00009:00000:00000:00000:90000}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{trois} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90000:00000:00900:00000:00009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{quatre} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90009:00000:00000:00000:90009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{cinq} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90009:00000:00900:00000:90009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{six} \PYG{o}{=} \PYG{n}{Image}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{90009:00000:90009:00000:90009}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{n} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}
+
+\PYG{n}{issues} \PYG{o}{=} \PYG{p}{[}\PYG{n}{un}\PYG{p}{,} \PYG{n}{deux}\PYG{p}{,} \PYG{n}{trois}\PYG{p}{,} \PYG{n}{quatre}\PYG{p}{,} \PYG{n}{cinq}\PYG{p}{,} \PYG{n}{six}\PYG{p}{]}
+
+\PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+    \PYG{k}{if} \PYG{n}{button\PYGZus{}a}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+        \PYG{n}{i} \PYG{o}{=} \PYG{n}{random}\PYG{o}{.}\PYG{n}{randint}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{)}        
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{show}\PYG{p}{(}\PYG{n}{issues}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{p}{)}
+        \PYG{n}{n}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{+}\PYG{o}{=} \PYG{l+m+mi}{1}
+        \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{)}
+        \PYG{n}{display}\PYG{o}{.}\PYG{n}{clear}\PYG{p}{(}\PYG{p}{)}
+    
+    \PYG{k}{if} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+        \PYG{k}{for} \PYG{n}{k} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{)}\PYG{p}{:}
+            \PYG{n}{display}\PYG{o}{.}\PYG{n}{scroll}\PYG{p}{(}\PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{n}\PYG{p}{[}\PYG{n}{k}\PYG{p}{]}\PYG{p}{)}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ /}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\end{sphinxVerbatim}
+
 
 \chapter{Projets à réaliser}
 \label{\detokenize{index:projets-a-realiser}}
@@ -122,9 +1034,7 @@ de l’intérêt pédagogique de Micro:bit.
 
 \subsection{Description}
 \label{\detokenize{projets/boite-fermee:description}}
-\begin{sphinxadmonition}{note}{\label{projets/boite-fermee:index-0}À faire:}
-capture d’écran / gif animée
-\end{sphinxadmonition}
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{boite_ouverture}.png}\hspace*{\fill}}
 
 
 \subsubsection{Exemple(s) d’utilisation}
@@ -132,14 +1042,11 @@ capture d’écran / gif animée
 
 \paragraph{Escape game}
 \label{\detokenize{projets/boite-fermee-exemple-escape:escape-game}}\label{\detokenize{projets/boite-fermee-exemple-escape::doc}}
-Nous avons utilisé le projet \DUrole{xref,std,std-ref}{projetBoite} pour un escape
+Nous avons utilisé le projet {\hyperref[\detokenize{projets/boite-fermee:projetboite}]{\sphinxcrossref{\DUrole{std,std-ref}{Boîte fermée}}}} pour un escape
 game proposé en stage.
 \begin{itemize}
 \item {} 
 diaporama d’acceuil : \sphinxurl{http://url.univ-irem.fr/boite}
-
-\item {} 
-page de formation : \sphinxurl{http://url.univ-irem.fr/algo1718-boite}
 
 \end{itemize}
 
@@ -153,18 +1060,54 @@ page de formation : \sphinxurl{http://url.univ-irem.fr/algo1718-boite}
 \label{\detokenize{projets/boite-fermee-fabriquer::doc}}\label{\detokenize{projets/boite-fermee-fabriquer:fabriquer}}
 Nous détaillons ici comment fabriquer et assembler
 le matériel nécessaire à la réalisation du projet
-\DUrole{xref,std,std-ref}{projetBoite}.
+{\hyperref[\detokenize{projets/boite-fermee:projetboite}]{\sphinxcrossref{\DUrole{std,std-ref}{Boîte fermée}}}}.
 
-\begin{sphinxadmonition}{note}{\label{projets/boite-fermee-fabriquer:index-0}À faire:}
-tout faire.
-\end{sphinxadmonition}
+
+\paragraph{Matériel :}
+\label{\detokenize{projets/boite-fermee-fabriquer:materiel}}\begin{itemize}
+\item {} 
+2 cartes microbit avec leur alimentation
+
+\item {} 
+1 servomoteur
+
+\item {} 
+quelques fils de contact et pinces crocodiles
+
+\item {} 
+une boite (transparente)
+
+\item {} 
+pistolet à colle
+
+\item {} 
+chutes de bois
+
+\end{itemize}
+
+
+\paragraph{Assemblage :}
+\label{\detokenize{projets/boite-fermee-fabriquer:assemblage}}\begin{itemize}
+\item {} 
+coller un morceau de bois d’environ 2 cm sur le servomoteur
+
+\item {} 
+coller le servomoteur au niveau de l’ouverture de la boîte de façon à ce que la partie mobile se trouve au niveau du couvercle
+
+\item {} 
+coller une cale de bois sur la partie inférieure de la boite de façon à ce que la partie mobile du servo puisse vérouiller lorsqu’elle vient en butée
+
+\item {} 
+brancher l’alimentation sur servo sur les bornes 3v et GND du microbit et le fil de commande sur la borne P0
+
+\end{itemize}
 
 \index{programmation par blocs}\index{servo}\index{luminosité}\ignorespaces 
 
 \subsubsection{Coder}
 \label{\detokenize{projets/boite-fermee-coder:index-0}}\label{\detokenize{projets/boite-fermee-coder:coder}}\label{\detokenize{projets/boite-fermee-coder::doc}}
 Nous détaillons ici le code nécessaire à la réalisation
-du projet \DUrole{xref,std,std-ref}{projetBoite}.
+du projet {\hyperref[\detokenize{projets/boite-fermee:projetboite}]{\sphinxcrossref{\DUrole{std,std-ref}{Boîte fermée}}}}.
 
 \noindent{\hspace*{\fill}\sphinxincludegraphics[width=0.650\linewidth]{{boite-fermee}.png}\hspace*{\fill}}
 
@@ -623,27 +1566,36 @@ tout à faire!
 
 \subsection{Description}
 \label{\detokenize{projets/galton:description}}
-\begin{sphinxadmonition}{note}{\label{projets/galton:index-0}À faire:}
-capture d’écran / gif animée
-\end{sphinxadmonition}
+Le but de ce programme est de simuler le parcours de billes sur
+une planche de Galton.
+Lorsque la bille tombe, elle a deux possibilité : elle descend verticalement ou elle
+descend verticalement en se décalant horizontalement vers la droite.
+
+La bille position de la bille est représentée par l’allumage d’une diode.
+\begin{quote}
+
+\noindent\sphinxincludegraphics{{galton}.png}
+\end{quote}
+
+
+\subsubsection{Type de programmation :}
+\label{\detokenize{projets/galton:type-de-programmation}}
+Le projet est ici programmé en python.
 
 
 \subsubsection{Exemple(s) d’utilisation}
-\label{\detokenize{projets/galton:exemple-s-d-utilisation}}
+\label{\detokenize{projets/galton:exemple-s-d-utilisation}}\begin{itemize}
+\item {} 
+Domaine statistiques et probabilités du programme de mathématiques de Bac Pro
+
+\item {} 
+Accompagnement personnalisé pour des élèves de seconde Bac Pro
+
+\end{itemize}
+
 
 \subsection{Réalisation}
 \label{\detokenize{projets/galton:realisation}}
-
-\subsubsection{Fabriquer}
-\label{\detokenize{projets/galton-fabriquer::doc}}\label{\detokenize{projets/galton-fabriquer:fabriquer}}
-Nous détaillons ici comment fabriquer et assembler
-le matériel nécessaire à la réalisation du projet
-{\hyperref[\detokenize{projets/galton:projetgalton}]{\sphinxcrossref{\DUrole{std,std-ref}{Planche de Galton}}}}.
-
-\begin{sphinxadmonition}{note}{\label{projets/galton-fabriquer:index-0}À faire:}
-tout faire.
-\end{sphinxadmonition}
-
 \index{micropython}\index{galton}\ignorespaces 
 
 \subsubsection{Coder}
@@ -656,7 +1608,6 @@ du projet {\hyperref[\detokenize{projets/galton:projetgalton}]{\sphinxcrossref{\
 \PYG{k+kn}{from} \PYG{n+nn}{microbit} \PYG{k+kn}{import} \PYG{o}{*}
 \PYG{k+kn}{from} \PYG{n+nn}{random} \PYG{k+kn}{import} \PYG{n}{random}\PYG{p}{,} \PYG{n}{seed}
 
-\PYG{n}{seed}\PYG{p}{(}\PYG{l+m+mi}{300}\PYG{p}{)}               \PYG{c+c1}{\PYGZsh{} la graine de hasard ???}
 \PYG{n}{n} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}     \PYG{c+c1}{\PYGZsh{} le tableau contenant les compteurs}
 
 
@@ -675,7 +1626,7 @@ du projet {\hyperref[\detokenize{projets/galton:projetgalton}]{\sphinxcrossref{\
     \PYG{n}{sleep}\PYG{p}{(}\PYG{n}{t}\PYG{p}{)}
     \PYG{k}{while} \PYG{n}{y} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{4}\PYG{p}{:}
         \PYG{n}{display}\PYG{o}{.}\PYG{n}{clear}\PYG{p}{(}\PYG{p}{)}
-        \PYG{k}{if} \PYG{n+nb}{round}\PYG{p}{(}\PYG{n}{random}\PYG{p}{(}\PYG{p}{)}\PYG{p}{)}\PYG{p}{:}      \PYG{c+c1}{\PYGZsh{} si arrondi de alea est vrai (différent de 0)}
+        \PYG{k}{if} \PYG{n}{random}\PYG{o}{.}\PYG{n}{randint}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)}\PYG{p}{:}     \PYG{c+c1}{\PYGZsh{} si aléa entre 0 ou 1 est vrai}
             \PYG{n}{y} \PYG{o}{=} \PYG{n}{y} \PYG{o}{+} \PYG{l+m+mi}{1}            \PYG{c+c1}{\PYGZsh{} on augmente y de 1}
         \PYG{k}{else}\PYG{p}{:}
             \PYG{n}{x} \PYG{o}{=} \PYG{n}{x} \PYG{o}{+} \PYG{l+m+mi}{1}
@@ -693,12 +1644,23 @@ du projet {\hyperref[\detokenize{projets/galton:projetgalton}]{\sphinxcrossref{\
     \PYG{k}{elif} \PYG{n}{button\PYGZus{}b}\PYG{o}{.}\PYG{n}{get\PYGZus{}presses}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
         \PYG{n}{n} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}
         \PYG{k}{for} \PYG{n}{k} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{80}\PYG{p}{)}\PYG{p}{:}
-            \PYG{n}{chute}\PYG{p}{(}\PYG{n+nb}{round}\PYG{p}{(}\PYG{l+m+mi}{500} \PYG{o}{/} \PYG{p}{(}\PYG{l+m+mf}{1.05}\PYG{o}{*}\PYG{o}{*}\PYG{n}{k}\PYG{p}{)}\PYG{p}{)}\PYG{p}{)}
+            \PYG{n}{chute}\PYG{p}{(}\PYG{n+nb}{round}\PYG{p}{(}\PYG{l+m+mi}{500} \PYG{o}{/} \PYG{p}{(}\PYG{l+m+mf}{1.05}\PYG{o}{*}\PYG{o}{*}\PYG{n}{k}\PYG{p}{)}\PYG{p}{)}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} accélération de la chute}
             \PYG{k}{for} \PYG{n}{j} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{)}\PYG{p}{:}
                 \PYG{n}{aff}\PYG{p}{(}\PYG{n}{n}\PYG{p}{[}\PYG{n}{j}\PYG{p}{]}\PYG{p}{,} \PYG{n}{j}\PYG{p}{)}
             \PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{200}\PYG{p}{)}
         \PYG{k}{print}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)}
 \end{sphinxVerbatim}
+
+
+\subsubsection{Fabriquer}
+\label{\detokenize{projets/galton-fabriquer::doc}}\label{\detokenize{projets/galton-fabriquer:fabriquer}}
+Nous détaillons ici comment fabriquer et assembler
+le matériel nécessaire à la réalisation du projet
+{\hyperref[\detokenize{projets/galton:projetgalton}]{\sphinxcrossref{\DUrole{std,std-ref}{Planche de Galton}}}}.
+
+\begin{sphinxadmonition}{note}{\label{projets/galton-fabriquer:index-0}À faire:}
+tout faire.
+\end{sphinxadmonition}
 
 
 \chapter{Index et page de recherche}
